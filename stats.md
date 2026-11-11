@@ -1,0 +1,3 @@
+# Stats
+
+No trades yet.
