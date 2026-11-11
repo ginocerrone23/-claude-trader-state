@@ -7,6 +7,7 @@ Hard limits (account, $200/position, $20 max loss per trade, $40/day, 4 position
 2. Robinhood scanners: top gainers, unusual volume, new highs.
 3. Core list: SPY, QQQ, IWM, AAPL, NVDA, TSLA, AMD, META, AMZN, MSFT, PLTR, COIN, SMCI, SOFI, MARA.
 Evaluate at least 10 names. Prefer price > $5, tight spread, high volume.
+- **Price band (added 2026-11-11):** for stock trades prefer $5–$100 so a $200 position is at least 2 whole shares. Skip stock entries above $200: one share breaks the position cap, and fractional shares cannot reliably carry a stop or bracket. Use those names (MU, AMD, AVGO, SPY, QQQ…) as sector and market gauges, or trade them with options inside the limits.
 
 ## Intraday setups (long; bearish = buy puts)
 - **ORB**: completed 5-min bar closes above the first 15-min high with rising volume. Stop: opening-range midpoint (or low). Target 2R.
@@ -28,3 +29,7 @@ Take score >= 6. From 10:00am CT, if nothing has been opened today, take the bes
 ## Execution
 - Limit orders at/near the ask. Bracket order when possible, else a stop right after the fill.
 - Trail the stop to breakeven once up 1R.
+
+## Journal (added 2026-11-11)
+Every trader and closer run appends to `journal/YYYY-MM-DD.md` (New York date) **before** it ends, even when it does nothing or a tool fails. Use this format:
+`### HH:MM CT — trader|closer` then: market read (SPY/QQQ vs prior close and VWAP), the names evaluated with score and setup, actions (order ids, fill, stop, target), **skips with the trigger/stop that would have applied**, open positions, and errors. Commit and push right away. If git fails, keep trading and include the failure in the next run's entry. The 3:30pm review can't grade anything without this.
