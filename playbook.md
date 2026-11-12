@@ -24,11 +24,13 @@ Designate a trade as a swing only when the thesis is multi-day:
 
 ## Scoring (0-10)
 +3 matches a setup above cleanly · +2 on the watchlist with a catalyst · +2 relative volume > 2x · +1 market (SPY/QQQ) trending the same way · +1 reward:risk >= 2 · -2 spread > 0.2% · -3 earnings within the hold period.
-Take score >= 6. From 10:00am CT, if nothing has been opened today, take the best score >= 4.
+Take score >= 6. **No forced trades (Gino, 2026-11-11):** a no-trade day beats a poor trade. There is no time-of-day fallback and no lowering the threshold to create activity.
+- **Room to resistance (added 2026-11-12):** measure R:R to the nearest overhead level: HOD, an untested double top, or the prior-day high/close. Award the +1 R:R point only if that level is >= 2R away. Don't buy within 0.5R below an unbroken HOD or double top. Wait for a completed 5-min close above it, then use that close as the trigger.
 
 ## Execution
 - Limit orders at/near the ask. Bracket order when possible, else a stop right after the fill.
 - Trail the stop to breakeven once up 1R.
+- **Puts (added 2026-11-12):** with the $20 premium cap, only consider puts on underlyings priced about **$25 or less**. Use a weekly or next-week contract with |delta| >= 0.15 and premium <= $0.20. On higher-priced names, a <= $20 contract is a far-OTM lottery, so log the bearish read and skip it. Example (11/12 close): SOFI ~$15.6, Nov-20 14.5P $0.12 (delta -0.17), 15P $0.23 (delta -0.29).
 
 ## Journal (added 2026-11-11)
 Every trader and closer run appends to `journal/YYYY-MM-DD.md` (New York date) **before** it ends, even when it does nothing or a tool fails. Use this format:
