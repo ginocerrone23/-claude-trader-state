@@ -2,6 +2,18 @@
 
 Levels come from Robinhood 5-min and daily historicals for 11/12 plus after-hours quotes at ~3:40pm CT. The 8:00am pre-market run should refresh triggers for any name that gaps more than 2% away from them.
 
+## Pre-market update 2026-11-13 8:00am CT
+- **Robinhood quotes/earnings calendar were NOT available to this run**, so no trigger/stop/target was re-checked against live pre-market prices. Web sources only. The trader must verify the pre-market price vs each trigger at 9:00am. If a name has gapped more than 2% beyond its trigger, skip the gap-chase and wait for a pullback/reclaim.
+- Tone: futures modestly UP (ES +0.2%, NQ +0.1%, YM +0.1%); Nasdaq +3.2% for the week. NVDA +2.3-2.7% pre-market after Thu -4.3% (Huang resigned, CFO Kress interim CEO). VIX ~18, Russell -2% Thu. 10-year hit ~5.10-5.14%. Dec hike odds ~87% (13-14% for 50bp).
+- **PPI 7:30 CT** (headline m/m consensus ~0.4%, core ~0.3%; prior 1.3%/0.7%). It is the last inflation print before the Dec 8-9 FOMC. Weekly options expire today.
+- **CSCO reversed: about -3.5% pre-market** (margin concerns/cautious outlook) after +3.3% AH. The AI-networking gauge read is now negative, which is a mild headwind for IREN/APLD/AAOI/CRWV/SMCI longs: demand NVDA > 160 and the risk-on gate before any of them.
+- **NU: up pre-market** (listed among gainers; % unconfirmed). Check the gap vs the 12.40 trigger; use the PM high if above.
+- **CBRS +11-17% pre-market** (strong Q3, raised 2026 revenue outlook, Microsoft as customer). This reverses Thu's EPS-miss trap. New watch only (#18), no trigger until the 8:45 range exists.
+- **MOD +30-38% pre-market** (Bloomberg: Samsung in talks to acquire). Takeover-headline gap, so expect a halt or spread risk. Watch only (#19).
+- Other pre-market movers (small-cap, thin, don't trade unless liquid): FCUV, MRLN, STAK, SNAL up; NPCE -41%, CADL -36%; FND -2.7% (Evercore downgrade).
+- AMAT after-hours reaction was not confirmed. Asia/Europe closes and social trending lists were not found.
+- Names dropped: none (thesis breaks can't be judged without quotes). Count is now 19.
+
 ## Market bias: **NEUTRAL, leaning defensive until PPI clears**
 - Thu was a headline V-day. The NVDA CEO exit gapped SPY down to 753.7. It reversed to 763.0 by 10:00 CT, then faded all afternoon to ~757.2 (-0.34%). IWM was -1.6%, the weakest.
 - The macro overhang is rates. The 10-year is ~5.0%, and futures price ~90% odds of a December **hike** after the hot CPI. **PPI comes out at 7:30 CT** and decides the open.
@@ -50,6 +62,9 @@ Sizing: shares = floor($200 / trigger). Risk $ = shares × (trigger − stop) �
 | 11 | SMCI | Reclaim of the afternoon range | 27.55 | 26.90 | 28.85 | 7 sh / $4.6 | 2.2 (HOD 29.00) | Weak (-11%), so it's C-quality. Only with NVDA > 165 | no |
 | 12 | FIGR | HOD break | 27.50 | 26.60 | 29.30 | 7 sh / $6.3 | 1.4 (Oct 16 high 28.77) | Post-earnings; it failed at 27.3–27.47 four times Thu | no |
 | 13 | PLBL | Day-2 continuation | 7.40 | 7.00 | 8.20 | 27 sh / $10.8 | open | +27%, closed 7.28 near the high, but only 0.7M shares. **Check the spread (≤ 0.2%) before entering** | no |
+
+| 18 | CBRS | Watch: new gap-and-go, PM-range break | TBD after 8:45 CT | TBD | TBD | size = floor($200/trigger) | unknown | Q3 beat, raised outlook, Microsoft customer, +11-17% PM. Reversal of Thursday's trap, so check spread and volume. Verify first | no |
+| 19 | MOD | Watch only: takeover-headline gap | none | none | none | none | n/a | +30-38% PM on Samsung deal report. Trade only a clean, liquid 5-min break, expect halts | no |
 
 ### B. Cheap puts (only in a defensive tape; underlying ≤ ~$25; contract |delta| ≥ 0.15, premium ≤ $0.20; Nov-20 or Nov-27 expiry; no option entries after 1:00pm CT)
 | # | Ticker | Trigger (stock) | Invalidation (stock) | Target (stock) | Notes |
