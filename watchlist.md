@@ -1,87 +1,75 @@
-# Watchlist for Fri 2026-11-13 (built Thu 2026-11-12 3:30pm CT)
+# Watchlist for Mon 2026-11-16 (built Fri 2026-11-13 3:30pm CT)
 
-Levels come from Robinhood 5-min and daily historicals for 11/12 plus after-hours quotes at ~3:40pm CT. The 8:00am pre-market run should refresh triggers for any name that gaps more than 2% away from them.
+Levels come from Robinhood 5-min/daily historicals for 11/13 plus after-hours quotes at ~3:35pm CT. The 8:00am pre-market run must re-check every trigger against pre-market prices. **New rule (playbook 11/13):** a long entered more than 1R above its trigger is a chase, so skip it (or wait for a pullback setup with its own stop).
 
-## Pre-market update 2026-11-13 8:00am CT
-- **Robinhood quotes/earnings calendar were NOT available to this run**, so no trigger/stop/target was re-checked against live pre-market prices. Web sources only. The trader must verify the pre-market price vs each trigger at 9:00am. If a name has gapped more than 2% beyond its trigger, skip the gap-chase and wait for a pullback/reclaim.
-- Tone: futures modestly UP (ES +0.2%, NQ +0.1%, YM +0.1%); Nasdaq +3.2% for the week. NVDA +2.3-2.7% pre-market after Thu -4.3% (Huang resigned, CFO Kress interim CEO). VIX ~18, Russell -2% Thu. 10-year hit ~5.10-5.14%. Dec hike odds ~87% (13-14% for 50bp).
-- **PPI 7:30 CT** (headline m/m consensus ~0.4%, core ~0.3%; prior 1.3%/0.7%). It is the last inflation print before the Dec 8-9 FOMC. Weekly options expire today.
-- **CSCO reversed: about -3.5% pre-market** (margin concerns/cautious outlook) after +3.3% AH. The AI-networking gauge read is now negative, which is a mild headwind for IREN/APLD/AAOI/CRWV/SMCI longs: demand NVDA > 160 and the risk-on gate before any of them.
-- **NU: up pre-market** (listed among gainers; % unconfirmed). Check the gap vs the 12.40 trigger; use the PM high if above.
-- **CBRS +11-17% pre-market** (strong Q3, raised 2026 revenue outlook, Microsoft as customer). This reverses Thu's EPS-miss trap. New watch only (#18), no trigger until the 8:45 range exists.
-- **MOD +30-38% pre-market** (Bloomberg: Samsung in talks to acquire). Takeover-headline gap, so expect a halt or spread risk. Watch only (#19).
-- Other pre-market movers (small-cap, thin, don't trade unless liquid): FCUV, MRLN, STAK, SNAL up; NPCE -41%, CADL -36%; FND -2.7% (Evercore downgrade).
-- AMAT after-hours reaction was not confirmed. Asia/Europe closes and social trending lists were not found.
-- Names dropped: none (thesis breaks can't be judged without quotes). Count is now 19.
-
-## Market bias: **NEUTRAL, leaning defensive until PPI clears**
-- Thu was a headline V-day. The NVDA CEO exit gapped SPY down to 753.7. It reversed to 763.0 by 10:00 CT, then faded all afternoon to ~757.2 (-0.34%). IWM was -1.6%, the weakest.
-- The macro overhang is rates. The 10-year is ~5.0%, and futures price ~90% odds of a December **hike** after the hot CPI. **PPI comes out at 7:30 CT** and decides the open.
-- **Risk-on gate (needed for section A longs):** PPI not hot, **SPY > 758.1** (Thu's last-hour high) after 8:45 CT, and NVDA > 160.
-- **Defensive:** SPY < 753.7 (Thu low) or a hot PPI. Then take no AI-beta longs, and use only section B cheap puts.
-- In between (753.7–758.1) it's chop, like Thursday, when 0 of 16 triggered setups hit target. Be patient. **No forced trades.**
-- Rules in force (playbook 11/12): score ≥ 6, no time-of-day fallback. **Room to resistance:** the +1 R:R point counts only if the nearest overhead level is ≥ 2R away, and don't buy within 0.5R under an unbroken HOD. Puts only on underlyings ≤ ~$25 with |delta| ≥ 0.15 and premium ≤ $0.20.
+## Market bias: **NEUTRAL leaning DEFENSIVE**
+- Friday: chip unwind (AMD -8.7%, SOX ~-4%), with the NVDA CEO fallout on day 2. SPY gapped to 760, flushed to 745.2 by 10:35 CT and closed 754.25 (-0.4%). QQQ closed 679.90 (-1.2%). PPI was cooler m/m (+0.3%), but the 10-year is still ~5.14% and December hike odds are ~85%.
+- **After-hours was weak:** SPY 749.98 (-0.6%), QQQ 674.4 (-0.8%), NVDA 161.4, AMD 525 at 4:33pm ET. I found no headline for it, so expect a soft open.
+- **Risk-on gate (needed for AI-beta longs, section A2):** SPY > **757.2** (Thu close) holding 30 min after 8:45 CT, QQQ > 683, NVDA > 160.
+- **Defensive:** SPY < **745.2** (Fri low) means no new longs except low-beta OXY; use section B puts only.
+- Between those it's chop: only A1 catalyst names, only first-hour triggers preferred, score ≥ 6 strictly. **No forced trades.**
+- Rules in force: score ≥ 6, no fallback. Room to resistance ≥ 2R for the R:R point. No buys within 0.5R under an unbroken HOD. **No chase > 1R above the trigger (new).** Puts only on ≤ ~$25 underlyings, |delta| ≥ 0.15, premium ≤ $0.20, no option entries after 1:00pm CT.
 
 ## Key index levels
-| | Thu high | Thu low | Thu close | Wed close | Notes |
+| | Fri high | Fri low | Fri close | Thu close | Notes |
 |---|---|---|---|---|---|
-| SPY | 763.03 | 753.67 | ~757.2 | 759.81 | Above 763 → Nov 4 high 775.6 area; below 753.7 → 748/745, then the Nov 5 low 732.7 |
-| QQQ | 694.56 | 679.84 | ~688.2 | 690.38 | 683.6 gap-fill support; 695.6 = Wed high |
-| IWM | ~281.9 | ~278.0 | ~278.5 | 283.09 | Weakest index; rate-sensitive |
-| NVDA (gauge) | 167.14 | 148.80 | 166.19 | 173.73 | Hammer reversal. Earnings Tue 11/17 after the close |
+| SPY | 760.12 | 745.20 | 754.25 | 757.12 | AH 749.98. Below 745.2 → 741.0 (Nov 9 low), then 732.7 (Nov 5 low). Above 760-763 → 775.6 |
+| QQQ | 688.75 | 671.71 | 679.90 | 688.17 | AH 674.4. 683.6 = gap-fill. Below 671.7 → 662 (Nov 9 low) |
+| IWM | ~278.0 | ~274.7 | 277.60 | 278.44 | Held up better than QQQ |
+| NVDA (gauge) | ~163.2 | ~158.4 | 162.82 | 166.19 | Earnings **Tue 11/17 after the close**. 160 / 155 lines |
 
 ## Events (CT)
-- **7:30 PPI (October)**: the key print. Weekly options expire today.
-- Thursday's jobless claims and Fed Williams (5:30pm Thu) weren't confirmed in research. The pre-market run should check headlines.
-- Thu after-hours (~3:40pm CT): **CSCO 105.3 (+3.3%)** on a beat and raise; **AMAT 384.8 (+0.9%)** on a beat; **NU 12.10 (+2.6%)**, in line; CBRS reported (EPS miss).
-- Next week: NVDA earnings **Tue 11/17 after the close**. POWL/ACM/XP/PAGS Mon after the close. BIDU/XPEV/TSN Mon before the open.
+- **Mon:** no major US data confirmed (check for Empire State 7:30). Pre-market earnings: BIDU, **XPEV**, TSN, BEKE, ARMK, HTHT, POET. After close: POWL, ACM, XP, PAGS, RCAT.
+- **Tue:** 7:30 retail sales. HD/DIS/**KLAR**/JD before the open. **NVDA after the close.**
+- **Wed:** 1:00pm FOMC minutes. **Thu:** WMT before the open; Anthropic IPO expected (~11/19).
 
 ## AVOID
-- **NVDA** stock (headline + earnings Tue). Gauge only.
-- **Swings must be flat before any earnings date.** Nothing on this list reports before Tue. No NVDA-proxy swing past Tue's close.
-- Names above $200 (AMD 585, AMAT, AVGO, MU, TSM, SPY, QQQ, META, MSFT, AAPL, TSLA): gauges only. CSCO (~105, 1 share) is a gauge for the AI-networking read.
-- Gap traps from Thu earnings: NBIS, YETI, CBRS (EPS miss after +14%), STNE, ARWR.
-- LUNR long (failed gap-and-go, closed at the low), and HOOD/UBER longs (closed near their lows).
+- NVDA stock (earnings Tue). Gauge only. **No swing in AI-beta names (IREN, APLD, CRWV, SMCI, CORZ, INTC, AMD proxies) held into Tue's close.**
+- **KLAR: no swing** (earnings Tue AM); Monday intraday only, flat by the closer.
+- Names reporting Mon after the close (POWL, ACM, XP, PAGS, RCAT): no positions into the close.
+- > $200 names (AMD, AVGO, MU, TSLA, META, MSFT, AAPL, SPY, QQQ): gauges only. CBRS (~108) and MOD (~136): >$100 band, watch only.
+- WSE: +2.7% intraday reversal to a close at its low. Skip.
 
 ## Names (priority order)
-Sizing: shares = floor($200 / trigger). Risk $ = shares × (trigger − stop) ≤ $20. Trigger = a completed 5-min close beyond the level after 8:45 CT. "R to res" = distance to the nearest overhead level in R (≥ 2 earns the +1 point).
+Sizing: shares = floor($200 / trigger). Risk $ = shares × (trigger − stop) ≤ $20. Trigger = a completed 5-min close beyond the level after 8:45 CT. **Chase limit** = trigger + 1R; above it, don't enter.
 
-### A. Longs
-| # | Ticker | Setup | Trigger | Stop | Target | Size / risk | R to res | Catalyst / notes | Swing? |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | NU | Gap-and-go (earnings) / break of the multi-day high | 12.40 | 12.05 | 13.10 | 16 sh / $5.6 | 1.7 (Oct 27 high 13.00) | Q3 in line, +2.6% AH (12.10), $12 liquid name. Use the PM high if it's higher than 12.40 | yes if it closes > 12.40 near the HOD |
-| 2 | MBGL | Day-2 continuation, new highs | 23.31 | 22.80 | 24.35 | 8 sh / $4.1 | open (multi-month high) | Q3 beat (0.40 vs 0.38), +15%, closed 23.15 near the high. 5-min volume can be thin, so check the spread | yes |
-| 3 | IREN | HOD break | 20.30 | 19.80 | 21.30 | 9 sh / $4.5 | 2.9 (Wed high 21.76) | AI-infra bounce; closed mid-range at 19.48. Risk-on gate required | no |
-| 4 | APLD | HOD break | 17.60 | 17.15 | 18.50 | 11 sh / $5.0 | 2.2 (Wed high 18.60) | Same theme; closed 16.95. Gate required | no |
-| 5 | CRWV | HOD break | 58.60 | 57.30 | 60.75 | 3 sh / $3.9 | 1.65 (Wed close 60.77) | Closed 56.59, recovered from 50.17 (close in the top 76% of the range). Fails the R:R point, so it needs the other points. Gate required | no |
-| 6 | CHA | Trend continuation, new 20-day high | 13.76 | 13.35 | 14.58 | 14 sh / $5.7 | open | +11%, rel vol 5, closed 13.51 near the high. Thin (1.2M sh/day) | yes |
-| 7 | OXY | Break of Thu high (energy relative strength) | 59.00 | 58.25 | 60.50 | 3 sh / $2.3 | 3.9 (Nov 2 high 62.97) | Oil up; +2% on a red tape. Low beta, works in a defensive tape | yes |
-| 8 | INTC | HOD break | 62.80 | 62.00 | 64.05 | 3 sh / $2.4 | 1.6 (Wed high 64.06) | Closed 61.22. Pelosi's (Jul) disclosed buys are not a signal. Gate required | no |
-| 9 | AAOI | HOD break | 55.70 | 54.30 | 57.90 | 3 sh / $4.2 | 1.6 (Wed high 57.94) | Gate required; spread was ~0.2% Thu | no |
-| 10 | CORZ | Swing breakout above the 20-day high | 15.05 | 14.45 | 16.25 | 13 sh / $7.8 | open above 15.03 | Closed 14.38. Don't take the 14.81 HOD break: only 0.6R to 15.03 | yes on a daily close > 15.05 |
-| 11 | SMCI | Reclaim of the afternoon range | 27.55 | 26.90 | 28.85 | 7 sh / $4.6 | 2.2 (HOD 29.00) | Weak (-11%), so it's C-quality. Only with NVDA > 165 | no |
-| 12 | FIGR | HOD break | 27.50 | 26.60 | 29.30 | 7 sh / $6.3 | 1.4 (Oct 16 high 28.77) | Post-earnings; it failed at 27.3–27.47 four times Thu | no |
-| 13 | PLBL | Day-2 continuation | 7.40 | 7.00 | 8.20 | 27 sh / $10.8 | open | +27%, closed 7.28 near the high, but only 0.7M shares. **Check the spread (≤ 0.2%) before entering** | no |
+### A1. Catalyst / relative-strength longs (work in neutral tape)
+| # | Ticker | Setup | Trigger | Stop | Target | Size / risk | Chase limit | R to res | Catalyst / notes | Swing? |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | NU | Day-2 continuation, break of Fri HOD | 13.26 | 12.94 | 13.90 | 15 sh / $4.8 | 13.58 | ≥ 2 (unfilled gap up to ~14.6; Oct range 14.4-15.4) | Q3 earnings +11.7%, closed 13.21 (97% of range). Liquid ($12, ~80M sh/day). Friday's stop zone 12.94-13.01 is the line | yes |
+| 2 | LFTO | Day-2 continuation, HOD break | 24.75 | 23.90 | 26.45 | 8 sh / $6.8 | 25.60 | open (far above the 20-day high 18.97) | +30.7% on ~7x rel vol, closed 24.45 near HOD 24.70. Catalyst unverified. **Spread must be ≤ 0.2%** (was 0.2-0.5% Fri) | yes |
+| 3 | HAWK | Day-2 continuation, HOD break | 18.25 | 17.55 | 19.65 | 10 sh / $7.0 | 18.95 | open (20-day high 15.76) | +24.1%, closed at HOD 18.23, higher lows all afternoon. Catalyst unverified. Spread was ~0.22%, so check it | yes |
+| 4 | TNDM | 20-day-high breakout | 20.30 | 19.85 | 21.20 | 9 sh / $4.1 | 20.75 | open above 20.25 | +14.5%, closed 20.05 just under the 20-day high 20.25. Friday's first break failed (12:25 CT), so demand a clean close and spread ≤ 0.25% | yes |
+| 5 | KLAR | HOD break (intraday only) | 13.85 | 13.50 | 14.18 | 14 sh / $4.9 | 14.20 | **~1R** to the 20-day high 14.18, so no R:R point | +8.6%, closed at HOD. **Earnings Tue AM: flat by Monday's close** | **no** |
+| 6 | CHA | Trend continuation, new highs | 14.60 | 14.20 | 15.40 | 13 sh / $5.2 | 15.00 | open | +6.4%, closed 14.38 under HOD 14.56. Thin with a 0.3-0.5% spread, so it needs spread ≤ 0.2% | yes |
+| 7 | VKTX | Triple-top / 20-day-high breakout | 30.15 | 29.40 | 31.65 | 6 sh / $4.5 | 30.90 | open above 30.10 | +6%, rejected 29.93-29.96 three times Fri. Biotech headline risk | yes |
+| 8 | MBGL | Double-top break | 23.35 | 22.85 | 24.35 | 8 sh / $4.0 | 23.85 | open | Q3 beat Thu +16%, Fri inside day (22.66-23.31), closed 23.27. Thin | yes |
+| 9 | XPEV | Earnings gap-and-go | 15-min OR high after 8:45 | OR low | 2R | ~21 sh | OR high + 1R | check the 10.36 20-day high | Reports Mon pre-market. Closed 9.37. Trade only with rel vol > 2x and the gap holding | no |
+| 10 | OXY | Break of the Thu/Fri double top | 59.05 | 58.45 | 60.25 | 3 sh / $1.8 | 59.65 | 9 (20-day high 64.95) | Low beta, works in a defensive tape. Fri high 59.03 = Thu 58.98 | yes |
 
-| 18 | CBRS | Watch: new gap-and-go, PM-range break | TBD after 8:45 CT | TBD | TBD | size = floor($200/trigger) | unknown | Q3 beat, raised outlook, Microsoft customer, +11-17% PM. Reversal of Thursday's trap, so check spread and volume. Verify first | no |
-| 19 | MOD | Watch only: takeover-headline gap | none | none | none | none | n/a | +30-38% PM on Samsung deal report. Trade only a clean, liquid 5-min break, expect halts | no |
+### A2. AI-beta longs: risk-on gate required, intraday only (NVDA earnings Tue)
+| # | Ticker | Setup | Trigger | Stop | Target | Size / risk | Notes | Swing? |
+|---|---|---|---|---|---|---|---|---|
+| 11 | CORZ | 20-day-high breakout | 15.05 | 14.45 | 16.25 | 13 sh / $7.8 | Closed 14.53 near HOD 14.61 on a red tape (relative strength) | no (NVDA Tue) |
+| 12 | INTC | Reclaim 60 | 60.00 | 59.00 | 62.00 | 3 sh / $3.0 | Strong last hour 57.0 → 59.66. Thu high 62.76 overhead (2.76R) | no |
 
-### B. Cheap puts (only in a defensive tape; underlying ≤ ~$25; contract |delta| ≥ 0.15, premium ≤ $0.20; Nov-20 or Nov-27 expiry; no option entries after 1:00pm CT)
-| # | Ticker | Trigger (stock) | Invalidation (stock) | Target (stock) | Notes |
+### B. Cheap puts (defensive tape only: SPY < 745.2 or failing at 750 after a gap down; underlying ≤ ~$25; |delta| ≥ 0.15, premium ≤ $0.20; Nov-20/Nov-27 expiry; no entries after 1:00pm CT). **If the stock gaps through the trigger, don't chase: use the first 15-min low as the new trigger.**
+| # | Ticker | Trigger (stock) | Invalidation | Target | Notes |
 |---|---|---|---|---|---|
-| 14 | SOFI | < 15.40 | > 15.90 | 14.90 | Closed at the low 15.62 (-4%); Nov 5 low 15.43. Nov-20 14.5P ≈ $0.12 (delta -0.17) at Thu close |
-| 15 | RGTI | < 10.25 | > 10.70 | 9.60 | Closed near the low 10.34; Nov 5 low 9.19 |
-| 16 | MARA | < 7.05 | > 7.40 | 6.50 | Closed 7.19 near the low; crypto beta weak (COIN, HOOD at their lows) |
-| 17 | LUNR | < 12.90 | > 13.55 | 12.10 | Failed gap: 14.62 → 13.03 close, at the low |
+| 13 | IREN | < 17.35 | > 18.30 | 16.40 | -6.8%, Fri low 17.39, 20-day low 17.16 |
+| 14 | APLD | < 15.00 | > 16.05 | 14.00 | -5.7%, Fri low 15.01 |
+| 15 | SOFI | < 15.05 | > 15.55 | 14.55 | Fri low 15.08, lower highs all week |
+| 16 | RGTI | < 9.45 | > 9.85 | 9.00 | -6.9%, closed near the low; Nov 5 low 9.19 |
+| 17 | MARA | < 6.65 | > 7.10 | 6.20 | Fri low 6.65; BTC flat ~68k |
 
 ### Gauges (don't trade)
-SPY, QQQ, IWM, NVDA (160 / 155 lines), AMD (585, leader), CSCO (AH +3%), AMAT, HOOD (81.4; crypto/retail sentiment), COIN.
+SPY, QQQ, IWM, NVDA, AMD (534, the unwind leader), SMH/SOX, HOOD (77.9, retail/crypto sentiment), COIN (127.6), PLTR (168), CBRS, MOD.
 
 ## Top 5 at the open
-1. **NU** > 12.40 (stop 12.05, target 13.10, 16 sh)
-2. **MBGL** > 23.31 (22.80 / 24.35, 8 sh)
-3. **IREN** > 20.30 (19.80 / 21.30, 9 sh; risk-on gate)
-4. **APLD** > 17.60 (17.15 / 18.50, 11 sh; risk-on gate)
-5. **OXY** > 59.00 (58.25 / 60.50, 3 sh; works in either tape)
+1. **NU** > 13.26 (12.94 / 13.90, 15 sh; chase limit 13.58)
+2. **LFTO** > 24.75 (23.90 / 26.45, 8 sh; spread ≤ 0.2%)
+3. **HAWK** > 18.25 (17.55 / 19.65, 10 sh)
+4. **TNDM** > 20.30 (19.85 / 21.20, 9 sh)
+5. **OXY** > 59.05 (58.45 / 60.25, 3 sh; works in any tape)
 
-If PPI is hot and SPY < 753.7, switch to section B (SOFI < 15.40 first).
+If SPY gaps down and loses 745.2, switch to section B (IREN < 17.35 and SOFI < 15.05 first). **Friday's lesson:** the best triggers (NU 8:40, CHA 8:55) fired in the first 30 minutes. The late, extended NU entry at 10:55 stopped out. Be ready at 9:00 and don't chase later.

@@ -25,6 +25,7 @@ Designate a trade as a swing only when the thesis is multi-day:
 ## Scoring (0-10)
 +3 matches a setup above cleanly · +2 on the watchlist with a catalyst · +2 relative volume > 2x · +1 market (SPY/QQQ) trending the same way · +1 reward:risk >= 2 · -2 spread > 0.2% · -3 earnings within the hold period.
 Take score >= 6. **No forced trades (Gino, 2026-11-11):** a no-trade day beats a poor trade. There is no time-of-day fallback and no lowering the threshold to create activity.
+- **No chase (added 2026-11-13):** a long is a chase if the entry is more than **1R above its trigger**. R uses the watchlist's trigger-to-stop distance; for scanner names, the breakout level to the stop. Skip it, and only re-enter on a separate pullback setup (pullback to VWAP / rising 20-period average) with its own stop below the pullback low. This applies to the first run of the day too: when a watchlist trigger fired before the run started, it is only takeable inside trigger + 1R.
 - **Room to resistance (added 2026-11-12):** measure R:R to the nearest overhead level: HOD, an untested double top, or the prior-day high/close. Award the +1 R:R point only if that level is >= 2R away. Don't buy within 0.5R below an unbroken HOD or double top. Wait for a completed 5-min close above it, then use that close as the trigger.
 
 ## Execution
