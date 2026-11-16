@@ -1,0 +1,72 @@
+date,ticker,first_run_time,setup,score,side,trigger,stop,target,real_or_paper,triggered,outcome,r_at_exit,notes
+2026-11-12,SMCI,09:03,ORB long over OR-high 28.00,4,long,28.20,27.48,29.65,paper,yes,stop_first,-1.00,trigger bar 09:15 close 28.31; stop hit 10:25
+2026-11-12,CRWV,09:03,C reclaim 55.40,4,long,55.40,52.90,60.40,paper,yes,neither,0.17,trigger bar 09:15 close 55.88; 14:45 bar close 55.83; score from 09:35 run after trigger
+2026-11-12,CRWV,09:03,B put below 52.20,1,put,52.20,55.35,46.00,paper,no,not_triggered,,stop/target from premarket list (run table had none); best close in window 54.41
+2026-11-12,FIGR,09:03,PM-high reclaim 27.35,5,long,27.35,25.70,30.65,paper,no,not_triggered,,score = highest recorded; levels revised 11:05 to 26.55/28.95 and 11:36 trigger to 27.47; best close in window 27.35
+2026-11-12,UBER,09:03,Break of Wed high 71.15,2,long,71.15,70.20,73.05,paper,no,not_triggered,,score = highest recorded; best close in window 70.06
+2026-11-12,IREN,09:03,B put below 19.10,3,put,19.10,19.65,18.00,paper,yes,stop_first,-1.00,trigger bar 09:00 close 18.92; stop hit 09:55; score from 09:35 run after trigger
+2026-11-12,SMCI,09:03,B put below 27.85,2,put,27.85,28.85,25.85,paper,yes,target_first,2.00,trigger bar 10:25 close 27.45; target hit 10:55; stop level traded before trigger (10:05); score = highest recorded (no run after trigger); stop/target from premarket list (run table had none)
+2026-11-12,SOFI,09:03,B put below 15.85,2,put,15.85,16.20,15.15,paper,yes,neither,0.56,trigger bar 09:05 close 15.81; 14:45 bar close 15.65; score from 09:35 run after trigger
+2026-11-12,RGTI,09:03,B put below 10.75,3,put,10.75,11.10,10.05,paper,yes,neither,1.03,trigger bar 09:00 close 10.73; 14:45 bar close 10.39; score from 09:35 run after trigger
+2026-11-12,APLD,09:03,B put below 16.55,4,put,16.55,17.30,15.05,paper,yes,stop_first,-1.00,trigger bar 09:05 close 16.33; stop hit 10:05; score from 09:35 run after trigger
+2026-11-12,RKLB,09:03,C reclaim 66.20,2,long,66.20,63.60,71.40,paper,yes,neither,-0.84,trigger bar 10:05 close 66.35; 14:45 bar close 64.02; score from 10:37 run after trigger
+2026-11-12,INTC,09:03,C reclaim 61.00,3,long,61.00,59.40,64.20,paper,yes,neither,0.31,trigger bar 09:40 close 61.15; 14:45 bar close 61.49; score = highest recorded (no run after trigger); 10:05 score 7 was recorded with new levels 62.30/61.45/63.90 so kept on that row
+2026-11-12,CORZ,09:03,C reclaim 14.20,4,long,14.20,13.60,15.40,paper,yes,neither,0.16,trigger bar 09:50 close 14.22; stop level traded before trigger (09:00); 14:45 bar close 14.29; score from 10:05 run after trigger; stop/target revised 10:05 to 13.90/15.10
+2026-11-12,ASTS,09:03,C reclaim 35.90,3,long,35.90,34.70,38.30,paper,yes,neither,-0.87,trigger bar 10:05 close 36.08; stop level traded before trigger (09:10); 14:45 bar close 34.86; score from 10:37 run after trigger
+2026-11-12,MARA,09:03,C reclaim 7.50,4,long,7.50,7.20,8.10,paper,yes,neither,-0.65,trigger bar 10:05 close 7.62; stop level traded before trigger (09:00); 14:45 bar close 7.30; score from 10:37 run after trigger
+2026-11-12,SMCI,09:35,C reclaim 28.90,3,long,28.90,27.85,31.00,paper,no,not_triggered,,score = highest recorded; best close in window 28.89
+2026-11-12,HOOD,10:05,C reclaim 82.60 plus OR-high 83.10 break (taken),6,long,83.95,82.55,86.70,real,yes,stop_first,-1.01,real; filled 83.95; stop fill 82.54 at 13:31
+2026-11-12,INTC,10:05,C reclaim breakout entry 62.30,7,long,62.30,61.45,63.90,paper,yes,stop_first,-1.00,trigger bar 10:00 close 62.35; stop hit 11:15; 10:00 bar looks partial (low vol; next open 61.95); score 7 from 10:05 run that placed the order on the 09:55 close 62.40; real limit order unfilled and cancelled so graded as paper
+2026-11-12,CRWV,10:05,HOD retest over 57.25,3,long,57.25,55.55,60.95,paper,yes,stop_first,-1.00,trigger bar 10:05 close 58.20; stop hit 13:35; score from 10:37 run after trigger
+2026-11-12,LUNR,10:37,Gap-and-go held over 14.10 (taken),9,long,14.48,14.15,15.12,real,yes,stop_first,-0.97,real; filled 14.4799; stop fill 14.16 at 10:45
+2026-11-12,LUNR,11:05,Gap-and-go re-entry over 14.61 HOD,3,long,14.61,14.00,15.20,paper,no,not_triggered,,best close in window 14.13
+2026-11-12,INTC,11:05,VWAP pullback turn-up over 62.25,4,long,62.25,61.45,63.40,paper,no,not_triggered,,score = highest recorded; stop revised to 61.30 at 11:36 and 61.70 at 12:36; trigger 62.26 from 12:05; best close in window 62.17
+2026-11-12,CORZ,11:36,HOD 14.805 retest,4,long,14.81,14.45,15.25,paper,no,not_triggered,,score = highest recorded; best close in window 14.72
+2026-11-12,CRWV,12:05,HOD 58.56 retest over 57.10,4,long,57.10,55.70,58.56,paper,no,not_triggered,,score = highest recorded; trigger raised to 57.37 close at 13:05; best close in window 57.08
+2026-11-12,SMCI,12:36,VWAP reclaim over 27.25,2,long,27.25,26.80,28.10,paper,yes,neither,-0.03,trigger bar 12:55 close 27.29; 14:45 bar close 27.23; score from 13:05 run after trigger
+2026-11-12,CHA,13:05,Trend pullback over 13.75 HOD,4,long,13.75,13.40,14.40,paper,no,not_triggered,,score = highest recorded; best close in window 13.54
+2026-11-12,PLBL,13:36,Trend HOD break over 7.39,4,long,7.39,7.05,8.07,paper,no,not_triggered,,first seen after 13:30 trigger window; no bars in trigger window
+2026-11-13,NU,10:55,Trend plus HOD break gap-and-go day 2 (taken),6,long,13.19,13.01,13.55,real,yes,stop_first,-1.00,real; filled 13.1899; stop fill 13.01 at 12:21
+2026-11-13,CHA,10:55,20-day high continuation over 14.38,2,long,14.38,13.95,14.95,paper,yes,neither,-0.10,trigger bar 11:30 close 14.45; 14:45 bar close 14.34; score from 11:36 run after trigger; stop revised to 14.20 at 11:36; trigger 14.56 from 12:05
+2026-11-13,OXY,10:55,Break of Thu high 59.00,2,long,59.00,58.25,60.50,paper,no,not_triggered,,score = highest recorded; revised to 58.40/59.80 at 13:05; best close in window 58.78
+2026-11-13,SOFI,10:55,B put below 15.40,3,put,15.40,15.90,14.90,paper,no,not_triggered,,score = highest recorded; first fired near 09:00 before any run; best close in window 15.45
+2026-11-13,KLAR,10:55,Trend HOD break over 13.65,3,long,13.65,13.39,14.10,paper,no,not_triggered,,score = highest recorded; revised to 13.50/13.90 at 13:05; best close in window 13.61
+2026-11-13,VKTX,11:36,Momentum HOD break over 29.80,2,long,29.80,28.95,31.00,paper,no,not_triggered,,score = highest recorded; trigger raised to 29.96 at 12:05; best close in window 29.77
+2026-11-13,TNDM,12:05,HOD break over 20.12,2,long,20.12,19.58,21.10,paper,yes,neither,-0.48,trigger bar 12:25 close 20.18; 14:45 bar close 19.86; score from 12:37 run after trigger; revised 12:37 to 19.88/20.60 and 13:05 to 20.25/19.85/20.80
+2026-11-13,NU,12:37,Re-entry HOD break over 13.25,2,long,13.25,13.00,13.60,paper,no,not_triggered,,score = highest recorded; best close in window 13.06
+2026-11-13,LFTO,12:37,Gap fade bounce over 23.93,2,long,23.93,21.90,24.70,paper,no,not_triggered,,score = highest recorded; 13:36 relabeled HOD break with 23.27/25.00; best close in window 23.36
+2026-11-13,HAWK,12:37,Gap rebuild over 17.97 HOD,2,long,17.97,17.05,18.90,paper,no,not_triggered,,score = highest recorded; revised to 17.10 at 13:05 and 17.55/18.60 at 13:36; best close in window 17.82
+2026-11-13,WSE,12:37,Gap flag over 11.96 HOD,1,long,11.96,11.55,12.40,paper,no,not_triggered,,score = highest recorded; best close in window 11.66
+2026-11-16,SOFI,09:05,ORB-low/Fri-low break put,5,put,15.05,15.55,14.55,paper,yes,neither,0.30,trig bar 09:05 CT; entry 14.96; already through at run
+2026-11-16,IREN,09:37,OR-low break put,6,put,16.51,16.8,15.5,paper,yes,neither,-0.40,trig bar 09:35 CT; entry 16.15; already through at run; blocked by old put premium rule at 09:05
+2026-11-16,IREN,12:05,LOD break put,6,put,16.01,16.6,15.4,paper,no,not_triggered,,
+2026-11-16,CORZ,09:37,OR-low break put,6,put,13.62,13.89,13.0,paper,yes,neither,-0.24,trig bar 09:35 CT; entry 13.36; already through at run; skipped as chase
+2026-11-16,CORZ,10:05,new-low break put,5,put,13.24,13.65,13.0,paper,no,not_triggered,,
+2026-11-16,APLD,09:37,OR-low break put,6,put,14.61,14.82,14.0,paper,yes,neither,-0.36,trig bar 09:35 CT; entry 14.43; already through at run; skipped as chase
+2026-11-16,WULF,09:37,OR-low break put,6,put,11.73,11.89,11.3,paper,yes,stop_first,-1.00,trig bar 09:35 CT; entry 11.46; already through at run; skipped as chase
+2026-11-16,RIOT,09:37,OR-low break put,4,put,16.61,16.9,15.9,paper,no,not_triggered,,
+2026-11-16,RGTI,09:37,OR-low break put,5,put,9.12,9.25,9.0,paper,yes,target_first,0.85,trig bar 09:35 CT; entry 9.115; already through at run
+2026-11-16,MARA,09:37,OR-low break put,6,put,6.53,6.58,6.2,paper,yes,stop_first,-1.00,trig bar 09:35 CT; entry 6.5; already through at run; skipped: support 6.37 within 0.5R
+2026-11-16,MARA,10:05,support break put,4,put,6.37,6.58,6.2,paper,no,not_triggered,,
+2026-11-16,KLAR,09:05,HOD break long,4,long,13.85,13.5,14.18,paper,yes,neither,-0.73,trig bar 09:05 CT; entry 13.91; already through at run; earnings Tue AM
+2026-11-16,HTHT,09:05,earnings OR-high break long,4,long,55.49,52.06,62.35,paper,yes,neither,-0.24,trig bar 10:05 CT; entry 55.49; target = journal 2R computed
+2026-11-16,HTHT,10:36,HOD break long,5,long,55.57,55.08,56.55,paper,yes,stop_first,-1.00,trig bar 10:45 CT; entry 55.57
+2026-11-16,BEKE,12:05,double-top break long,6,long,19.06,18.7,19.8,paper,no,not_triggered,,
+2026-11-16,XPEV,10:05,OR-high break long,4,long,10.08,9.73,10.36,paper,no,not_triggered,,
+2026-11-16,LFTO,09:05,day-2 HOD break long,3,long,24.75,23.9,26.45,paper,yes,neither,-0.59,trig bar 09:05 CT; entry 24.87; already through at run; target from watchlist
+2026-11-16,HAWK,09:05,day-2 HOD break long,3,long,18.25,17.55,19.65,paper,yes,neither,-0.09,trig bar 09:05 CT; entry 18.47; already through at run; target from watchlist
+2026-11-16,MBGL,09:05,double-top break long,4,long,23.35,22.85,24.35,paper,yes,target_first,0.38,trig bar 09:05 CT; entry 23.93; already through at run; target from watchlist
+2026-11-16,MBGL,12:05,HOD break long,5,long,24.86,24.38,25.8,paper,no,not_triggered,,
+2026-11-16,NU,09:05,reclaim long,2,long,13.26,12.94,13.9,paper,no,not_triggered,,watchlist levels
+2026-11-16,TNDM,09:05,20-day-high breakout long,2,long,20.3,19.85,21.2,paper,no,not_triggered,,watchlist levels
+2026-11-16,OXY,09:05,double-top break long,2,long,59.05,58.45,60.25,paper,no,not_triggered,,watchlist levels
+2026-11-16,CHA,09:05,trend continuation long,1,long,14.6,14.2,15.4,paper,no,not_triggered,,watchlist levels
+2026-11-16,VKTX,09:05,20-day-high breakout long,1,long,30.15,29.4,31.65,paper,no,not_triggered,,watchlist levels
+2026-11-16,TU,10:05,scanner HOD break long,4,long,9.73,9.45,10.3,paper,no,not_triggered,,
+2026-11-16,URGN,12:05,scanner HOD break long,4,long,29.26,27.9,30.6,paper,no,not_triggered,,
+2026-11-16,PAR,12:05,scanner HOD break long,3,long,24.29,23.5,25.1,paper,no,not_triggered,,
+2026-11-16,KVYO,12:05,scanner HOD break long,4,long,23.87,23.5,24.6,paper,no,not_triggered,,
+2026-11-16,CHYM,13:05,scanner HOD break long,4,long,34.63,34.2,35.4,paper,no,not_triggered,,
+2026-11-16,SMMT,12:05,scanner LOD break put,6,put,11.87,12.45,11.0,paper,yes,neither,0.34,trig bar 12:30 CT; entry 11.87
+2026-11-16,VALE,12:36,scanner LOD break put,7,put,10.48,10.7,10.05,paper,no,not_triggered,,
+2026-11-16,AG,12:36,scanner 20d-low break put,4,put,12.58,12.9,12.1,paper,no,not_triggered,,
