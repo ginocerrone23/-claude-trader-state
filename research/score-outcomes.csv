@@ -70,3 +70,52 @@ date,ticker,first_run_time,setup,score,side,trigger,stop,target,real_or_paper,tr
 2026-11-16,SMMT,12:05,scanner LOD break put,6,put,11.87,12.45,11.0,paper,yes,neither,0.34,trig bar 12:30 CT; entry 11.87
 2026-11-16,VALE,12:36,scanner LOD break put,7,put,10.48,10.7,10.05,paper,no,not_triggered,,
 2026-11-16,AG,12:36,scanner 20d-low break put,4,put,12.58,12.9,12.1,paper,no,not_triggered,,
+2026-11-17,KLAR,09:07,"Post-earnings +6%, above VWAP 14.39; under OR high 14.75",4,long,14.76,14.27,15.74,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 14.435
+2026-11-17,ACM,09:07,81.43 above VWAP 80.32; HOD 83.54 overhead (<2R); rel vol ~1.2x adj,5,long,81.8,80.9,83.54,paper,yes,neither,0.04,trig bar 11:30 CT close 81.9; levels/score from 11:04 run; 14:45 price 81.94
+2026-11-17,TME,09:07,"9.37, back above VWAP 9.32; HOD 9.62",4,long,9.4,9.29,9.62,paper,yes,neither,0.12,trig bar 11:40 CT close 9.42; levels/score from 11:37 run; 14:45 price 9.435
+2026-11-17,BEKE,09:07,"18.81, under the 19.10 trigger; rel vol low",2,long,19.1,18.6,20.1,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 18.805
+2026-11-17,HTHT,09:07,"54.44, red, no volume pickup",0,long,55.8,54.8,57.8,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 54.67
+2026-11-17,CHYM,09:07,"33.98, red",0,long,34.65,34.0,35.95,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 33.98
+2026-11-17,HOOD,09:07,Gapped through 71.55 at the open; first 15-min low 70.28 is the new trigger. Rel vol ~0.7x,7,put,70.28,71.6,67.64,paper,yes,target_first,1.93,trig bar 09:10 CT close 70.25; levels/score from 09:07 run; target 09:50
+2026-11-17,DLO,09:07,"-5.6%, range 12.44-12.68",5,put,12.44,12.7,11.92,paper,yes,neither,-0.34,trig bar 10:20 CT close 12.345; levels/score from 10:04 run; 14:45 price 12.465
+2026-11-17,CPRI,09:07,"-8.3%, LOD 18.53, rel vol ~4x",6,put,18.53,19.27,17.05,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 18.675
+2026-11-17,JD,09:07,"-6.7%, flat 25.65-26.08",4,put,25.65,26.1,24.75,paper,yes,stop_first,-1.0,trig bar 10:40 CT close 25.58; levels/score from 10:36 run; stop 12:25
+2026-11-17,OMER,09:07,"-19%, bounced from 12.71; spread 0.7%",3,put,12.7,14.05,10.0,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 13.01
+2026-11-17,NKE,09:07,"+2.5% but faded from 40.68 HOD, under VWAP",2,long,40.68,39.2,43.64,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 39.225
+2026-11-17,AAOI,09:07,"+3%, chop 45.5-47.8; AI-optics beta into NVDA",2,long,48.22,45.5,53.66,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 45.5305
+2026-11-17,BBIO,09:07,"-3.1%, rel vol ~5x, drifting",4,put,74.95,76.31,72.23,paper,no,not_triggered,,score = highest recorded; levels from 09:07 run; best close in window 75.35
+2026-11-17,NOW,09:07,"-4.3% software selloff, at LOD",6,put,94.81,96.85,90.73,paper,yes,neither,0.89,trig bar 09:05 CT close 94.5; levels/score from 09:07 run; 14:45 price 92.4071
+2026-11-17,MNSO,09:07,Missed but +6%; 5-min volume thin,2,long,11.94,11.53,12.76,paper,yes,neither,0.28,trig bar 09:10 CT close 12.045; levels/score from 09:07 run; 14:45 price 12.19
+2026-11-17,IREN,09:36,Breaking the 16.00 trigger (LOD 15.87); rel vol raw 0.32 (~1.6x),7,put,16.0,16.33,15.0,paper,yes,neither,-0.1,trig bar 09:35 CT close 15.805; levels/score from 09:36 run; 14:45 price 15.8558
+2026-11-17,INTC,09:36,Chop 53.93-55.20 around the 54.85 trigger; no clean break,5,put,53.93,54.9,52.85,paper,yes,target_first,0.88,trig bar 09:35 CT close 53.81; levels/score from 09:36 run; target 09:45
+2026-11-17,NU,09:36,Below 12.60 trigger; target 12.00 only 1.3R,6,put,12.6,12.9,12.0,paper,yes,neither,0.06,trig bar 09:35 CT close 12.415; levels/score from 09:36 run; 14:45 price 12.385
+2026-11-17,SOFI,09:36,Below 14.65 trigger; support 14.18-14.27 close,5,put,14.65,14.95,14.25,paper,yes,target_first,0.31,trig bar 09:35 CT close 14.4164; levels/score from 09:36 run; target 09:40
+2026-11-17,RGTI,09:36,Broke 8.99 at the open; now 2R below trigger,5,put,8.99,9.25,8.47,paper,yes,neither,-0.04,trig bar 09:35 CT close 8.425; levels/score from 09:36 run; already through/extended at trigger; entry already past target; 14:45 price 8.46
+2026-11-17,MARA,09:36,"6.56, above the 6.39 trigger",3,put,6.39,6.62,5.93,paper,yes,stop_first,-1.0,trig bar 09:45 CT close 6.35; levels/score from 09:36 run; stop 11:15
+2026-11-17,WULF,09:36,"11.76, above 11.35",3,put,11.35,11.75,10.55,paper,yes,stop_first,-1.0,trig bar 09:50 CT close 11.2838; levels/score from 09:36 run; stop 10:05
+2026-11-17,VALE,09:36,"Green (+0.6%), above 10.44",1,put,10.44,10.7,9.92,paper,no,not_triggered,,score = highest recorded; levels from 09:36 run; best close in window 10.47
+2026-11-17,COIN,09:36,"118.1, above 117.30",3,put,117.3,119.3,113.3,paper,yes,neither,-0.01,trig bar 09:40 CT close 116.11; levels/score from 09:36 run; 14:45 price 116.135
+2026-11-17,AS,09:36,"ORB fired 9:00 (31.85), now back to 31.55 near VWAP (~31.4); HOD 31.97 and 32.19 overhead.",7,long,31.97,31.39,33.13,paper,no,not_triggered,,score = highest recorded; levels from 09:36 run; best close in window 31.6
+2026-11-17,URGN,09:36,"28.23, flat; spread 0.3%",0,long,29.55,28.6,31.45,paper,no,not_triggered,,score = highest recorded; levels from 09:36 run; best close in window 29.165
+2026-11-17,OXY,09:36,57.49 (+0.2%),1,long,59.05,58.3,60.55,paper,no,not_triggered,,score = highest recorded; levels from 10:04 run; best close in window 57.57
+2026-11-17,TU,09:36,9.57 flat,0,long,9.75,9.45,10.35,paper,no,not_triggered,,score = highest recorded; levels from 09:36 run; best close in window 9.6398
+2026-11-17,CGON,09:36,"-10%, bounced 73.0 to 78.9, fading to 76.3",3,put,73.0,78.95,67.1,paper,no,not_triggered,,score = highest recorded; levels from 10:04 run; best close in window 76.32
+2026-11-17,KC,09:36,"-7.3%, flat at lows; spread 0.15%",4,put,6.36,6.47,6.15,paper,yes,neither,0.09,trig bar 09:35 CT close 6.355; levels/score from 09:36 run; 14:45 price 6.345
+2026-11-17,CSIQ,09:36,-10.4%,4,put,8.2,8.45,7.7,paper,yes,neither,0.73,trig bar 09:40 CT close 8.12; levels/score from 09:36 run; 14:45 price 7.88
+2026-11-17,AMPX,09:36,-8%,4,put,6.5,6.75,6.0,paper,no,not_triggered,,score = highest recorded; levels from 09:36 run; best close in window 6.535
+2026-11-17,IONQ,09:36,-6% quantum beta,4,put,24.7,25.4,23.3,paper,yes,neither,-0.22,trig bar 09:40 CT close 24.54; levels/score from 09:36 run; 14:45 price 24.725
+2026-11-17,AI,09:36,-7.5%,4,put,9.85,10.15,9.25,paper,yes,neither,-0.5,trig bar 09:40 CT close 9.79; levels/score from 09:36 run; 14:45 price 9.97
+2026-11-17,FUBO,09:36,"+11.8%, faded from 8.48 HOD to ~VWAP 8.15",4,long,8.48,8.13,9.18,paper,no,not_triggered,,score = highest recorded; levels from 09:36 run; best close in window 8.215
+2026-11-17,SHAZ,09:36,"+6.5% green-on-red, new HOD 21.72, above VWAP (~20.6), rel vol ~2.5x adj; catalyst unknown",6,long,21.72,21.3,22.56,paper,yes,target_first,0.02,trig bar 10:05 CT close 22.53; levels/score from 10:04 run; already through/extended at trigger; target 10:10
+2026-11-17,SMMT,10:04,"Basing 10.79-10.97 at LOD 10.75, under VWAP 11.03; 11:25/11:30 bars lows 10.79, no close <",9,put,10.75,11.05,10.15,paper,yes,neither,0.49,trig bar 12:00 CT close 10.745; levels/score from 11:37 run; 14:45 price 10.595
+2026-11-17,SNAP,10:04,"+7%, raw rel vol 0.93",3,long,5.55,5.38,5.89,paper,no,not_triggered,,score = highest recorded; levels from 12:05 run; best close in window 5.495
+2026-11-17,BABA,10:04,"-3.8%, LOD 86.64, rel vol ~2x",5,put,86.64,87.8,84.32,paper,no,not_triggered,,score = highest recorded; levels from 10:04 run; best close in window 86.69
+2026-11-17,AXTI,10:36,-7.7%,4,put,35.0,36.4,32.2,paper,no,not_triggered,,score = highest recorded; levels from 10:36 run; best close in window 35.1384
+2026-11-17,BILL,11:04,"Flag 61.60-62.98 above VWAP 60.67, pressing HOD 62.98; raw rel vol 3.2; spread 62.79/62.95",4,long,62.98,61.6,65.74,paper,yes,neither,0.35,trig bar 11:40 CT close 63.875; levels/score from 11:37 run; 14:45 price 64.67
+2026-11-17,CRCL,11:04,"-6%, 53.3-54.5 under VWAP 54.97",4,put,53.3,54.5,50.9,paper,no,not_triggered,,score = highest recorded; levels from 11:04 run; best close in window 54.14
+2026-11-17,SMCI,11:04,"-4.8%, under VWAP 24.22",4,put,23.29,24.0,21.87,paper,no,not_triggered,,score = highest recorded; levels from 11:04 run; best close in window 23.81
+2026-11-17,SLS,11:37,+170% biotech spike,0,long,21.0,19.0,25.0,paper,no,not_triggered,,score = highest recorded; levels from 11:37 run; best close in window 20.245
+2026-11-17,NXT,12:05,"-7.5%, raw rel vol 0.67",3,put,82.0,84.0,78.0,paper,yes,neither,1.09,trig bar 12:15 CT close 81.95; levels/score from 12:05 run; 14:45 price 79.71
+2026-11-17,VIK,12:05,"+4.5%, raw rel vol 1.34",3,long,95.0,93.8,97.4,paper,no,not_triggered,,score = highest recorded; levels from 12:05 run; best close in window 94.94
+2026-11-17,NKE,13:36,"36.43 (-4.8%), raw rel vol 1.72",4,put,36.0,36.9,34.6,paper,no,not_triggered,,score = highest recorded; levels from 13:36 run; best close in window 
+2026-11-17,MSTR,13:36,97.14 / 8.395 / 68.58,,put,95.5,98.5,91.0,paper,no,not_triggered,,score = highest recorded; levels from 13:36 run; best close in window 
