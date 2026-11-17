@@ -1,5 +1,7 @@
 # Watchlist for Tue 2026-11-17 (built Mon 2026-11-16 3:30pm CT)
 
+**Pre-market update 2026-11-17 8:00am CT:** SPY 739.4 (-0.1% vs 739.95 close), QQQ 664.3 (+0.4%), NVDA 158.0 (+1.2%): flat/mixed, no gap either way, so bias stays NEUTRAL-defensive. Earnings prints are out (Robinhood calendar): **JD miss, pre-mkt 25.75 (-6.5%): demoted to avoid (stock shorts not allowed; no long)**; **KLAR EPS miss (-0.19 vs -0.14), pre-mkt 13.80 (+1.2%)**, trade only the OR; **HD in-line (3.86 vs 3.87), 337.5 (-2.9%)**; **DIS beat (1.77 vs 1.68) but 115.6 (-2.6%)**; **TME beat, 9.28 (+4.5%): added**; **AS beat, 30.20 (+3.8%): added**; WB, VIK, MNSO missed (avoid). **ACM gap holds at ~77.9 (+7.5%)**, still #1. **MBGL fell to ~23.1 (-4%) and TSN to ~63.0 (-1.5%): thesis broken, dropped to avoid.** HTHT quote unreliable (bid 53.75/ask 59.57, flat ~54.9): needs a volume pickup. BEKE 18.98 pre-mkt, nearly at the 19.10 trigger. HOOD 72.4, MARA 6.72, IREN 16.69, WULF 11.95 all bounced above Mon closes, so puts need a real break below the triggers. Web news searches returned only stale items (no verified overnight headlines), so levels rest on Robinhood pre-market quotes.
+
 Levels come from Robinhood 5-min and daily historicals for 11/16 plus quotes at ~3:35pm CT (after hours). **The 8:00am pre-market run must re-check every trigger against pre-market prices.** A trigger is a completed 5-min close beyond the level after 8:45 CT. **Chase limit = trigger + 1R:** above it, don't enter.
 
 **Rules in force (playbook 11/16):** max score 9; floors **stocks ≥ 7, options ≥ 8**; no forced trades. Options: premium ≤ $200, sell-to-close stop ≥ 15% below entry sized to a loss ≤ $30, |Δ| 0.30–0.60, spread ≤ 10% of mid, no option entries after 1:00pm CT. Room to resistance ≥ 2R for the R:R point. Journal every candidate with a **numeric trigger/stop/target and its score.**
@@ -26,6 +28,7 @@ Levels come from Robinhood 5-min and daily historicals for 11/16 plus quotes at 
 - Wed: FOMC minutes 1:00pm CT; Anthropic (ANT) pricing; TGT/LOW/TJX pre-market, PANW after the close. Thu: ANT debut, WMT, Trump–Xi summit.
 
 ## AVOID
+- **TSN (63.0 pre-mkt, gave up Mon gains), MBGL (23.1, -4%)**: thesis broke, dropped from section A. **JD, WB, VIK, MNSO** (missed). **HD 337.5 / DIS 115.6** gauges only. ENR, MFP, LUXE, GFF, ESLT: thin/wide pre-mkt quotes.
 - **NVDA and any AI/semis position held past 2:45pm CT Tue** (AMD, MU, INTC, SMCI, IREN, APLD, CORZ, WULF and other AI-infra names). **No swings in AI-beta names.**
 - **HD, DIS, KLAR, JD, TME, WB, MNSO, VIK before their prints.** Trade only the reaction after 8:45 CT.
 - **No overnight holds into Wed reporters:** TGT, LOW, TJX, ZIM, BLSH, PONY (AM); PANW, KLIC, SBLK (PM).
@@ -39,12 +42,12 @@ Sizing: shares = floor($200 / trigger); risk $ = shares × |trigger − stop| �
 | # | Ticker | Setup | Trigger | Stop | Target | Size / risk | Chase limit | Catalyst / notes | Swing? |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | **ACM** | Earnings gap-and-go (AH 77.1 vs 72.57 close; prior ATH 73.20) | **15-min OR high after 8:45 CT** (pre-mkt guide ~77.5) | OR low | OR high + 2 × (OR high − OR low) | 2 sh (≈$155); risk = 2 × OR range ≤ $20 | OR high + 1R | Beat, FY27 adj EPS guide $6.15–6.35 above consensus, dividend hike. Needs the gap to hold and rel vol > 2x | yes (reported) |
-| 2 | **TSN** | Day-2 continuation, Mon HOD break | 64.75 | 63.40 | 67.45 | 3 sh / $4.1 | 66.10 | +8.7% Mon on earnings; staples were the only green sector (defensive rotation). Closed 63.96 | yes |
+| 2 | **TME** | Earnings gap (beat: EPS 0.23 vs 0.21), OR high after 8:45 CT | **15-min OR high** (pre-mkt 9.28 vs 8.88 close) | OR low | OR high + 2 × range | ~21 sh; risk ≤ $20 | OR high + 1R | China music; reports pre-market, gap +4.5%. Needs gap to hold and rel vol > 2x; check spread | after print only |
 | 3 | **HTHT** | Day-2 continuation, new-high close | 55.80 | 54.80 | 57.80 | 3 sh / $3.0 | 56.80 | +9% on a Q3 beat; multi-month high (open room). Mon breaks failed on falling volume, so a **volume pickup is required** | yes |
 | 4 | **CHYM** | 20-day high break | 34.65 | 34.00 | 35.95 | 5 sh / $3.3 | 35.30 | Joins the S&P MidCap 400 before Wed's open (index demand into Tue's close); PT raises. Rejected at 34.62–34.63 twice Mon | no (inclusion-day fade risk) |
-| 5 | **MBGL** | HOD / new-high break | 24.90 | 24.30 | 26.10 | 8 sh / $4.8 | 25.50 | PT raises; presents at JPM Tue. Mon HOD 24.86 held all day | yes |
-| 6 | **KLAR** | Post-earnings reaction, OR high (after 8:45) | OR high | OR low | 2R | ~14 sh, risk ≤ $20 | OR high + 1R | Reports pre-market. Mon close 13.64, 20-day high 14.18. Trade only if rel vol > 2x and the gap holds | after print only |
-| 7 | **JD** | Post-earnings reaction, OR high (after 8:45) | OR high | OR low | 2R | ~7 sh | OR high + 1R | Reports pre-market (China consumer). Mon close 27.53; Nov 6 high 29.34 is resistance | after print only |
+| 5 | **AS** | Earnings gap (beat: EPS 0.42 vs 0.35), OR high | **15-min OR high** (pre-mkt 30.20 vs 29.10) | OR low | OR high + 2 × range | 6 sh | OR high + 1R | Amer Sports beat; check spread/rel vol | after print only |
+| 6 | **KLAR** | Post-earnings reaction, OR high (after 8:45) | OR high | OR low | 2R | ~14 sh, risk ≤ $20 | OR high + 1R | EPS miss (-0.19 vs -0.14) but pre-mkt 13.80 (+1.2%). Mon close 13.64, 20-day high 14.18. Trade only if rel vol > 2x and the gap holds | after print only |
+| 7 | **JD** | **DEMOTED: AVOID long.** Missed (EPS 0.88 vs 0.93), pre-mkt 25.75 (-6.5%). Only a reclaim of Mon close 27.53 would revive it | n/a | n/a | n/a | n/a | n/a | Option put only if score ≥ 8 (stock shorts not allowed) | Mon close 27.53; Nov 6 high 29.34 is resistance | after print only |
 | 8 | **BEKE** | Double-top break | 19.10 | 18.60 | 20.10 | 10 sh / $5.0 | 19.60 | Q3 beat Mon; 19.05–19.06 rejected 4×; closed 18.65. Nov 5 high 19.32 is overhead (0.4R): needs a close > 19.32 for the R:R point | yes |
 | 9 | **URGN** | HOD break | 29.55 | 28.60 | 31.45 | 6 sh / $5.7 | 30.50 | +7.4% Mon, cause unconfirmed; **spread was 0.4–0.7%, so skip if > 0.2%** | no |
 | 10 | **OXY** | Double-top break (low beta) | 59.05 | 58.30 | 60.55 | 3 sh / $2.3 | 59.80 | Fri/Thu highs 59.03/58.98; Mon close 57.36 (far). Works in a defensive tape | yes |
@@ -68,7 +71,14 @@ Sizing: shares = floor($200 / trigger); risk $ = shares × |trigger − stop| �
 ### Gauges (don't trade)
 SPY, QQQ, IWM, NVDA (156.16), AMD, SMH, HOOD/COIN (crypto sentiment), BTC (~64K), PLTR (160.4), CGON (84.7, above the band, Phase-3 win but faded from ~98).
 
-## Top 5 at the open
+## Top 5 at the open (updated 8:00am CT)
+1. **ACM** OR-high gap-and-go (gap holds ~77.9).
+2. **TME** OR high (earnings beat gap).
+3. **AS** OR high (earnings beat gap).
+4. **BEKE** > 19.10 (pre-mkt 18.98).
+5. **HOOD put** < 71.55 only if SPY < 738.07 (score ≥ 8).
+
+(Original 3:30pm list, superseded:)
 1. **ACM** gap-and-go via the OR high (best fresh catalyst; check the gap holds and rel vol > 2x).
 2. **TSN** > 64.75 (defensive-rotation day 2).
 3. **HTHT** > 55.80, only with a volume pickup.
