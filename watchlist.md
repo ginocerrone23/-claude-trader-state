@@ -1,5 +1,18 @@
 # Watchlist for Wed 2026-11-18 (built Tue 2026-11-17 3:30pm CT)
 
+
+**Pre-market update 2026-11-18 8:00am CT** (Robinhood quotes ~8:05 CT; web news search returned little same-day data, so levels rest on quotes):
+- **Tone: modest relief bounce.** SPY 734.67 (+0.3% vs 732.44), QQQ 661.73 (+0.7%), NVDA 160.08 (+3.0%, vs AH 159.3), AMD 512.5 (+1.8%), MU 725 (+1.8%). Still inside the 727–739.8 neutral band; risk-on needs SPY > 739.8.
+- **AI-infra gaps hold but are still BELOW triggers (no gap-through):** IREN 16.45 (+4.1%, trigger 16.65), CRWV 51.54 (+3.3%, trigger 52.20), APLD 14.92 (+4.9%, trigger 15.30), CORZ 14.10 (+4.4%, trigger 14.30), SMCI 24.84 (+2.9%), NBIS 110.94 (+4.6%; > $200/share-limit gauge only). Triggers unchanged; need completed 5-min closes after 8:45 CT.
+- **BILL 65.00 flat, no deal news found**: keep trigger 65.45; skip if a deal is announced (pin).
+- **ACM 80.75 flat** (no gap). TME 9.58 (+1.2%) below 9.73 trigger. INTC 55.50 below 56.00 trigger.
+- **ZIM 30.77 (+3.6%)** vs 29.67 close; print status unconfirmed. Set OR levels after 8:45 CT.
+- **Retail prints (gauges only, > $100):** LOW 208.0 (-5.6%), TJX 138.2 (+6.4%), TGT 160.3 (+0.5%). PANW 315 (+1.8%) reports after the close: no overnight hold.
+- **AAOI 40.92 (-9.5%) AVOID** (kept on AVOID). 
+- **Puts:** JD 24.97 is already BELOW its 25.36 trigger (gap-through): trigger becomes the first 15-min low, taken only within 1R. NOW 92.10 sits at its 92.00 trigger (needs SPY < 727 to qualify). HOOD 69.70 (+0.7%), SOFI 14.41, CRCL 55.0, NXT 79.76 (+1.6%), BABA 86.40 are bouncing, so puts are less likely. DLO quote stale/wide (bid 12.51 / ask 14.14): untradeable until it normalizes.
+- **Events (CT):** 7:30 housing starts/permits; 1:00pm FOMC minutes; Fed speakers unconfirmed; ANT prices tonight.
+- Count: 10 longs + 8 puts = 18 names.
+
 Levels come from Robinhood 5-min, 30-min and daily historicals for 11/17 plus quotes at ~3:39pm CT (after hours). **The 8:00am pre-market run must re-check every trigger against pre-market prices** (IREN/CORZ/APLD/CRWV may gap above their triggers on the NVDA beat). A trigger is a completed 5-min close beyond the level after 8:45 CT. **Chase limit = trigger + 1R:** above it, don't enter. If a name gaps above its trigger, the trigger becomes the 15-min OR high, still capped by the chase rule.
 
 **Rules in force (playbook 11/17):** max score 9; floors **stocks ≥ 7, options ≥ 8**; no forced trades. Options: premium ≤ $200, sell-to-close stop ≥ 15% below entry sized to a loss ≤ $30, |Δ| 0.30–0.60, spread ≤ 10% of mid, no option entries after 1:00pm CT. **Puts only on names marked opt-liquid ✓, or after the run checks the chain itself (new 11/17).** Journal one numeric score and numeric trigger/stop/target per ticker (no "2-4" ranges).
