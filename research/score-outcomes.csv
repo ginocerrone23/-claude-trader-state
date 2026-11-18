@@ -119,3 +119,100 @@ date,ticker,first_run_time,setup,score,side,trigger,stop,target,real_or_paper,tr
 2026-11-17,VIK,12:05,"+4.5%, raw rel vol 1.34",3,long,95.0,93.8,97.4,paper,no,not_triggered,,score = highest recorded; levels from 12:05 run; best close in window 94.94
 2026-11-17,NKE,13:36,"36.43 (-4.8%), raw rel vol 1.72",4,put,36.0,36.9,34.6,paper,no,not_triggered,,score = highest recorded; levels from 13:36 run; best close in window 
 2026-11-17,MSTR,13:36,97.14 / 8.395 / 68.58,,put,95.5,98.5,91.0,paper,no,not_triggered,,score = highest recorded; levels from 13:36 run; best close in window 
+2026-11-18,IREN,09:15,"above VWAP 15.40, HOD 16.30; trigger not hit",4,long,16.65,16.15,17.65,paper,no,not_triggered,,score = highest recorded; levels from 11:38 run
+2026-11-18,CRWV,09:15,"above VWAP 47.66, HOD 51.07; trigger not hit",4,long,52.2,51.0,54.6,paper,no,not_triggered,,score = highest recorded; levels from 11:38 run
+2026-11-18,APLD,09:15,"above VWAP 14.23, HOD 14.90; trigger not hit",4,long,15.3,14.8,16.3,paper,no,not_triggered,,score = highest recorded; levels from 11:38 run
+2026-11-18,CORZ,09:15,"14.19 tagging HOD 14.195, recent bars 2.2x avg but day rel vol ~0.65x; 11/13 high 14.62 is",5,long,14.3,13.9,15.1,paper,no,not_triggered,,score = highest recorded; levels from 11:38 run
+2026-11-18,BILL,09:15,"Hit 65.93 in the first 10 min, then faded; volume drying up",2,long,65.93,64.4,67.55,paper,yes,neither,-0.08,trig bar 09:15 CT close 66.1799; levels/score from 09:15 run; 14:45 price 66.04; next-run score 6
+2026-11-18,ACM,09:15,"+3.4%, above VWAP 81.91, HOD 83.36@18:05Z, LOD 79.36@14:30Z, adj rel vol n/a",3,long,83.55,82.4,85.85,paper,yes,neither,-0.31,trig bar 12:50 CT close 83.565; levels/score from 12:36 run; 14:45 price 83.2; next-run score 6
+2026-11-18,TME,09:15,"-0.5%, below VWAP 9.57, HOD 9.79@14:35Z, LOD 9.415@14:30Z, adj rel vol ~2.3x; below VWAP; ",5,long,9.73,9.45,10.29,paper,no,not_triggered,,score = highest recorded; levels from 12:36 run
+2026-11-18,SMCI,09:15,"above VWAP 24.41, HOD 24.98; trigger not hit",4,long,25.4,24.9,26.4,paper,no,not_triggered,,score = highest recorded; levels from 11:38 run
+2026-11-18,INTC,09:15,"above VWAP 54.35, HOD 56.00; trigger not hit",4,long,56.0,55.2,57.2,paper,no,not_triggered,,score = highest recorded; levels from 11:38 run
+2026-11-18,ZIM,09:15,"+1.2%, below VWAP 30.13, HOD 30.7899@14:30Z, LOD 29.9074@16:50Z, adj rel vol ~3.5x; below ",5,long,30.8,30.06,32.28,paper,no,not_triggered,,score = highest recorded; levels from 12:36 run
+2026-11-18,NOW,09:15,"Broke 92.00 at 8:40 (LOD 90.82), under VWAP ~91.8. Rel vol ~0.8x",5,put,92.0,93.4,89.2,paper,yes,target_first,1.06,trig bar 09:15 CT close 91.3638; levels/score from 09:15 run; target 12:10; next-run score 5
+2026-11-18,HOOD,09:15,"-1.6%, LOD 67.56, above 67.25",3,put,67.25,68.6,64.55,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,SOFI,09:15,"Held 14.08 (the Tue LOD) twice, back to 14.23",3,put,14.08,14.4,13.44,paper,no,not_triggered,,score = highest recorded; levels from 11:04 run
+2026-11-18,CRCL,09:15,"-1.3%, LOD 53.46",3,put,53.3,54.6,50.7,paper,yes,neither,-0.29,trig bar 10:30 CT close 53.2; levels/score from 10:08 run; 14:45 price 53.61; next-run score 6
+2026-11-18,JD,09:15,"-1.3%, below VWAP 25.2, HOD 25.545@14:45Z, LOD 24.945@14:30Z, adj rel vol n/a",2,put,25.36,25.75,24.58,paper,yes,neither,0.34,trig bar 12:35 CT close 25.11; levels/score from 12:36 run; 14:45 price 24.895; next-run score 6
+2026-11-18,NXT,09:15,"+1.9%, above VWAP 79.76, LOD 77.00@14:50Z",3,put,77.0,79.9,74.5,paper,no,not_triggered,,score = highest recorded; levels from 12:05 run
+2026-11-18,BABA,09:15,Chop 86.13–86.89 just under the 86.49 trigger; low rel vol,3,put,86.13,87.3,84.87,paper,yes,target_first,0.87,trig bar 09:15 CT close 85.9992; levels/score from 09:15 run; target 14:15; next-run score 5
+2026-11-18,DLO,09:15,"+1.9%, above VWAP 12.57, LOD 12.44@14:50Z",3,put,12.31,12.6,11.73,paper,no,not_triggered,,score = highest recorded; levels from 12:05 run
+2026-11-18,BRBR,09:15,"+24.6% earnings gap; reclaimed VWAP, 13.73. HOD 14.01 overhead (0.5R)",4,long,14.02,13.28,15.5,paper,no,not_triggered,,score = highest recorded; levels from 09:40 run
+2026-11-18,GLBE,09:15,"Earnings drop -8.6%, spike to 38.98 rejected, under VWAP. Rel vol ~6x",4,put,35.77,37.0,33.31,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,PRMB,09:15,"-5.5% gap-down reversal 21.50→23.00, above VWAP. Rel vol ~9x",5,long,23.01,22.45,24.13,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,SMMT,09:15,Trend up 10.14→11.20 above VWAP ~10.5. Rel vol ~3.7x,5,long,11.21,10.8,12.03,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,CAPR,09:15,"+11% trend, HOD 9.45. Rel vol ~2.5x",5,long,9.46,9.11,10.16,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,USAR,09:15,"+11.5% rare-earth run, HOD 7.52. Rel vol ~1.8x (accelerating)",3,long,7.53,7.17,8.25,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,MP,09:15,"+8% rare-earth run, HOD 38.16. Rel vol ~1.4x",3,long,38.17,37.15,40.21,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,KLAR,09:15,"+5.6%, tight 14.98–15.14",4,long,15.15,14.9,15.65,paper,no,not_triggered,,score = highest recorded; levels from 09:40 run
+2026-11-18,BLSH,09:15,"+8.8% post-earnings, recovered to 21.1",3,long,21.2,20.78,22.04,paper,yes,stop_first,-1.0,trig bar 10:55 CT close 21.33; levels/score from 10:37 run; stop 14:05; next-run score 4
+2026-11-18,VIK,09:15,"+4.7% trend, HOD 99.37 (2 shares max). Rel vol ~1.9x",3,long,99.38,97.55,103.04,paper,yes,neither,0.08,trig bar 09:15 CT close 99.57; levels/score from 09:15 run; 14:45 price 99.7225; next-run score 4
+2026-11-18,LYFT,09:15,"+6.7%, 17.83 under the 17.915 HOD",3,long,17.92,17.5,18.76,paper,yes,neither,-0.63,trig bar 11:15 CT close 18.035; levels/score from 11:04 run; 14:45 price 17.7; next-run score 3
+2026-11-18,MDLN,09:15,"+3%, 38.84 just under the 38.92 HOD. Adjusted rel vol ~5.7x, but recent bars dried up (0.1",6,long,38.93,38.4,40.0,paper,yes,neither,0.25,trig bar 11:15 CT close 38.955; levels/score from 11:04 run; 14:45 price 39.095; next-run score 6
+2026-11-18,FCX,09:15,"-7.5%, LOD 50.46, at VWAP",3,put,50.46,51.75,47.88,paper,no,not_triggered,,score = highest recorded; levels from 09:40 run
+2026-11-18,GDX,09:15,-6% gold miners; LOD 74.47. Rel vol ~2.3x,3,put,74.47,75.7,72.01,paper,yes,neither,-0.5,trig bar 09:20 CT close 74.2629; levels/score from 09:15 run; 14:45 price 74.985; next-run score 3
+2026-11-18,IAG,09:15,"-8.7%, LOD 15.505. Rel vol ~2.3x",3,put,15.5,15.9,14.7,paper,yes,stop_first,-1.0,trig bar 09:45 CT close 15.49; levels/score from 09:15 run; stop 14:10; next-run score 3
+2026-11-18,BHP,09:15,"-5%, LOD 70.00. Rel vol ~2.3x",3,put,70.0,70.7,68.6,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,CBRS,09:15,"-6.3%, chop 95.5–100.5",1,put,95.5,100.53,85.44,paper,yes,neither,0.21,trig bar 10:40 CT close 95.11; levels/score from 09:40 run; 14:45 price 93.965; next-run score 3
+2026-11-18,LOAR,09:15,"Gap-down recovered, above VWAP. Rel vol ~2.7x",1,put,67.0,70.0,61.0,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,AES,09:15,Pinned 15.01–15.02 (deal arb),0,long,15.03,15.0,15.09,paper,no,not_triggered,,score = highest recorded; levels from 09:15 run
+2026-11-18,TENB,09:40,+11% steady trend 39.05→43.29. Adjusted rel vol ~0.9x,4,long,43.3,42.5,44.9,paper,yes,target_first,1.96,trig bar 09:55 CT close 43.31; levels/score from 09:40 run; target 12:55; next-run score 4
+2026-11-18,S,09:40,"+8%, flat 22.7–23.07 near the 23.075 HOD",4,long,23.08,22.65,23.94,paper,yes,neither,0.4,trig bar 11:25 CT close 23.1; levels/score from 10:37 run; 14:45 price 23.28; next-run score 3
+2026-11-18,COPX,09:40,"-7.4%, new LOD 60.415",5,put,60.41,61.0,59.23,paper,yes,stop_first,-1.0,trig bar 10:50 CT close 60.36; levels/score from 10:37 run; stop 11:05; next-run score 4
+2026-11-18,ERO,09:40,-10.7%,3,put,23.82,24.4,22.66,paper,yes,neither,-0.27,trig bar 10:25 CT close 23.78; levels/score from 10:08 run; 14:45 price 23.945; next-run score 5
+2026-11-18,PAAS,09:40,"-6.3%, LOD 33.36",3,put,33.36,34.01,32.06,paper,yes,neither,-0.58,trig bar 09:45 CT close 33.29; levels/score from 09:40 run; 14:45 price 33.705; next-run score 3
+2026-11-18,TECK,09:40,"-7%, range 51.93–52.81",3,put,51.93,52.81,50.69,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,KGC,09:40,"-6.9%, LOD 18.69",3,put,18.69,18.89,18.29,paper,yes,stop_first,-1.0,trig bar 09:45 CT close 18.665; levels/score from 09:40 run; stop 11:25; next-run score 3
+2026-11-18,MSTR,09:40,"-5.5%, LOD 90.965 (10:20)",3,put,90.96,92.5,87.88,paper,yes,stop_first,-1.0,trig bar 10:35 CT close 90.635; levels/score from 10:37 run; stop 11:20
+2026-11-18,NTSK,10:08,"+11.2%, above VWAP 22.61, HOD 23.2@15:55Z, LOD 20.76@14:30Z, adj rel vol ~0.8x",1,long,23.21,22.61,24.41,paper,yes,neither,0.06,trig bar 12:35 CT close 23.235; levels/score from 12:36 run; 14:45 price 23.27; next-run score 1
+2026-11-18,PRMB,10:08,"-7.5%, faded to the lows. Adjusted rel vol ~6.7x",4,put,22.2,23.01,20.58,paper,no,not_triggered,,score = highest recorded; levels from 10:08 run
+2026-11-18,BIPC,10:37,"+4%, steady trend above VWAP ~41.4, new HOD 41.875. Adjusted rel vol ~3.5x. Green on a red",6,long,41.88,41.4,42.84,paper,yes,stop_first,-1.0,trig bar 10:50 CT close 41.98; levels/score from 10:37 run; stop 14:30; next-run score 6
+2026-11-18,TGB,10:37,"-10%, flat 5.56–5.69",3,put,5.485,5.7,5.06,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,EXK,10:37,"-9.7%, new LOD 6.415",5,put,6.41,6.58,6.07,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,SBSW,10:37,"-9.3%, new LOD 7.65",4,put,7.65,7.8,7.35,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,BETA,10:37,"-5.5%, volatile flush to 18.34 at 9:50 then rebound",2,put,18.68,19.95,17.86,paper,yes,stop_first,-1.0,trig bar 10:50 CT close 18.41; levels/score from 10:37 run; stop 12:20; next-run score 4
+2026-11-18,VITL,10:37,"+16%, 9.81 under the 9.925 HOD. Thin",4,long,9.93,9.55,10.69,paper,no,not_triggered,,score = highest recorded; levels from 11:04 run
+2026-11-18,HBM,10:37,"-9.7%, range 17.54–18.22",3,put,17.54,18.1,16.42,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,AG,10:37,"-8.4%, new LOD 11.645",4,put,11.64,11.9,11.12,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,SSRM,10:37,"-9.3%, new LOD 23.60",4,put,23.6,24.1,22.6,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,B,10:37,"-7.9%, new LOD 33.71, steady downtrend",4,put,33.71,34.1,32.93,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,GDXJ,10:37,"-7.5%, new LOD 88.52",4,put,88.52,89.6,86.36,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,GFI,10:37,"-8.9%, new LOD 32.63",4,put,32.63,33.03,31.83,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,SILJ,10:37,"-6.7%, new LOD 20.45",4,put,20.45,20.75,19.85,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,FSLY,10:37,"+12%, new HOD 17.86 at 11:00, trend above VWAP 17.17. Adjusted rel vol ~1.1x",4,long,17.87,17.45,18.71,paper,yes,neither,-0.82,trig bar 11:05 CT close 17.9; levels/score from 11:04 run; 14:45 price 17.5301; next-run score 4
+2026-11-18,HMY,10:37,"-8.9%, new LOD 13.525",4,put,13.52,13.7,13.17,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,ABSI,10:37,"+8.6%, faded from the 8.73 HOD to 8.3",2,long,8.74,8.12,9.98,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,ECVT,10:37,"-7%, thin, drifting up",1,put,9.3,9.62,8.94,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,AGI,10:37,"-7.5%, new LOD 25.98",4,put,25.98,26.3,25.34,paper,yes,stop_first,-1.0,trig bar 10:35 CT close 25.945; levels/score from 10:37 run; stop 11:05; next-run score 3
+2026-11-18,CALM,10:37,"+7.8%, new HOD 70.33. Thin (0.39M shares)",3,long,70.34,69.7,71.62,paper,yes,stop_first,-1.0,trig bar 11:05 CT close 70.5759; levels/score from 11:04 run; stop 14:05; next-run score 3
+2026-11-18,SVM,10:37,"-6%, new LOD 7.225",4,put,7.22,7.38,6.94,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,SG,10:37,"+7.6%, flat 12.93–13.15 under the 13.15 HOD",3,long,13.15,12.93,13.59,paper,yes,stop_first,-1.0,trig bar 10:55 CT close 13.1661; levels/score from 10:37 run; stop 12:15; next-run score 4
+2026-11-18,AU,10:37,"-8.9%, new LOD 76.92",4,put,76.92,77.75,75.26,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,RIO,10:37,"-4.7%, new LOD 75.67",3,put,75.67,76.15,74.71,paper,yes,stop_first,-1.0,trig bar 10:40 CT close 75.64; levels/score from 10:37 run; stop 11:20; next-run score 3
+2026-11-18,ALHC,10:37,"-11%, new LOD 6.765",3,put,6.76,6.95,6.39,paper,no,not_triggered,,score = highest recorded; levels from 10:37 run
+2026-11-18,HL,10:37,"-8.2%, new LOD 11.445 on rising volume",4,put,11.44,11.65,11.03,paper,yes,stop_first,-1.0,trig bar 10:50 CT close 11.435; levels/score from 10:37 run; stop 11:15; next-run score 3
+2026-11-18,AGLT,10:37,"-11%, base 6.39–6.52",3,put,6.38,6.53,6.08,paper,yes,stop_first,-1.0,trig bar 10:35 CT close 6.365; levels/score from 10:37 run; stop 11:20
+2026-11-18,CDE,10:37,"-8.3%, new LOD 12.03",4,put,12.03,12.25,11.59,paper,yes,stop_first,-1.0,trig bar 10:50 CT close 12.025; levels/score from 10:37 run; stop 11:15
+2026-11-18,CVE,11:04,"-4.2%, under VWAP 27.20",3,put,26.81,27.25,25.93,paper,no,not_triggered,,score = highest recorded; levels from 11:04 run
+2026-11-18,BUG,11:04,"+5.4%, under the 45.90 HOD, above VWAP 44.85",3,long,45.91,45.2,46.95,paper,yes,neither,0.52,trig bar 11:20 CT close 46.07; levels/score from 11:04 run; 14:45 price 46.52; next-run score 3
+2026-11-18,EQX,11:04,"-8.3%, LOD 8.96 at 10:55",3,put,8.96,9.15,8.7,paper,no,not_triggered,,score = highest recorded; levels from 11:04 run
+2026-11-18,CELH,11:04,"+6%, new HOD 33.11 at 11:00",3,long,33.12,32.7,33.96,paper,yes,stop_first,-1.0,trig bar 11:20 CT close 33.2; levels/score from 11:04 run; stop 12:10; next-run score 3
+2026-11-18,ASTS,11:04,"-7.3%, steady downtrend, LOD 25.16 at 10:55",4,put,25.16,25.9,24.2,paper,no,not_triggered,,score = highest recorded; levels from 11:04 run
+2026-11-18,WGS,11:38,"+8.3%, above VWAP 49.04, HOD 51.8566@17:30Z, LOD 46.47@14:30Z, adj rel vol ~1.0x; spread 0",-1,long,51.87,49.04,57.53,paper,yes,neither,0.1,trig bar 12:55 CT close 51.92; levels/score from 12:36 run; 14:45 price 52.22; next-run score 1
+2026-11-18,SGI,11:38,"+6.5%, above VWAP 60.36, HOD 62.48@17:20Z, adj rel vol ~1.3x",3,long,62.49,60.36,66.75,paper,no,not_triggered,,score = highest recorded; levels from 11:38 run
+2026-11-18,ATEN,11:38,"+8.6%, above VWAP 31.07, HOD 31.98@17:25Z, adj rel vol ~1.0x",0,long,31.99,31.07,33.83,paper,yes,neither,0.41,trig bar 12:15 CT close 32.0313; levels/score from 12:05 run; 14:45 price 32.43; next-run score 1
+2026-11-18,IBRX,11:38,"+7.3%, above VWAP 6.55, HOD 6.77@17:30Z, adj rel vol ~1.0x",3,long,6.78,6.55,7.25,paper,no,not_triggered,,score = highest recorded; levels from 11:38 run
+2026-11-18,PRCT,11:38,"+7.3%, above VWAP 24.70, HOD 25.68@17:45Z, adj rel vol ~0.9x; spread>0.2%",0,long,25.69,24.7,27.67,paper,yes,neither,-0.42,trig bar 12:15 CT close 25.72; levels/score from 12:05 run; 14:45 price 25.295; next-run score 3
+2026-11-18,AKAM,12:05,"+9.2%, above VWAP 89.89, HOD 93.4@18:20Z, LOD 84.435@14:35Z, adj rel vol ~1.1x",1,long,93.41,89.89,100.45,paper,no,not_triggered,,score = highest recorded; levels from 12:36 run
+2026-11-18,FUBO,12:05,"+4.4%, above VWAP 6.92, HOD 7.18@14:30Z, adj rel vol ~2.0x; spread>0.2%",0,long,7.19,6.92,7.73,paper,yes,stop_first,-1.0,trig bar 12:30 CT close 7.29; levels/score from 12:05 run; stop 13:35; next-run score 5
+2026-11-18,ULCC,12:36,"+6.8%, above VWAP 8.16, HOD 8.3@17:50Z, LOD 7.7@14:30Z, adj rel vol ~1.1x",1,long,8.31,8.16,8.61,paper,no,not_triggered,,score = highest recorded; levels from 12:36 run
+2026-11-18,IHF,12:36,"-4.4%, below VWAP 57.07, HOD 58.89@14:35Z, LOD 56.465@18:25Z, adj rel vol ~2.0x",0,put,56.46,57.24,54.9,paper,yes,neither,0.87,trig bar 12:45 CT close 56.45; levels/score from 12:36 run; 14:45 price 55.76; next-run score 4
+2026-11-18,GDS,12:36,"-6.6%, below VWAP 15.56, HOD 16.49@15:00Z, LOD 15.15@16:55Z, adj rel vol ~1.1x",0,put,15.14,15.61,14.2,paper,no,not_triggered,,score = highest recorded; levels from 12:36 run
+2026-11-18,CIBR,13:05,"+4.9%, above VWAP 94.72, HOD 96.6@18:55Z, LOD 91.8@14:45Z, adj rel vol ~1.8x",1,long,96.61,94.72,100.39,paper,no,not_triggered,,score = highest recorded; levels from 13:05 run
+2026-11-18,RPD,13:05,"+13.0%, above VWAP 14.8, HOD 15.5@19:00Z, LOD 13.63@14:30Z, adj rel vol ~0.6x",1,long,15.51,14.8,16.93,paper,no,not_triggered,,score = highest recorded; levels from 13:05 run
+2026-11-18,RIOT,13:05,"+8.7%, above VWAP 17.99, HOD 18.7014@18:55Z, LOD 17.225@14:45Z, adj rel vol ~0.9x",1,long,18.71,17.99,20.15,paper,no,not_triggered,,score = highest recorded; levels from 13:05 run
+2026-11-18,HELP,13:05,"-5.8%, below VWAP 7.08, HOD 7.41@15:15Z, LOD 6.7@19:05Z, adj rel vol ~1.6x; spread 0.44%",-1,put,6.69,7.1,5.87,paper,no,not_triggered,,score = highest recorded; levels from 13:36 run
+2026-11-18,ARIS,13:05,"-7.3%, below VWAP 13.24, HOD 13.6728@14:30Z, LOD 12.975@16:55Z, adj rel vol ~1.1x; spread ",-2,put,12.96,13.28,12.32,paper,no,not_triggered,,score = highest recorded; levels from 13:05 run
+2026-11-18,PATH,13:36,pass-2: completed close 11.71 at fresh LOD 11.70 @19:30Z below VWAP 11.90; daily breaking ,5,put,11.69,11.93,11.21,paper,no,not_triggered,,score = highest recorded; levels from 13:36 run
+2026-11-18,SRRK,13:36,"+5.6%, above VWAP 47.37, HOD 48.57@15:10Z, LOD 44.28@14:30Z, adj rel vol ~1.2x; spread 0.2",-2,long,48.58,47.37,51.0,paper,no,not_triggered,,score = highest recorded; levels from 13:36 run
+2026-11-18,FUN,13:36,"+8.9%, above VWAP 11.84, HOD 12.16@18:05Z, LOD 10.68@14:30Z, adj rel vol ~0.6x; spread 0.2",-2,long,12.17,11.84,12.83,paper,no,not_triggered,,score = highest recorded; levels from 13:36 run
