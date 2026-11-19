@@ -7,6 +7,7 @@ Hard limits (account, $200/position, $20 max loss per trade, $40/day, 4 position
 2. Robinhood scanners: top gainers, unusual volume, new highs.
 3. Core list: SPY, QQQ, IWM, AAPL, NVDA, TSLA, AMD, META, AMZN, MSFT, PLTR, COIN, SMCI, SOFI, MARA.
 Evaluate at least 10 names. Prefer price > $5, tight spread, high volume.
+- **Scanner expression cheat sheet (added 2026-11-19):** these work in preview_scan: % change `changeFromCloseAllDayRatio(candlePeriod="1d")`; 20-day extremes `high(candleCount=20, ..., session="regular")` / `low(...)`. Plot names are case-sensitive (`Close`, not `close`). `closePrev`, `highMax` and `lowMin` don't exist. On a failed expression, fix it from this list and retry once.
 - **Price band (added 2026-11-11):** for stock trades prefer $5–$100 so a $200 position is at least 2 whole shares. Skip stock entries above $200: one share breaks the position cap, and fractional shares cannot reliably carry a stop or bracket. Use those names (MU, AMD, AVGO, SPY, QQQ…) as sector and market gauges, or trade them with options inside the limits.
 
 ## Intraday setups (long; bearish = buy puts)
@@ -24,6 +25,7 @@ Designate a trade as a swing only when the thesis is multi-day:
 
 ## Scoring (max possible score 9)
 +3 matches a setup above cleanly · +2 on the watchlist with a catalyst · +2 relative volume > 2x · +1 market (SPY/QQQ) trending the same way · +1 reward:risk >= 2 · -2 spread > 0.2% · -3 earnings within the hold period.
+- **Rel-vol convention (added 2026-11-19):** relative volume = regular-session volume so far ÷ (30-day average daily volume × fraction of the session elapsed). Don't count pre-market volume. When the scanner's figure (which includes pre-market) and the regular-session figure disagree, score the regular-session figure and note both in the journal.
 - **Late-trigger penalty (added 2026-11-18):** -1 when the trigger bar closes after 10:30 CT (intraday setups; swing entries on a daily close are exempt). Evidence: across 11/12–11/18, 39 paper triggers after 10:30 CT averaged -0.35R with **0 target-first**; triggers before 10:00 CT averaged ~0.0R with 8 of 43 target-first.
 **Score floors (Gino, 2026-11-16):** stocks/ETFs/crypto >= 7, options >= 8 (the max possible score is 9). The analyst may raise these floors but never lower them. **No forced trades (Gino, 2026-11-11):** a no-trade day beats a poor trade. There is no time-of-day fallback and no lowering the threshold to create activity.
 - **No chase (added 2026-11-13):** a long is a chase if the entry is more than **1R above its trigger**. R uses the watchlist's trigger-to-stop distance; for scanner names, the breakout level to the stop. Skip it, and only re-enter on a separate pullback setup (pullback to VWAP / rising 20-period average) with its own stop below the pullback low. This applies to the first run of the day too: when a watchlist trigger fired before the run started, it is only takeable inside trigger + 1R.
