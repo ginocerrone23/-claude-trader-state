@@ -1,79 +1,68 @@
-# Watchlist for Fri 2026-11-20 (built Thu 2026-11-19 3:30pm CT)
+# Watchlist for Mon 2026-11-23 (built Fri 2026-11-20 3:30pm CT)
 
-> **ACCOUNT UNFUNDED: buying power $0.91** (••5279 went $810.91 → $510.91 → $0.91 between 10:05 and 11:05 CT Thu, with no orders: cash transfers out). Until Gino re-funds it, every run scans, scores and journals the full candidate table (the paper calibration still needs it), places nothing, and doesn't repeat the FAILURE ALERT more than once a day. If funds are back, trade normally.
+> **ACCOUNT UNFUNDED: buying power $0.91** (••5279; cash left the account on Thu 11/19, with no orders). Until Gino re-funds it, every run scans, scores and journals the full candidate table (the paper calibration needs it), places nothing, and sends the FAILURE ALERT at most once a day. If the funds are back, trade normally.
 
-Levels come from Robinhood 5-min bars (11/19 RTH), daily bars (10/20–11/18) and quotes at ~3:35pm CT (after hours). **The 8:00am pre-market run must re-check every trigger against pre-market prices**: many puts sit at Thursday's close, and several are already through their trigger after hours (MSTR, CRWV, NBIS, COIN, CRCL). A trigger is a completed 5-min close beyond the level after 8:45 CT. **Chase limit = trigger + 1R** (puts: trigger − 1R). **If a name gaps through its trigger,** the trigger becomes the first 15-min OR low (puts) or OR high (longs), still inside the chase limit. Journal numeric levels and `now/on-trigger` scores for every row.
+Levels come from Robinhood 5-min bars (11/20 regular session), daily bars (10/22–11/19) and quotes at ~3:34pm CT (after hours). **The 8:00am pre-market run must re-check every trigger against pre-market prices.** Friday closed on the lows almost everywhere, so a gap either way will move many names through or away from their triggers. A trigger is a completed 5-min close beyond the level after 8:30 CT. **Chase limit = trigger + 1R** (puts: trigger − 1R). **If a name gaps through its trigger,** the trigger becomes the first 15-min OR low (puts) or OR high (longs), still inside the chase limit. Journal numeric levels and `now/on-trigger` scores for every row, **one ticker per row**.
 
-**Rules in force (playbook 11/19):** max score 9; floors **stocks ≥ 7, options ≥ 8**; no forced trades; -1 when an intraday trigger bar closes after 10:30 CT. **New 11/19:** rel vol is measured on regular-session volume only (see playbook), and there's a scanner-expression cheat sheet. Options: premium ≤ $200, sell-to-close stop ≥ 15% below entry sized to a loss ≤ $30, |Δ| 0.30–0.60, spread ≤ 10% of mid, **no option entries after 1:00pm CT**. Puts only on `opt-liquid ✓` names or after a chain check.
+**Rules in force:** max score 9; floors **stocks ≥ 7, options ≥ 8** (Gino's; the week-1 verdict recommends a change but it is NOT applied); no forced trades; -1 when an intraday trigger bar closes after 10:30 CT; rel vol on regular-session volume only. Options: premium ≤ $200, sell-to-close stop ≥ 15% below entry sized to a loss ≤ $30, |Δ| 0.30–0.60, spread ≤ 10% of mid, **no option entries after 1:00pm CT**. Puts only on `opt-liquid ✓` names or after a chain check.
 
-## Pre-market update 2026-11-20 8:00am CT (quotes 8:06 CT)
-**Tone: risk-off follow-through, SPY already in the defensive zone.** SPY 711.14 (-0.7% vs 715.87; below the 715.65 Thu low), QQQ 636.48 (-1.3%), IWM 263.44 (-0.3%), NVDA 142.62 (-2.3%), AMD 465.76 (-4.8%), PLTR 148.01 (-3.7%), ANT 88.00 (-9.4% vs 97.17 close; below Thu's 92.72 low). Futures/overnight web searches returned only stale pages, so Robinhood extended-hours quotes are the evidence. Puts are allowed (SPY < 715.65). Whipsaw/oversold-bounce risk is high on opex: **if SPY reclaims 715.65-722 and holds, stand down on puts.**
-**Put names already through their trigger pre-market** (use the first 15-min OR low rule; chase limit still trigger - 1R): MSTR 84.53 (trig 85.95), CRWV 42.98 (44.70; target 41.70 only 1.3 away, so R:R is thin: re-derive from the OR), IREN 13.96 (14.15), NBIS 92.53 (96.40), SOFI 13.15 (13.49; target 12.85 near), HOOD 67.27 (68.45; sits on the 11/17 low 67.25), COIN 106.50 (108.70), CRCL 50.91 (51.75), NOW 86.95 (88.05), GDX 70.61 (71.85), SMCI 22.92 (23.65; below the 11/17 low 23.29), PATH 11.01 (11.19), MARA 6.05 (6.19). All are -1.5% to -4% so most of the 1R-2R move may already be in the gap: favour the OR-low break, skip any whose OR is wider than the chase limit.
-**Dropped:** ESTC (the -7% AH did not hold: 76.21 vs 76.33 close, spread 73.50/76.20, thesis gone), PDD (84.48 is below the 85.40 stop), JD (25.06 below the 25.55 stop), INTC (53.40, -4.2%, thesis broke). **Added:** GAP long (beat, +4.5% pre-market at 19.64). **Earnings reactions:** INTU 278.09 (-10.3%), ROST 209.18 (-4.9%), KEYS 270.42 (-3.9%), GAP 19.64 (+4.5%), BJ 105.21 (-5.0% despite EPS 1.73 vs 1.24), MOG.A 352 (+7%, EPS 3.37 vs 2.68), IESC 167.00 (flat, EPS 4.07 vs 2.81), GLOB ~40.5 (+1%, thin). All except GAP are > $100 or thin: gauges only.
-**Events today (CT):** 7:25 Waller (unconfirmed), 9:00 UMich final sentiment, 11:15 Cook (unconfirmed), monthly opex pin/whipsaw after 11:00, no listed earnings of interest after the close (DLNG, ARI, BWMN are tiny).
-
-## Market bias: **BEARISH** (but stretched; watch for an opex/oversold bounce)
-- Thu: S&P -2.0% (6th straight loss), Dow -1,101 (below 50,000), Nasdaq -2.25%, Russell -2.2%, **VIX 28.4** (highest since March). SPY's +1% gap (739.90) failed in the first 5 minutes. It broke down as **ANT (Anthropic) opened at ~10:48 CT** ($111.50 open, $83 IPO, closed $97.17) and **closed on the low (715.84)**. NVDA reversed +4.7% → -3.3%; AMD -7.7% (short report), NBIS -9%, CRWV -6%, crypto names at lows. AH: SPY 714.2, QQQ 642.2, INTU -11%, ROST -7%, ESTC -7%.
-- Macro is hostile: 10-yr 5.05%, ~90% December hike odds, Philly Fed 6.3 (vs 18 expected), gold at a 14-month low.
-- **Friday = monthly options expiration.** Expect pinning and whipsaw after 11:00 CT. Weekend gap risk: **prefer no new swings on Friday** (they'd hold over a weekend in a VIX-28 tape).
-- **Defensive / puts allowed:** SPY < **715.65** (Thu low) or SPY below its session VWAP and below 722 after 9:00 CT. **Neutral:** 715.65–725.70. **Risk-on (longs normal):** SPY > **725.70** (Thu 9:35 flush low / Thu breakdown level) and holding 30 min. Longs otherwise are relative-strength only (green on a red SPY, above VWAP, rel vol > 2x, score ≥ 8).
+## Market bias: **BEARISH, but a capitulation-bounce risk is high**
+- **Fri 11/20: S&P -3.70% (6,910), Nasdaq -5.28% (22,618), Dow -1.93%, VIX 35.9** (intraday high 40, the highest since April 2025). The S&P and Dow closed in correction; the Nasdaq is now negative for 2026. **The week: S&P -8.6%, its worst week since April 2025, and Nasdaq -10%.** SPY bounced to 718.29 at 9:00 CT, failed by 9:30, trended lower all day, and **closed on the low (690.91; LOD 686.75)**. Drivers: the AI/semiconductor unwind (NVDA -14% to 125.79, MU -13%, SNDK -15%, AMD -13%), neoclouds (IREN -18%, APLD -18%, NBIS -16%, CRWV -12%), crypto (BTC -4.8% to ~$58.5k), gold -4.4%, December hike ~92–97% priced. The 10-yr fell 13 bp to 4.92% (a flight to safety). GAP +11.4% on earnings was the standout green name.
+- **After hours: a small bounce** (SPY 692.67, QQQ 612.45, NVDA 128.00, IREN 11.98, INTC 52.30).
+- **Plan:** Monday after a -8.6% week and a VIX-36 close can be either a flush-then-reversal or a relief gap. **Don't anticipate either.**
+  - **Defensive / puts allowed:** SPY < **686.75** (Fri low), or SPY below its session VWAP and below 695 after 9:00 CT.
+  - **Neutral:** 686.75–702. Puts need the VWAP condition; longs are relative-strength only.
+  - **Relief / risk-on (longs allowed at normal floors):** SPY > **702** (Fri 13:00 CT shelf) and holding for 30 min. Then puts stand down.
+  - Longs otherwise are relative-strength only: green on a red SPY, above VWAP, rel vol > 2x, score ≥ 8.
+- **Holiday week:** Thursday 11/26 closed; Friday 11/27 closes at 12:00 CT. **A swing opened Monday must be closed by Wednesday's close or carry over Thanksgiving.** Prefer no new swings after Monday, and no option swings into PCE/GDP (Wed 7:30 CT).
 
 ## Key index levels
-| | Thu high | Thu low | Thu close | Wed close | AH | Below | Above |
+| | Fri high | Fri low | Fri close | Thu close | AH | Below | Above |
 |---|---|---|---|---|---|---|---|
-| SPY | 739.90 | 715.65 | 715.84 | 730.20 | 714.20 | 715.65, 710, 700 (no daily support in 30 days) | 722, 725.7, 730.2 |
-| QQQ | 676.46 | 644.34 | 645.10 | 659.51 | 642.19 | 644.34, 640, 630 | 646.64 (11/17 low), 653.05, 659.5 |
-| IWM | 271.80 | 263.74 | 264.21 | 270.12 | 263.60 | 263.74, 260 | 267.9, 270.1 |
-| NVDA (gauge) | 158.13 | 145.71 | 146.01 | 150.96 | 144.35 | 145.71, 140 | 150.4, 155 |
+| SPY | 718.29 | 686.75 | 690.91 | 715.87 | 692.67 | 686.75, 680, 675 | 695, 702, 708.9, 715.65 |
+| QQQ | ~643.3 | 606.23 | 610.04 | 645.04 | 612.45 | 606.23, 600 | 615.7, 625.2, 630.5 |
+| IWM | ~265.9 | 256.77 | 257.01 | 264.22 | 257.79 | 256.77, 255 | 260.3, 262.5, 264.2 |
+| NVDA (gauge) | ~146 | ~124.5 | 125.79 | 145.98 | 128.00 | 125, 120 | 130, 135 |
 
 ## Events (CT)
-- **9:00** UMich final November sentiment (prelim 51.0). Fed: Waller and Cook are listed (TD calendar: 8:25 and 12:15 with no time zone; read as ET = **7:25 and 11:15 CT**, unconfirmed).
-- **Monthly opex** all day. Anthropic IPO settlement closes Friday.
-- **Earnings reactions at the open:** INTU (-11% AH, > $200 gauge), ROST (-7%, > $200 gauge), **ESTC (-7% AH → put watch, #14)**, KEYS (-1%), GAP (+1%, beat), GLOB (+4%). Pre-market Fri: BJ, BKE, FRO, IESC (none on the list).
-- Next week: ZM and HPE report Mon 11/23 after the close. Thanksgiving closed Thu 11/26; half day Fri 11/27.
+- **Mon 11/23:** no tier-1 US data. **After the close: ZM, HPE, A (Agilent), J, SYM, AMTM, SMTC, DAC, CENT.**
+- **Tue 11/24 pre-market:** ADI, MDT, BBY, DKS, BURL, ANF, DLTR, KSS, KC, BILI, VIPS, SJM, DY. **After the close:** DELL, WDAY, HPQ, ADSK, NTNX, AMBA, URBN, CLSK, BBAR.
+- **Wed 11/25 7:30:** October PCE + Q3 GDP (2nd estimate) + likely jobless claims; Deere pre-market.
+- **Thu 11/26:** market closed (Thanksgiving). **Fri 11/27:** early close at 12:00 CT.
+- **Wed 12/9:** FOMC decision (a 25 bp hike is ~92–97% priced; Waller said he's open to 50 bp if inflation runs hot).
 
 ## AVOID
-- **ESTC** (AH drop faded), PDD / JD / INTC (pre-market through their stops), BJ (-5% on a beat, >$100).
-- **ANT** day 2: IPO price discovery (92.72–114.99 Thu), likely no listed options yet. Gauge only.
-- **ZM** (earnings Mon after the close: no Friday swing), INTU / ROST / WSM / NVDA / AMD / PLTR / SPY / QQQ (> $100–200 underlyings: one share or $200+ premiums; gauges only).
-- AAOI, SMMT (options untradeable), CLRO, SLS (pumps), AES (deal pin), BILL (deal-pin risk), UGI (-7.7% Thu: utility, no catalyst we can read, options unchecked), SNEX (-27%, thin), STUB/Vivid Seats (+63% spike).
-- New Friday swings in general (weekend gap risk; see bias).
+- **Earnings inside the hold:** ZM, HPE, SMTC, A, SYM, J (Mon pm); CLSK, KC, DELL, WDAY, ADI, BBY, DKS, BURL, ANF (Tue). No swings in these.
+- **SNDK:** the Robinhood scanner shows -88.5% (an unadjusted split in the feed). The real move Fri was about -15%. Exclude it from scans.
+- **> $100 stocks** (MU, AMD, AVGO, TSLA, PLTR, NVDA at $126): a $200 position is 1 share, so trade them only with options or use them as gauges.
+- **Untradeable put chains seen this week:** SMMT, DXYZ (no options), UTI, SCI: paper only.
+- **MARA / CIFR / sub-$6 names:** the price band and tick size make 2R targets fragile; paper only.
 
 ## Names (priority order)
-Sizing: longs `shares = floor($200 / trigger)`, risk $ = shares × |trigger − stop| ≤ $20 (RS longs ≤ $10). Puts: levels are on the **stock** (trigger below, stop above, target below); the option is sized so the premium is ≤ $200 and the loss at a sell-to-close stop ≥ 15% below entry is ≤ $30. **First-hour triggers are strongly preferred** (after 10:30 the -1 penalty applies). All put targets are 2R; R:R room was checked against Thu's last-hour range and prior daily lows (none of these names has a prior low within 2R below: they're at multi-week or multi-month lows).
+Puts: levels are on the underlying (trigger below Friday's low, stop above Friday's last-hour high, target 2R). Longs: trigger above, stop below.
 
-### A. Puts (defensive tape only). Score 8 needs setup 3 + watchlist catalyst 2 + rel vol > 2x 2 + market 1 (+ R:R 1).
-| # | Ticker | Setup | Trigger (stock) | Stop (stock) | Target | Opt-liquid | Catalyst / notes | Swing? |
-|---|---|---|---|---|---|---|---|---|
-| 1 | **MSTR** | LOD breakdown | < 85.95 | 88.25 | 81.35 | ✓ | BTC $61.5K (-3%), extreme fear; closed on its LOD 86.02; **AH 85.68 (already through: use the 15-min OR low)** | no |
-| 2 | **CRWV** | AI-infra breakdown | < 44.70 | 46.20 | 41.70 | verify | -6% Thu after the ANT open; LOD 44.77; 11/5 low 40.58 below the target; **AH 44.16 (through)** | no |
-| 3 | **IREN** | LOD breakdown | < 14.15 | 14.72 | 13.01 | ✓ | Faded +9% → -5.5% after the ANT open; LOD 14.18; 3-month lows; AH 14.21 | no |
-| 4 | **NBIS** | AI-infra breakdown | < 96.40 | 99.85 | 89.50 | verify | -9.4% Thu (115.18 → 96.54); **AH 95.40 (through)**. A wide R: favour the OR-low rule | no |
-| 5 | **SOFI** | Breakdown of the 14.07 double bottom | < 13.49 | 13.81 | 12.85 | ✓ | Broke the Tue/Wed 14.07–14.08 lows Thu and closed on the LOD 13.52; AH 13.46 | no |
-| 6 | **HOOD** | ANT-distribution fade | < 68.45 | 70.20 | 64.95 | ✓ | Gapped to 74.04 on ANT retail flow and closed 68.65 (below Wed's close); LOD 68.56; 11/17 low 67.25 is 0.7R below (it's a speed bump, not a 2R block) | no |
-| 7 | **COIN** | Crypto breakdown | < 108.70 | 111.00 | 104.10 | verify | Closed on its LOD 108.80; AH 107.90 (through); 3rd straight lower low | no |
-| 8 | **CRCL** | Crypto breakdown | < 51.75 | 53.45 | 48.35 | verify | Closed on its LOD 51.82; **AH 50.75 (through)**; multi-month lows | no |
-| 9 | **NOW** | Software 52-week-low break | < 88.05 | 89.45 | 85.25 | ✓ | New 52-week low 88.13 Thu; software weakness (INTU -11% AH, ESTC -7% AH) | no |
-| 10 | **GDX** | Gold breakdown | < 71.85 | 73.05 | 69.45 | ✓ | Gold at a 14-month low (-2.5% Thu); LOD 71.91 into the close | no |
-| 11 | **SMCI** | AI-hardware breakdown | < 23.65 | 24.40 | 22.15 | verify | LOD 23.71 (11/17 low 23.29 is 0.5R below: speed bump) | no |
-| 12 | **PATH** | Multi-month low break | < 11.19 | 11.47 | 10.63 | verify | New low 11.22 Thu; software sympathy | no |
-| 13 | **MARA** | Crypto miner breakdown | < 6.19 | 6.43 | 5.71 | verify | LOD 6.21; 11/5 low 5.69 is the target zone. Tiny premiums: check |Δ| 0.30–0.60 | no |
-
-### B. Longs (relative strength only unless SPY > 725.70 holds 30 min). RS-long score 8 = setup 3 + watchlist catalyst 2 + rel vol 2 + R:R 1 (no market point in a weak tape), and no late penalty.
-| # | Ticker | Setup | Trigger | Stop | Target | Size / risk | Chase limit | Catalyst / notes | Swing? |
+| # | Ticker | Setup | Side | Trigger | Stop | Target | Catalyst / note | Opt | Swing-eligible |
 |---|---|---|---|---|---|---|---|---|---|
-| 15 | **TU** | Multi-month-high breakout | 10.88 | 10.58 | 11.48 | 18 sh / $5.4 | 11.18 | TELUS +13% Thu (2nd big-volume day after 11/16's 47M); closed 10.79 near its HOD 10.87; catalyst not confirmed | no |
-| 17 | **GAP** | Earnings gap-up, 15-min OR high | OR high (pre-mkt 19.64) | OR low | 2R above | 10 sh / risk ≤ $10 | trigger + 1R | Beat; +4.5% pre-market vs 18.79 close while SPY -0.7%; only valid if it holds the gap and is above VWAP, rel vol > 2x; catalyst = earnings (watchlist catalyst point) | no (Friday) |
-| 16 | **VVV** | Earnings-day HOD break | 38.05 | 36.80 | 40.55 | 5 sh / $6.3 | 39.30 | +10.4% Thu after in-line EPS (0.42) and guidance; HOD 38.00; 11/5 high 36.92 cleared | no |
-| 18 | **GME** | Green-on-red HOD break | 27.55 | 26.90 | 28.85 | 7 sh / $4.6 | 28.20 | +2.5% Thu on 2x rel vol; HOD 27.50; no catalyst (meme flow) so no watchlist-catalyst point → caps at 6 as an RS long | no |
+| 1 | IREN | Fri-low breakdown (OR-low rule on a gap) | put | 11.80 | 12.30 | 10.80 | -18% Fri, closed on the low (11.815); neocloud unwind; 6 straight down days | ✓ | yes (option, small premium; exit by Wed) |
+| 2 | HOOD | Fri-low breakdown | put | 61.95 | 63.10 | 59.65 | -9.4% Fri, closed at the low; crypto / retail risk-off; Fri paper +1.56R | ✓ | yes (option; exit by Wed) |
+| 3 | GAP | RS long: reclaim of the Fri afternoon high | long | 21.05 | 20.50 | 22.15 | Q3 beat; +11.4% on a -3.7% tape; target = Fri HOD 22.155; daily highs at 22.085 / 22.45 overhead | verify | yes (stock; earnings done) |
+| 4 | CRWV | Fri-low breakdown | put | 39.30 | 40.05 | 37.80 | -12% Fri; closed near the low 39.32; Fri paper +1.97R | ✓ | yes (option; exit by Wed) |
+| 5 | MSTR | Fri-low breakdown | put | 77.90 | 81.05 | 71.60 | BTC < $59k, the lowest since July; MSTR closed on the low | ✓ | yes (option; exit by Wed) |
+| 6 | SOFI | Fri-low breakdown | put | 12.42 | 12.65 | 11.96 | -7.6% Fri, the lowest close in 30 days; Fri paper +0.96R | ✓ | yes (option; exit by Wed) |
+| 7 | COIN | Fri-low breakdown | put | 101.90 | 105.00 | 95.70 | Crypto selloff; closed at the low 101.96; Fri paper +1.46R | ✓ | yes (option; exit by Wed) |
+| 8 | NBIS | Fri-low breakdown | put | 81.30 | 84.10 | 75.70 | -16% Fri; closed on the low; premium likely > $100: check the chain | ✓ | yes (option; exit by Wed) |
+| 9 | SMCI | Fri-low breakdown | put | 21.55 | 21.90 | 20.85 | -9% Fri; AI-server unwind; below the 11/17 low | ✓ | yes (option; exit by Wed) |
+| 10 | INTC | Fri-low breakdown | put | 51.35 | 52.80 | 48.45 | -7.8% Fri, closed on the low; AH 52.30 (bounce: wait for the break) | ✓ | yes (option; exit by Wed) |
+| 11 | CRCL | Fri-low breakdown | put | 47.50 | 49.30 | 43.90 | -8.4% Fri; stablecoin/crypto beta | verify | no |
+| 12 | APLD | Fri-low breakdown | put | 11.39 | 11.65 | 10.87 | -18% Fri; neocloud | verify | no |
+| 13 | PLTR | Fri-low breakdown | put | 142.25 | 145.20 | 136.35 | -6.5% Fri; > $100 = options only | ✓ | yes (option; exit by Wed) |
+| 14 | TSLA | Fri-low breakdown | put | 344.30 | 348.70 | 335.50 | -7.6% Fri; > $200 = options only | ✓ | yes (option; exit by Wed) |
+| 15 | GDX | Fri-low breakdown | put | 68.10 | 69.25 | 65.80 | Gold -4.4%; miners V-bounced twice this week, so trigger before 10:00 CT only | ✓ | no |
+| 16 | BMNR | Fri-low breakdown | put | 12.95 | 13.50 | 11.85 | ETH treasury name; closed on the low | verify | no |
+| 17 | RGTI | Fri-low breakdown | put | 7.10 | 7.40 | 6.50 | Quantum basket closed on its lows; Fri paper +1.64R | verify | no |
+| 18 | WULF | Fri-low breakdown | put | 9.79 | 10.07 | 9.23 | Miner / AI hosting; -15% Fri | verify | no |
+| 19 | FRO | RS long: Fri-high break | long | 46.15 | 45.05 | 48.35 | Q3 beat (2.38 vs 2.26); +1% on a -3.7% day; crude +1.6%. 11/13 high 47.69 is only 1.4R: no R:R point | verify | yes (stock) |
 
-### Gauges (don't trade)
-SPY, QQQ, IWM, VIX, NVDA (146.01; AH 144.35), AMD (489, short report), ANT (97.17; Thu range 92.72–114.99), PLTR (153.59), INTU (AH 276), ROST (AH 205), BTC ($61.5K), PANW, GLD.
+**Bounce plan (only if SPY > 702 holds 30 min):** don't chase the biggest losers. Longs need a clean ORB/pullback setup at the floor (7), e.g. the first pullback to VWAP in a name that is green on the day with rel vol > 2x. Puts stand down.
 
-## Top 5 at the open (updated 8:00 CT)
-1. **MSTR put**: 84.53 pre-market, through 85.95; take the 15-min OR low break. ✓ liquid, crypto at lows.
-2. **IREN put**: 13.96, through 14.15; ✓ liquid, cheap premium.
-3. **SOFI put**: 13.15, through 13.49; ✓ liquid (target 12.85 is close, so check R:R off the OR).
-4. **NOW put**: 86.95, through the 52-week-low trigger 88.05; ✓ liquid, software weakness (INTU -10%).
-5. **GAP long** over its OR high (only relative-strength long with a catalyst); TU/VVV/GME are lower-priority RS longs.
-Puts need SPY in the defensive zone (< 715.65 or < VWAP and < 722). If SPY gaps up and holds > 725.70 (an opex/oversold squeeze), drop section A and use B only. **A no-trade day is acceptable.**
+**Gauges (no trades):** SPY, QQQ, IWM, NVDA, AMD, MU, ANT (88.45, the IPO price was $83), BTC (~$58.5k).

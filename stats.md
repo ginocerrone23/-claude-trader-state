@@ -1,6 +1,6 @@
 # Stats
 
-_Updated 2026-11-19 by the 3:30pm analyst._
+_Updated 2026-11-20 by the 3:30pm analyst (week-1 verdict day)._
 
 ## All-time
 | Trades | Wins | Losses | Win rate | Avg R | Total $ P&L |
@@ -50,6 +50,7 @@ Intraday: 3 trades, -$9.68 · Swing: 0 trades, $0
 | 2026-11-17 | $810.91 (all cash) | $0.00 | 0 | SPY -1.0% flush-and-chop into NVDA; all 10 trader runs + closers present; nothing at the floors. Paper +0.13R over 23 triggers (HOOD put score 7 hit 2R, blocked by the options floor 8) |
 | 2026-11-18 | $810.91 (all cash) | $0.00 | 0 | SPY -0.3% chop (726.8–735.1); NVDA -3% after its beat, miners -6 to -9%, cyber +8 to +16%. All 10 trader runs + 2 closers present; best score 7 (JD put, below the options floor, after the 1:00 cutoff). Paper -0.34R over 38 triggers (3 target / 16 stop); after-10:30 triggers -0.48R (n = 28) |
 | 2026-11-19 | **$0.91** (all cash) | $0.00 | 0 | **Cash moved out of the account: $810.91 → $510.91 (10:05–10:37 CT) → $0.91 (by 11:05 CT), no orders.** S&P -2.0% (6th straight loss), SPY 739.9 gap failed → closed on the low 715.84 after the ANT IPO open; VIX 28.4. Best on-trigger score 7 (PDD RS long, never triggered). Paper -0.03R over 97 triggers (22 target / 49 stop): puts +0.25R (n = 61), longs -0.51R (n = 36) |
+| 2026-11-20 | **$0.91** (all cash) | $0.00 | 0 | **Still unfunded all day.** S&P -3.7%, Nasdaq -5.3%, VIX 35.9; SPY 718.29 bounce failed by 9:30, closed on the low 690.91. All 10 trader runs + pre-market + both closers present. Paper +0.62R over 95 triggers (62 target / 23 stop): puts **+0.82R (n = 82)**, longs -0.58R (n = 13). IREN put scored 8 on-trigger at 9:05 (9:15 trigger, +1.94R) under the raw rel-vol approximation; 7 under the 11/19 convention |
 
 ## Hypothetical (skipped/untaken) setups: running tally
 | Date | Setup | Samples | Target hit | Stop hit | Neither (R at 2:45pm CT) | Avg R |
@@ -61,39 +62,42 @@ Intraday: 3 trades, -$9.68 · Swing: 0 trades, $0
 | 2026-11-17 | Journal candidates (score-outcomes.csv method) | 23 | 4 (HOOD put, INTC put, SOFI put, SHAZ) | 3 (JD put, MARA put, WULF put) | 16 | ≈ +0.13R |
 | 2026-11-18 | Journal candidates (score-outcomes.csv method) | 38 | 3 (NOW put, TENB, BABA put) | 16 | 19 | ≈ -0.34R |
 | 2026-11-19 | Journal candidates (score-outcomes.csv method) | 97 | 22 (MSTR put, DXYZ put, UTI put, SKM put, ZM put, KLAR put, FIG put, UMAC, WOLF, BRBR, YMM…) | 49 | 26 | ≈ -0.03R |
-| **Total (old method 11/11–13 + new 11/16–19)** | | 208 | 35 | 80 | 93 | ≈ -0.10R |
+| 2026-11-20 | Journal candidates (score-outcomes.csv method) | 95 | 62 (CRWV, IREN, XPEV, NBIS, UMC, HOOD, COIN, RGTI, MSTR, SOFI puts…) | 23 | 10 | ≈ +0.62R |
+| **Total (old method 11/11–13 + new 11/16–20)** | | 303 | 97 | 103 | 103 | ≈ +0.13R |
 
 Sub-tally by trigger time (11/12–11/13): **first-hour triggers (≤ 9:30 CT)** 11/13 avg ≈ +0.1R over 7 (NU +0.81, CHA +0.91, LFTO -1, four puts ≈ 0). **After 10:00 CT** (11/12 10:05 batch + 11/13 midday scanner breaks) avg ≈ -0.52R over 9.
 
 ## Score calibration
-Cumulative from `research/score-outcomes.csv` (11/12, 11/13, 11/16, 11/17, 11/18, 11/19). Real = traded; paper = graded at the trader's recorded score and levels from 5-min bars; puts are graded on the underlying. Entry = the trigger bar's close. Avg R uses +R at target, -1 at stop, else R at the 2:45pm CT price. From 11/19, triggered rows use the `on-trigger` score of the run whose levels were in force when the trigger fired; untriggered rows use the highest on-trigger score. Setup buckets are keyword-based.
+Cumulative from `research/score-outcomes.csv` (11/12, 11/13, 11/16–11/20; 500 rows, 287 triggered). Real = traded; paper = graded at the trader's recorded score and levels from 5-min bars; puts are graded on the underlying. Entry = the trigger bar's close. Avg R uses +R at target, -1 at stop, else R at the 2:45pm CT price. From 11/19, triggered rows use the `on-trigger` score of the run whose levels were in force when the trigger fired; untriggered rows use the highest on-trigger score. Setup buckets are keyword-based.
 
 | Score | Real n | Real % target | Real avg R | Paper trig n | % target | % stop | % neither | Paper avg R | Not trig n |
 |---|---|---|---|---|---|---|---|---|---|
-| 2 | 0 | – | – | 10 | 10% | 10% | 80% | +0.07 | 13 |
-| 3 | 0 | – | – | 54 | 15% | 50% | 35% | -0.31 | 34 |
-| 4 | 0 | – | – | 43 | 19% | 35% | 47% | -0.01 | 62 |
-| 5 | 0 | – | – | 45 | 22% | 44% | 33% | +0.01 | 28 |
-| 6 | 2 | 0% | -1.00 | 20 | 10% | 45% | 45% | -0.35 | 9 |
-| 7 | 0 | – | – | 8 | 38% | 25% | 38% | +0.37 | 3 |
-| 8 | 0 | – | – | 0 | – | – | – | – | 0 |
+| 2 | 0 | – | – | 23 | 48% | 9% | 43% | +0.50 | 13 |
+| 3 | 0 | – | – | 58 | 17% | 50% | 33% | -0.28 | 47 |
+| 4 | 0 | – | – | 78 | 37% | 31% | 32% | +0.21 | 75 |
+| 5 | 0 | – | – | 54 | 31% | 41% | 28% | +0.14 | 32 |
+| 6 | 2 | 0% | -1.00 | 41 | 44% | 34% | 22% | +0.24 | 15 |
+| 7 | 0 | – | – | 20 | 40% | 30% | 30% | +0.43 | 4 |
+| 8 | 0 | – | – | 1 | 100% | 0% | 0% | +1.94 | 0 |
 | 9 | 1 | 0% | -0.97 | 1 | 0% | 0% | 100% | +0.49 | 1 |
-| <2 or blank | 0 | – | – | 8 | 0% | 25% | 75% | -0.10 | 25 |
+| <2 or blank | 0 | – | – | 8 | 0% | 25% | 75% | -0.10 | 26 |
 
 **Scores >= 5 by setup type** (same columns):
 
 | Setup | Real n | Real % target | Real avg R | Paper trig n | % target | % stop | % neither | Paper avg R | Not trig n |
 |---|---|---|---|---|---|---|---|---|---|
-| HOD / range breakout | 0 | – | – | 10 | 10% | 60% | 30% | -0.54 | 19 |
-| ORB / reclaim | 1 | 0% | -1.01 | 3 | 0% | 67% | 33% | -0.51 | 3 |
-| gap-and-go / earnings | 2 | 0% | -0.98 | 3 | 0% | 100% | 0% | -1.00 | 6 |
-| pullback / VWAP | 0 | – | – | 0 | – | – | – | – | 0 |
-| other long | 0 | – | – | 2 | 0% | 100% | 0% | -1.00 | 1 |
-| put (stock-graded) | 0 | – | – | 56 | 25% | 32% | 43% | +0.16 | 12 |
+| HOD / range breakout | 0 | – | – | 11 | 18% | 64% | 18% | -0.48 | 25 |
+| ORB / reclaim | 1 | 0% | -1.01 | 3 | 0% | 67% | 33% | -0.51 | 2 |
+| gap-and-go / earnings | 2 | 0% | -0.98 | 4 | 0% | 100% | 0% | -1.00 | 7 |
+| pullback / VWAP | 0 | – | – | 3 | 33% | 33% | 33% | -0.31 | 5 |
+| other long | 0 | – | – | 2 | 0% | 100% | 0% | -1.00 | 0 |
+| put (stock-graded) | 0 | – | – | 94 | 44% | 28% | 29% | +0.45 | 13 |
 
-Total rows 367, triggered 192 (77 at score >= 5, including the 3 real trades). 20 triggered rows from 11/12–11/13 have no trigger time, so the time buckets sum to 172.
+Total rows 500, triggered 287 (120 at score >= 5, including the 3 real trades).
 
-**By side (all triggered):** longs n = 81, 10% target, 49% stop, **-0.40R**; puts n = 111, 22% target, 35% stop, **+0.08R**. Score >= 5: longs n = 21, 5% target, **-0.71R**; puts n = 56, 25% target, **+0.16R**.
-**By trigger time:** before 10:00 CT n = 70, -0.09R · 10:00–10:30 n = 20, +0.05R · after 10:30 n = 82, -0.13R. Split by side after 10:30: longs n = 32, **3% target, -0.44R**; puts n = 50, +0.06R (11/19 alone: puts after 10:30 +0.25R, n = 35).
+**By side (all triggered):** longs n = 94, 12% target, **-0.43R**; puts n = 193, 43% target, **+0.39R**. Score >= 5: longs n = 26, 12% target, **-0.65R**; puts n = 94, 44% target, **+0.45R**. Score >= 7: longs n = 4, -0.62R; puts n = 19, 47% target, **+0.66R**.
+**By score band and side:** 0–4: longs -0.35R (n = 67), puts +0.35R (n = 99) · 5–6: longs -0.65R (n = 22), puts +0.39R (n = 75) · 7–9: longs -0.62R (n = 4), puts +0.66R (n = 19).
+**By trigger time:** longs before 10:00 -0.29R (n = 41), 10:00–10:30 -0.80R (n = 12), after 10:30 -0.41R (n = 38, 5% target). Puts before 10:00 **+0.54R (n = 99)**, 10:00–10:30 +0.49R (n = 24), after 10:30 +0.16R (n = 70).
+**Robustness (excluding 11/20, the -3.7% day):** puts +0.08R (n = 111); puts at >= 7 +0.57R (n = 7); score bands 0–4 -0.15R, 5–6 -0.12R, 7–9 +0.25R (n = 10).
 
-**Read (11/19):** avg R by score band is flat through 6 and only turns up at 7+: 0–4 **-0.15R (n = 114)**, 5–6 **-0.12R (n = 67)**, 7–9 **+0.25R (n = 10)**. The 7+ bucket is promising but tiny (10 rows). Side explains far more than score: puts are mildly positive across the 4-session downtrend, long breakouts lose in every score band. The late-trigger -1 holds for longs (-0.44R after 10:30) but not for puts (+0.06R); one day (11/19) drives the put number, so it's a watch item, not a change. Sample-size caveat: no real trade has been taken at a valid floor since 11/13, so every conclusion is paper. Keep / reweight / rebuild goes to the 11/20 weekly verdict.
+**Read (11/20, week-1):** within each side, avg R rises a little with score for puts (+0.35 → +0.39 → +0.66R) and not at all for longs (negative in every band). Across all rows, 0–4 is +0.07R, 5–6 +0.16R and 7–9 +0.44R: a weak positive slope, but almost all of it is the 7+ put bucket (n = 19) and one crash day (11/20, 82 put triggers at +0.82R). **The side matched to the tape, and an early trigger, predict outcomes far more than the score does.** Sample-size caveat: only 3 real trades, all before the 11/16 floors; every conclusion is paper and comes from one down-trending week.
