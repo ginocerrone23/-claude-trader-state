@@ -499,3 +499,184 @@ date,ticker,first_run_time,setup,score,side,trigger,stop,target,real_or_paper,tr
 2026-11-20,APG,13:36,LOD breakdown,4,put,41.14,41.98,39.46,paper,no,not_triggered,,score = highest on-trigger score (from 13:36 run; now 1)
 2026-11-20,SNEX,13:36,LOD breakdown,4,put,35.16,35.75,33.98,paper,no,not_triggered,,score = highest on-trigger score (from 13:36 run; now 1)
 2026-11-20,WSC,13:36,LOD breakdown,4,put,16.46,16.89,15.6,paper,no,not_triggered,,score = highest on-trigger score (from 13:36 run; now 1)
+2026-11-23,AAOI,09:07,OR-low break put,3,put,39.44,40.82,36.67,paper,yes,stop_first,-1.00,trigger bar 09:05 close 39.43 (levels/score from 09:07 run); stop hit 09:30
+2026-11-23,ACMR,09:07,ORB long,5,long,46.86,45.42,49.74,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,AEHR,09:07,ORB long,5,long,49.87,48.33,52.95,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,AFRM,09:07,ORB long,7,long,59.26,58.36,61.06,paper,yes,stop_first,-1.00,trigger bar 09:20 close 59.33 (levels/score from 09:07 run); stop hit 09:40
+2026-11-23,AMKR,09:07,ORB long,5,long,35.29,34.47,36.93,paper,yes,stop_first,-1.00,trigger bar 09:25 close 35.365 (levels/score from 09:07 run); stop hit 09:50
+2026-11-23,APLD,09:07,OR-low break put,4,put,14.01,14.75,12.53,paper,yes,neither,0.38,trigger bar 10:40 close 13.99 (levels/score from 10:37 run); 14:40 bar close 13.705
+2026-11-23,ARM,09:07,OR-low break put,7,put,174.96,179.55,165.78,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 7)
+2026-11-23,ASTS,09:07,ORB long,5,long,27.4,26.8,28.6,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,ASX,09:07,ORB long,5,long,33.38,32.27,35.59,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,AU,09:07,OR-low break put,3,put,77.73,79.16,74.87,paper,yes,neither,-0.13,trigger bar 09:05 close 77.6275 (levels/score from 09:07 run); 14:40 bar close 77.83
+2026-11-23,AXTI,09:07,ORB long,5,long,39.49,38.37,41.73,paper,yes,stop_first,-1.00,trigger bar 09:10 close 39.605 (levels/score from 09:07 run); stop hit 09:45
+2026-11-23,B,09:07,ORB long,5,long,33.97,33.54,34.83,paper,yes,neither,-0.14,trigger bar 09:35 close 34.03 (levels/score from 09:07 run); 14:40 bar close 33.96
+2026-11-23,BABA,09:07,ORB long,5,long,87.86,86.62,90.34,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,BIDU,09:07,ORB long,5,long,66.72,65.89,68.38,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,BJ,09:07,OR-low break put,3,put,99.76,101.39,96.5,paper,yes,stop_first,-1.00,trigger bar 09:05 close 99.0 (levels/score from 09:07 run); stop hit 10:10
+2026-11-23,BLSH,09:07,ORB long,5,long,21.8,21.26,22.88,paper,yes,stop_first,-1.00,trigger bar 09:20 close 22.1 (levels/score from 09:07 run); stop hit 12:40
+2026-11-23,CBRS,09:07,ORB long,4,long,99.0,95.84,105.32,paper,yes,neither,-0.01,trigger bar 09:25 close 99.46 (levels/score from 09:07 run); 14:40 bar close 99.41
+2026-11-23,COIN,09:07,OR-low break put,5,put,108.12,109.66,105.04,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 5)
+2026-11-23,CRCL,09:07,OR-low break put,4,put,51.53,53.19,48.21,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 1)
+2026-11-23,CRWV,09:07,OR-low break put,7,put,48.59,50.25,45.27,paper,yes,stop_first,-1.00,trigger bar 09:05 close 48.35 (levels/score from 09:07 run); stop hit 09:25
+2026-11-23,CSIQ,09:07,OR-low break put,5,put,5.69,6.09,4.89,paper,yes,neither,-0.01,trigger bar 09:05 close 5.62 (levels/score from 09:07 run); 14:40 bar close 5.625
+2026-11-23,DOCN,09:07,OR-low break put,3,put,77.74,79.82,73.58,paper,yes,stop_first,-1.00,trigger bar 09:05 close 76.845 (levels/score from 09:07 run); stop hit 09:25
+2026-11-23,FCX,09:07,OR-low break put,3,put,49.52,50.69,47.18,paper,yes,neither,-0.31,trigger bar 09:05 close 49.5 (levels/score from 09:07 run); 14:40 bar close 49.87
+2026-11-23,FORM,09:07,ORB long,5,long,87.81,85.41,92.62,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,FRO,09:07,ORB long,6,long,46.89,46.45,47.77,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 3)
+2026-11-23,FUTU,09:07,OR-low break put,5,put,88.1,89.99,84.32,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 5)
+2026-11-23,GAP,09:07,ORB long,6,long,21.52,21.04,22.49,paper,yes,neither,0.36,trigger bar 09:35 close 21.545 (levels/score from 09:07 run); 14:40 bar close 21.725
+2026-11-23,GFI,09:07,OR-low break put,3,put,33.67,34.38,32.25,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 0)
+2026-11-23,HMY,09:07,OR-low break put,5,put,13.79,14.12,13.13,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,HOOD,09:07,OR-low break put,5,put,68.37,69.3,66.51,paper,yes,stop_first,-1.00,trigger bar 09:05 close 68.0 (levels/score from 09:07 run); stop hit 09:25
+2026-11-23,HPE,09:07,OR-low break put,3,put,45.7,48.35,40.38,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 3)
+2026-11-23,HUT,09:07,OR-low break put,3,put,54.03,55.61,50.87,paper,yes,neither,0.66,trigger bar 09:05 close 53.17 (levels/score from 09:07 run); 14:40 bar close 51.565
+2026-11-23,IBKR,09:07,ORB long,5,long,78.15,76.92,80.61,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,ICHR,09:07,OR-low break put,3,put,30.5,31.2,29.11,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 3)
+2026-11-23,INOD,09:07,ORB long,4,long,33.26,32.55,34.68,paper,yes,stop_first,-1.00,trigger bar 09:05 close 33.275 (levels/score from 09:07 run); stop hit 11:40
+2026-11-23,INTC,09:07,ORB long,7,long,59.16,58.29,60.9,paper,yes,stop_first,-1.00,trigger bar 09:20 close 59.19 (levels/score from 09:07 run); stop hit 09:40
+2026-11-23,IONQ,09:07,OR-low break put,3,put,23.77,24.31,22.69,paper,yes,stop_first,-1.00,trigger bar 09:05 close 23.71 (levels/score from 09:07 run); stop hit 09:20
+2026-11-23,IREN,09:07,OR-low break put,8,put,14.54,15.27,13.08,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 5)
+2026-11-23,KSS,09:07,OR-low break put,3,put,21.26,22.0,19.78,paper,yes,neither,-0.03,trigger bar 09:05 close 21.16 (levels/score from 09:07 run); 14:40 bar close 21.185
+2026-11-23,MNRO,09:07,OR-low break put,5,put,8.37,8.68,7.75,paper,yes,target_first,0.56,trigger bar 09:05 close 8.085 (levels/score from 09:07 run); target hit 12:45
+2026-11-23,MSTR,09:07,OR-low break put,5,put,88.46,89.91,85.56,paper,yes,target_first,0.38,trigger bar 09:05 close 86.755 (levels/score from 09:07 run); target hit 11:40
+2026-11-23,MU,09:07,ORB long,8,long,693.92,683.12,715.52,paper,yes,target_first,1.25,trigger bar 09:05 close 697.55 (levels/score from 09:07 run); target hit 09:20
+2026-11-23,MXL,09:07,ORB long,4,long,50.66,49.71,52.56,paper,yes,stop_first,-1.00,trigger bar 09:10 close 51.185 (levels/score from 09:07 run); stop hit 14:05
+2026-11-23,NBIS,09:07,OR-low break put,7,put,100.65,105.35,91.25,paper,yes,stop_first,-1.00,trigger bar 09:05 close 98.805 (levels/score from 09:07 run); stop hit 09:30
+2026-11-23,NVDA,09:07,ORB long,6,long,167.21,162.07,177.49,paper,yes,neither,-0.31,trigger bar 09:15 close 167.37 (levels/score from 09:07 run); 14:40 bar close 165.7338
+2026-11-23,OKLO,09:07,OR-low break put,5,put,21.66,22.13,20.72,paper,yes,neither,0.40,trigger bar 09:05 close 21.31 (levels/score from 09:07 run); 14:40 bar close 20.98
+2026-11-23,ON,09:07,ORB long,5,long,66.56,65.73,68.22,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,ORCL,09:07,OR-low break put,6,put,113.38,116.03,108.07,paper,yes,neither,-0.32,trigger bar 10:35 close 113.06 (levels/score from 10:05 run); 14:40 bar close 114.025
+2026-11-23,OUST,09:07,ORB long,5,long,28.75,28.0,30.25,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,PENG,09:07,ORB long,5,long,44.75,42.86,48.52,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,PLTR,09:07,OR-low break put,6,put,155.82,157.97,151.53,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 3)
+2026-11-23,QNT,09:07,OR-low break put,3,put,30.49,30.92,29.63,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 0)
+2026-11-23,RBLX,09:07,OR-low break put,3,put,51.72,53.24,48.68,paper,yes,neither,0.01,trigger bar 09:05 close 51.7 (levels/score from 09:07 run); 14:40 bar close 51.68
+2026-11-23,RKLB,09:07,OR-low break put,5,put,49.7,50.95,47.2,paper,yes,stop_first,-1.00,trigger bar 09:05 close 49.555 (levels/score from 09:07 run); stop hit 09:30
+2026-11-23,RMBS,09:07,ORB long,5,long,77.72,75.88,81.4,paper,yes,stop_first,-1.00,trigger bar 09:20 close 77.87 (levels/score from 09:07 run); stop hit 09:50
+2026-11-23,SA,09:07,ORB long,4,long,19.1,18.62,20.06,paper,yes,neither,0.01,trigger bar 09:05 close 19.36 (levels/score from 09:07 run); 14:40 bar close 19.365
+2026-11-23,SEI,09:07,OR-low break put,3,put,61.51,62.55,59.43,paper,yes,stop_first,-1.00,trigger bar 09:05 close 61.08 (levels/score from 09:07 run); stop hit 09:55
+2026-11-23,SMCI,09:07,ORB long,9,long,26.27,25.72,27.37,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 6)
+2026-11-23,SOFI,09:07,ORB long,7,long,13.73,13.52,14.15,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 4)
+2026-11-23,STM,09:07,ORB long,5,long,44.18,43.78,44.98,paper,yes,stop_first,-1.00,trigger bar 09:20 close 44.27 (levels/score from 09:07 run); stop hit 09:45
+2026-11-23,SYM,09:07,ORB long,6,long,38.28,36.26,42.32,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 3)
+2026-11-23,TECK,09:07,OR-low break put,3,put,51.45,52.09,50.17,paper,yes,stop_first,-1.00,trigger bar 09:05 close 51.24 (levels/score from 09:07 run); stop hit 09:55
+2026-11-23,TSLA,09:07,ORB long,6,long,389.39,380.69,406.79,paper,yes,neither,-0.19,trigger bar 09:10 close 390.115 (levels/score from 09:07 run); 14:40 bar close 388.325
+2026-11-23,TSM,09:07,ORB long,9,long,386.9,374.48,411.74,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 6)
+2026-11-23,TTMI,09:07,ORB long,5,long,70.46,68.51,74.36,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,UCTT,09:07,ORB long,5,long,43.58,42.12,46.5,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,UMC,09:07,ORB long,5,long,14.82,14.52,15.42,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 2)
+2026-11-23,WB,09:07,ORB long,7,long,5.42,5.28,5.69,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 4)
+2026-11-23,WOLF,09:07,OR-low break put,3,put,21.61,22.27,20.29,paper,no,not_triggered,,score = highest on-trigger score (from 09:07 run; now 0)
+2026-11-23,WULF,09:07,OR-low break put,6,put,11.26,11.64,10.5,paper,yes,neither,0.65,trigger bar 10:35 close 11.185 (levels/score from 10:05 run); 14:40 bar close 10.89
+2026-11-23,WYFI,09:07,OR-low break put,2,put,7.41,7.74,6.73,paper,yes,neither,0.21,trigger bar 12:10 close 7.4 (levels/score from 12:05 run); 14:40 bar close 7.3294
+2026-11-23,ZS,09:07,OR-low break put,5,put,228.28,238.09,208.66,paper,yes,neither,-0.32,trigger bar 09:05 close 224.8325 (levels/score from 09:07 run); 14:40 bar close 229.115
+2026-11-23,AFRM,09:36,OR-low break put,4,put,57.46,58.36,55.66,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 1)
+2026-11-23,ARM,09:36,ORB long,7,long,184.13,179.55,193.3,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 4)
+2026-11-23,ASTS,09:36,OR-low break put,4,put,26.2,26.8,25.0,paper,yes,neither,0.87,trigger bar 09:45 close 26.14 (levels/score from 09:36 run); 14:40 bar close 25.565
+2026-11-23,AU,09:36,ORB long,5,long,80.58,79.16,83.43,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,COIN,09:36,ORB long,7,long,111.21,109.66,114.3,paper,yes,stop_first,-1.00,trigger bar 10:20 close 111.2118 (levels/score from 10:05 run); stop hit 10:40
+2026-11-23,CPB,09:36,OR-low break put,4,put,22.81,23.03,22.37,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 1)
+2026-11-23,CRCL,09:36,ORB long,5,long,54.84,53.19,58.15,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,CRWV,09:36,ORB long,7,long,51.9,50.25,55.21,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 4)
+2026-11-23,DHT,09:36,ORB long,5,long,20.95,20.63,21.59,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 5)
+2026-11-23,DOCN,09:36,ORB long,5,long,81.91,79.82,86.08,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,ESTC,09:36,ORB long,5,long,79.33,78.5,80.98,paper,no,not_triggered,,"trigger bar 09:35 close 81.78 (levels/score from 09:36 run); target hit 09:40; NOT a valid entry: trigger-bar close was already at/beyond the target (stale levels), so excluded from triggered stats"
+2026-11-23,FCX,09:36,ORB long,5,long,51.85,50.69,54.18,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,FIGR,09:36,ORB long,5,long,26.3,26.0,26.91,paper,yes,stop_first,-1.00,trigger bar 09:35 close 26.55 (levels/score from 09:36 run); stop hit 10:40
+2026-11-23,FRO,09:36,OR-low break put,6,put,46.0,46.45,45.11,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 3)
+2026-11-23,FUTU,09:36,ORB long,5,long,91.88,89.99,95.66,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,GFI,09:36,ORB long,5,long,35.09,34.38,36.51,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,GFS,09:36,ORB long,5,long,39.79,39.34,40.68,paper,yes,stop_first,-1.00,trigger bar 09:35 close 39.985 (levels/score from 09:36 run); stop hit 09:55
+2026-11-23,GIS,09:36,ORB long,5,long,35.15,34.89,35.66,paper,yes,stop_first,-1.00,trigger bar 10:10 close 35.19 (levels/score from 10:05 run); stop hit 11:45
+2026-11-23,HOOD,09:36,ORB long,7,long,70.24,69.3,72.11,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 4)
+2026-11-23,HPE,09:36,ORB long,2,long,51.0,48.35,56.31,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now -1)
+2026-11-23,ICHR,09:36,ORB long,5,long,31.9,31.2,33.29,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,IONQ,09:36,ORB long,5,long,24.86,24.31,25.95,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,IREN,09:36,ORB long,9,long,15.99,15.27,17.45,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 6)
+2026-11-23,KR,09:36,OR-low break put,4,put,66.7,67.06,65.98,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 4)
+2026-11-23,LYB,09:36,OR-low break put,3,put,55.76,56.26,54.75,paper,no,not_triggered,,"trigger bar 09:35 close 54.39 (levels/score from 09:36 run); target hit 09:40; NOT a valid entry: trigger-bar close was already at/beyond the target (stale levels), so excluded from triggered stats"
+2026-11-23,NBIS,09:36,ORB long,9,long,110.05,105.35,119.45,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 6)
+2026-11-23,ORCL,09:36,ORB long,7,long,118.69,116.03,124.0,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 4)
+2026-11-23,PLTR,09:36,ORB long,7,long,160.11,157.97,164.4,paper,yes,stop_first,-1.00,trigger bar 09:35 close 160.15 (levels/score from 09:36 run); stop hit 09:45
+2026-11-23,QNT,09:36,ORB long,5,long,31.36,30.92,32.23,paper,yes,stop_first,-1.00,trigger bar 09:35 close 31.84 (levels/score from 09:36 run); stop hit 10:45
+2026-11-23,RBLX,09:36,ORB long,4,long,54.76,53.24,57.8,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 1)
+2026-11-23,RKLB,09:36,ORB long,7,long,52.21,50.95,54.72,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 4)
+2026-11-23,SEI,09:36,ORB long,5,long,63.59,62.55,65.67,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,SYM,09:36,OR-low break put,3,put,34.25,36.26,30.21,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 0)
+2026-11-23,TECK,09:36,ORB long,5,long,52.73,52.09,54.02,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 2)
+2026-11-23,TU,09:36,OR-low break put,2,put,10.6,10.71,10.38,paper,yes,neither,0.44,trigger bar 11:00 close 10.575 (levels/score from 10:37 run); 14:40 bar close 10.515
+2026-11-23,VKTX,09:36,ORB long,4,long,26.45,26.06,27.22,paper,no,not_triggered,,"trigger bar 09:35 close 27.745 (levels/score from 09:36 run); target hit 09:40; NOT a valid entry: trigger-bar close was already at/beyond the target (stale levels), so excluded from triggered stats"
+2026-11-23,VOD,09:36,OR-low break put,4,put,13.48,13.54,13.36,paper,no,not_triggered,,"trigger bar 09:35 close 13.34 (levels/score from 09:36 run); target hit 09:40; NOT a valid entry: trigger-bar close was already at/beyond the target (stale levels), so excluded from triggered stats"
+2026-11-23,WULF,09:36,ORB long,7,long,12.02,11.64,12.78,paper,no,not_triggered,,score = highest on-trigger score (from 09:36 run; now 4)
+2026-11-23,AEHR,10:05,OR-low break put,4,put,46.8,48.33,43.73,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 1)
+2026-11-23,ASX,10:05,OR-low break put,4,put,31.16,32.27,28.94,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 1)
+2026-11-23,AXTI,10:05,OR-low break put,4,put,37.25,38.37,35.01,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 1)
+2026-11-23,BMNR,10:05,OR-low break put,4,put,15.16,15.38,14.71,paper,yes,target_first,1.06,trigger bar 10:05 close 15.055 (levels/score from 10:05 run); target hit 10:45
+2026-11-23,CPB,10:05,ORB long,5,long,23.25,23.03,23.69,paper,yes,neither,-0.87,trigger bar 10:35 close 23.265 (levels/score from 10:05 run); 14:40 bar close 23.06
+2026-11-23,DHT,10:05,OR-low break put,4,put,20.31,20.63,19.68,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 1)
+2026-11-23,DOW,10:05,OR-low break put,4,put,28.84,29.05,28.4,paper,no,not_triggered,,"trigger bar 10:05 close 28.34 (levels/score from 10:05 run); target hit 10:10; NOT a valid entry: trigger-bar close was already at/beyond the target (stale levels), so excluded from triggered stats"
+2026-11-23,FCEL,10:05,ORB long,5,long,8.07,7.86,8.5,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 2)
+2026-11-23,GDS,10:05,ORB long,5,long,15.87,15.26,17.09,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 2)
+2026-11-23,GLXY,10:05,OR-low break put,4,put,13.29,13.68,12.52,paper,yes,neither,1.11,trigger bar 10:05 close 13.175 (levels/score from 10:05 run); 14:40 bar close 12.615
+2026-11-23,HIMX,10:05,ORB long,5,long,7.83,7.72,8.04,paper,yes,stop_first,-1.00,trigger bar 10:05 close 7.91 (levels/score from 10:05 run); stop hit 10:40
+2026-11-23,INTC,10:05,OR-low break put,6,put,57.42,58.29,55.68,paper,yes,stop_first,-1.00,trigger bar 10:35 close 57.34 (levels/score from 10:05 run); stop hit 11:50
+2026-11-23,IOVA,10:05,OR-low break put,4,put,6.84,7.04,6.43,paper,yes,neither,-0.43,trigger bar 10:05 close 6.68 (levels/score from 10:05 run); 14:40 bar close 6.835
+2026-11-23,IP,10:05,OR-low break put,4,put,30.21,30.61,29.42,paper,yes,target_first,0.00,trigger bar 10:05 close 29.425 (levels/score from 10:05 run); target hit 10:10
+2026-11-23,KR,10:05,ORB long,5,long,67.42,67.06,68.14,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 2)
+2026-11-23,KSS,10:05,ORB long,5,long,22.73,22.0,24.2,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 2)
+2026-11-23,MXL,10:05,OR-low break put,4,put,48.76,49.71,46.86,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 1)
+2026-11-23,NVTS,10:05,OR-low break put,4,put,7.2,7.44,6.73,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 1)
+2026-11-23,PURR,10:05,OR-low break put,4,put,8.58,8.78,8.17,paper,yes,neither,1.51,trigger bar 10:25 close 8.575 (levels/score from 10:05 run); 14:40 bar close 8.265
+2026-11-23,QBTS,10:05,OR-low break put,4,put,7.46,7.7,6.99,paper,yes,neither,0.23,trigger bar 10:35 close 7.395 (levels/score from 10:05 run); 14:40 bar close 7.325
+2026-11-23,RGTI,10:05,OR-low break put,4,put,8.13,8.38,7.64,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 1)
+2026-11-23,SHAZ,10:05,OR-low break put,2,put,19.85,20.82,17.92,paper,yes,neither,0.64,trigger bar 12:50 close 19.6867 (levels/score from 12:37 run); 14:40 bar close 18.96
+2026-11-23,SMCI,10:05,OR-low break put,6,put,25.16,25.72,24.06,paper,yes,neither,0.39,trigger bar 10:05 close 24.955 (levels/score from 10:05 run); 14:40 bar close 24.66
+2026-11-23,SOFI,10:05,OR-low break put,6,put,13.3,13.52,12.88,paper,yes,neither,0.33,trigger bar 10:35 close 13.235 (levels/score from 10:05 run); 14:40 bar close 13.14
+2026-11-23,TSM,10:05,OR-low break put,6,put,362.06,374.48,337.22,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 3)
+2026-11-23,TSN,10:05,OR-low break put,4,put,63.35,64.06,61.92,paper,yes,neither,0.44,trigger bar 10:05 close 63.225 (levels/score from 10:05 run); 14:40 bar close 62.86
+2026-11-23,WB,10:05,OR-low break put,6,put,5.14,5.28,4.86,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 3)
+2026-11-23,XE,10:05,ORB long,5,long,10.46,10.14,11.09,paper,no,not_triggered,,score = highest on-trigger score (from 10:05 run; now 2)
+2026-11-23,ALM,10:37,ORB long,4,long,7.33,7.18,7.62,paper,yes,neither,-0.42,trigger bar 10:45 close 7.335 (levels/score from 10:37 run); 14:40 bar close 7.27
+2026-11-23,AVR,10:37,ORB long,4,long,5.78,5.53,6.26,paper,yes,neither,0.19,trigger bar 10:35 close 5.8 (levels/score from 10:37 run); 14:40 bar close 5.85
+2026-11-23,BILL,10:37,ORB long,3,long,61.74,61.64,61.93,paper,no,not_triggered,,score = highest on-trigger score (from 10:37 run; now 1)
+2026-11-23,GLXY,10:37,ORB long,3,long,14.06,13.68,14.83,paper,no,not_triggered,,score = highest on-trigger score (from 10:37 run; now 1)
+2026-11-23,GRRR,10:37,ORB long,4,long,6.23,6.04,6.61,paper,yes,target_first,0.84,trigger bar 11:35 close 6.35 (levels/score from 11:36 run); target hit 13:50
+2026-11-23,KC,10:37,OR-low break put,-1,put,6.06,6.18,5.81,paper,yes,stop_first,-1.00,trigger bar 10:40 close 6.055 (levels/score from 10:37 run); stop hit 14:35
+2026-11-23,LPTH,10:37,ORB long,3,long,6.15,5.98,6.49,paper,no,not_triggered,,score = highest on-trigger score (from 10:37 run; now 1)
+2026-11-23,MARA,10:37,OR-low break put,2,put,5.75,6.03,5.19,paper,yes,neither,0.48,trigger bar 11:05 close 5.725 (levels/score from 11:05 run); 14:40 bar close 5.58
+2026-11-23,MNRO,10:37,ORB long,5,long,9.0,8.68,9.63,paper,no,not_triggered,,score = highest on-trigger score (from 10:37 run; now 3)
+2026-11-23,MNST,10:37,ORB long,3,long,43.98,43.36,45.21,paper,no,not_triggered,,score = highest on-trigger score (from 10:37 run; now 1)
+2026-11-23,RGTI,10:37,ORB long,3,long,8.62,8.38,9.11,paper,no,not_triggered,,score = highest on-trigger score (from 10:37 run; now 1)
+2026-11-23,XE,10:37,OR-low break put,2,put,9.82,10.14,9.18,paper,no,not_triggered,,score = highest on-trigger score (from 10:37 run; now 0)
+2026-11-23,ASST,11:05,OR-low break put,3,put,16.91,17.32,16.09,paper,yes,target_first,0.46,trigger bar 11:05 close 16.475 (levels/score from 11:05 run); target hit 11:30
+2026-11-23,BOX,11:05,ORB long,5,long,44.3,44.09,44.72,paper,no,not_triggered,,"trigger bar 11:05 close 45.4096 (levels/score from 11:05 run); target hit 11:10; NOT a valid entry: trigger-bar close was already at/beyond the target (stale levels), so excluded from triggered stats"
+2026-11-23,CNC,11:05,OR-low break put,2,put,62.28,62.98,60.9,paper,no,not_triggered,,score = highest on-trigger score (from 11:05 run; now 0)
+2026-11-23,DOW,11:05,ORB long,4,long,29.27,29.05,29.71,paper,no,not_triggered,,score = highest on-trigger score (from 11:05 run; now 2)
+2026-11-23,HRL,11:05,OR-low break put,3,put,22.94,23.09,22.64,paper,yes,stop_first,-1.00,trigger bar 11:10 close 22.935 (levels/score from 11:05 run); stop hit 12:10
+2026-11-23,INOD,11:05,OR-low break put,2,put,31.84,32.55,30.42,paper,no,not_triggered,,score = highest on-trigger score (from 11:05 run; now 0)
+2026-11-23,JBS,11:05,OR-low break put,2,put,11.85,11.94,11.65,paper,yes,neither,-0.02,trigger bar 11:05 close 11.74 (levels/score from 11:05 run); 14:40 bar close 11.745
+2026-11-23,MNST,11:05,OR-low break put,3,put,42.75,43.36,41.52,paper,yes,neither,0.28,trigger bar 11:05 close 42.715 (levels/score from 11:05 run); 14:40 bar close 42.535
+2026-11-23,OUST,11:05,OR-low break put,2,put,27.24,28.0,25.73,paper,no,not_triggered,,score = highest on-trigger score (from 11:05 run; now 0)
+2026-11-23,QMCO,11:05,OR-low break put,3,put,13.13,13.46,12.48,paper,no,not_triggered,,score = highest on-trigger score (from 11:05 run; now 0)
+2026-11-23,SHEL,11:05,OR-low break put,3,put,92.96,93.3,92.28,paper,no,not_triggered,,score = highest on-trigger score (from 11:05 run; now 1)
+2026-11-23,SU,11:05,OR-low break put,3,put,63.62,63.84,63.17,paper,no,not_triggered,,"trigger bar 11:05 close 63.06 (levels/score from 11:05 run); target hit 11:10; NOT a valid entry: trigger-bar close was already at/beyond the target (stale levels), so excluded from triggered stats"
+2026-11-23,TSCO,11:05,OR-low break put,4,put,37.68,37.92,37.2,paper,yes,neither,-0.50,trigger bar 11:05 close 37.45 (levels/score from 11:05 run); 14:40 bar close 37.685
+2026-11-23,USAR,11:05,ORB long,3,long,7.15,6.96,7.54,paper,no,not_triggered,,score = highest on-trigger score (from 11:05 run; now 1)
+2026-11-23,AVR,11:36,OR-low break put,3,put,5.29,5.53,4.8,paper,no,not_triggered,,score = highest on-trigger score (from 11:36 run; now 1)
+2026-11-23,CBRS,11:36,OR-low break put,2,put,92.68,95.84,86.36,paper,no,not_triggered,,score = highest on-trigger score (from 11:36 run; now 0)
+2026-11-23,ZS,11:36,ORB long,7,long,247.9,238.09,267.52,paper,no,not_triggered,,score = highest on-trigger score (from 11:36 run; now 5)
+2026-11-23,UMC,12:05,OR-low break put,2,put,14.22,14.52,13.62,paper,no,not_triggered,,score = highest on-trigger score (from 12:05 run; now 0)
+2026-11-23,CIFR,12:37,OR-low break put,0,put,6.27,6.54,5.72,paper,yes,neither,0.18,trigger bar 12:55 close 6.265 (levels/score from 12:37 run); 14:40 bar close 6.215
+2026-11-23,GDS,12:37,OR-low break put,2,put,14.65,15.26,13.43,paper,no,not_triggered,,score = highest on-trigger score (from 12:37 run; now 0)
+2026-11-23,HIMX,12:37,OR-low break put,2,put,7.62,7.72,7.41,paper,no,not_triggered,,score = highest on-trigger score (from 12:37 run; now 0)
+2026-11-23,LYB,12:37,ORB long,4,long,56.77,56.26,57.77,paper,no,not_triggered,,score = highest on-trigger score (from 12:37 run; now 2)
+2026-11-23,OCTV,12:37,ORB long,1,long,20.83,20.49,21.5,paper,yes,neither,-0.12,trigger bar 12:35 close 21.395 (levels/score from 12:37 run); 14:40 bar close 21.285
+2026-11-23,QMCO,12:37,ORB long,3,long,13.79,13.46,14.44,paper,no,not_triggered,,score = highest on-trigger score (from 12:37 run; now 1)
+2026-11-23,TSLA,12:37,OR-low break put,4,put,371.99,380.69,354.59,paper,no,not_triggered,,score = highest on-trigger score (from 12:37 run; now 2)
+2026-11-23,VOD,12:37,ORB long,4,long,13.6,13.54,13.72,paper,no,not_triggered,,score = highest on-trigger score (from 12:37 run; now 2)
+2026-11-23,NVTS,13:05,ORB long,3,long,7.67,7.44,8.14,paper,no,not_triggered,,score = highest on-trigger score (from 13:05 run; now 1)
+2026-11-23,BILL,13:36,OR-low break put,0,put,61.55,61.64,61.36,paper,no,not_triggered,,score = highest on-trigger score (from 13:36 run; now 0)
+2026-11-23,IOVA,13:36,ORB long,3,long,7.25,7.04,7.66,paper,no,not_triggered,,score = highest on-trigger score (from 13:36 run; now 1)
+2026-11-23,TSCO,13:36,ORB long,3,long,38.16,37.92,38.64,paper,no,not_triggered,,score = highest on-trigger score (from 13:36 run; now 1)
+2026-11-23,TTMI,13:36,OR-low break put,2,put,66.56,68.51,62.66,paper,no,not_triggered,,score = highest on-trigger score (from 13:36 run; now 0)

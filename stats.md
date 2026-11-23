@@ -1,13 +1,18 @@
 # Stats
 
-_Updated 2026-11-20 by the 3:30pm analyst (week-1 verdict day)._
+_Updated 2026-11-23 by the 3:30pm analyst._
 
 ## All-time
 | Trades | Wins | Losses | Win rate | Avg R | Total $ P&L |
 |---|---|---|---|---|---|
 | 3 | 0 | 3 | 0% | -0.99R | -$9.68 |
 
-## This week (Nov 16–20)
+## This week (Nov 23–27)
+| Trades | Wins | Losses | Win rate | Avg R | Total $ P&L |
+|---|---|---|---|---|---|
+| 0 | 0 | 0 | – | – | $0.00 |
+
+## Week of Nov 16–20
 | Trades | Wins | Losses | Win rate | Avg R | Total $ P&L |
 |---|---|---|---|---|---|
 | 0 | 0 | 0 | – | – | $0.00 |
@@ -51,6 +56,7 @@ Intraday: 3 trades, -$9.68 · Swing: 0 trades, $0
 | 2026-11-18 | $810.91 (all cash) | $0.00 | 0 | SPY -0.3% chop (726.8–735.1); NVDA -3% after its beat, miners -6 to -9%, cyber +8 to +16%. All 10 trader runs + 2 closers present; best score 7 (JD put, below the options floor, after the 1:00 cutoff). Paper -0.34R over 38 triggers (3 target / 16 stop); after-10:30 triggers -0.48R (n = 28) |
 | 2026-11-19 | **$0.91** (all cash) | $0.00 | 0 | **Cash moved out of the account: $810.91 → $510.91 (10:05–10:37 CT) → $0.91 (by 11:05 CT), no orders.** S&P -2.0% (6th straight loss), SPY 739.9 gap failed → closed on the low 715.84 after the ANT IPO open; VIX 28.4. Best on-trigger score 7 (PDD RS long, never triggered). Paper -0.03R over 97 triggers (22 target / 49 stop): puts +0.25R (n = 61), longs -0.51R (n = 36) |
 | 2026-11-20 | **$0.91** (all cash) | $0.00 | 0 | **Still unfunded all day.** S&P -3.7%, Nasdaq -5.3%, VIX 35.9; SPY 718.29 bounce failed by 9:30, closed on the low 690.91. All 10 trader runs + pre-market + both closers present. Paper +0.62R over 95 triggers (62 target / 23 stop): puts **+0.82R (n = 82)**, longs -0.58R (n = 13). IREN put scored 8 on-trigger at 9:05 (9:15 trigger, +1.94R) under the raw rel-vol approximation; 7 under the 11/19 convention |
+| 2026-11-23 | **$714.56** (all cash) | $0.00 | 0 | **Re-funded after the last trader run** ($0.91 at every run through 13:36 CT; $714.56 cash at 3:31pm). S&P +4.73% (Huang reinstated as NVDA CEO; NVDA +31.6%), but high-beta names faded from the 9:00 highs. All 10 trader runs + pre-market + both closers present. Paper -0.26R over 73 valid triggers (7 target / 29 stop): longs **-0.55R (n = 28)** despite the up tape; all four score-7 longs stopped within 20 min; puts -0.08R (n = 45). MU long 8 hit target (+1.25R) but was untradeable (> $100, premium > $200) |
 
 ## Hypothetical (skipped/untaken) setups: running tally
 | Date | Setup | Samples | Target hit | Stop hit | Neither (R at 2:45pm CT) | Avg R |
@@ -63,41 +69,40 @@ Intraday: 3 trades, -$9.68 · Swing: 0 trades, $0
 | 2026-11-18 | Journal candidates (score-outcomes.csv method) | 38 | 3 (NOW put, TENB, BABA put) | 16 | 19 | ≈ -0.34R |
 | 2026-11-19 | Journal candidates (score-outcomes.csv method) | 97 | 22 (MSTR put, DXYZ put, UTI put, SKM put, ZM put, KLAR put, FIG put, UMAC, WOLF, BRBR, YMM…) | 49 | 26 | ≈ -0.03R |
 | 2026-11-20 | Journal candidates (score-outcomes.csv method) | 95 | 62 (CRWV, IREN, XPEV, NBIS, UMC, HOOD, COIN, RGTI, MSTR, SOFI puts…) | 23 | 10 | ≈ +0.62R |
-| **Total (old method 11/11–13 + new 11/16–20)** | | 303 | 97 | 103 | 103 | ≈ +0.13R |
+| 2026-11-23 | Journal candidates (score-outcomes.csv method) | 73 | 7 (MU long, BMNR/MNRO/ASST/MSTR puts, GRRR long, IP put) | 29 (INTC, AFRM, PLTR, COIN longs; CRWV, NBIS puts…) | 37 | ≈ -0.26R |
+| **Total (old method 11/11–13 + new 11/16–23)** | | 376 | 104 | 132 | 140 | ≈ +0.05R |
 
 Sub-tally by trigger time (11/12–11/13): **first-hour triggers (≤ 9:30 CT)** 11/13 avg ≈ +0.1R over 7 (NU +0.81, CHA +0.91, LFTO -1, four puts ≈ 0). **After 10:00 CT** (11/12 10:05 batch + 11/13 midday scanner breaks) avg ≈ -0.52R over 9.
 
 ## Score calibration
-Cumulative from `research/score-outcomes.csv` (11/12, 11/13, 11/16–11/20; 500 rows, 287 triggered). Real = traded; paper = graded at the trader's recorded score and levels from 5-min bars; puts are graded on the underlying. Entry = the trigger bar's close. Avg R uses +R at target, -1 at stop, else R at the 2:45pm CT price. From 11/19, triggered rows use the `on-trigger` score of the run whose levels were in force when the trigger fired; untriggered rows use the highest on-trigger score. Setup buckets are keyword-based.
+Cumulative from `research/score-outcomes.csv` (11/12, 11/13, 11/16–11/20, 11/23; 681 rows, 360 triggered). Real = traded; paper = graded at the trader's recorded score and levels from 5-min bars; puts are graded on the underlying. Entry = the trigger bar's close. Avg R uses +R at target, -1 at stop, else R at the 2:45pm CT price. From 11/19, triggered rows use the `on-trigger` score of the run whose levels were in force when the trigger fired; untriggered rows use the highest on-trigger score. From 11/23, a trigger whose bar closed already at/beyond the target (stale levels) is not a valid entry and counts as not triggered. Setup buckets are keyword-based. Scores before 11/24 don't include the new intraday-long -1.
 
 | Score | Real n | Real % target | Real avg R | Paper trig n | % target | % stop | % neither | Paper avg R | Not trig n |
 |---|---|---|---|---|---|---|---|---|---|
-| 2 | 0 | – | – | 23 | 48% | 9% | 43% | +0.50 | 13 |
-| 3 | 0 | – | – | 58 | 17% | 50% | 33% | -0.28 | 47 |
-| 4 | 0 | – | – | 78 | 37% | 31% | 32% | +0.21 | 75 |
-| 5 | 0 | – | – | 54 | 31% | 41% | 28% | +0.14 | 32 |
-| 6 | 2 | 0% | -1.00 | 41 | 44% | 34% | 22% | +0.24 | 15 |
-| 7 | 0 | – | – | 20 | 40% | 30% | 30% | +0.43 | 4 |
-| 8 | 0 | – | – | 1 | 100% | 0% | 0% | +1.94 | 0 |
-| 9 | 1 | 0% | -0.97 | 1 | 0% | 0% | 100% | +0.49 | 1 |
-| <2 or blank | 0 | – | – | 8 | 0% | 25% | 75% | -0.10 | 26 |
+| 2 | 0 | – | – | 28 | 39% | 7% | 54% | +0.48 | 23 |
+| 3 | 0 | – | – | 72 | 15% | 50% | 35% | -0.31 | 68 |
+| 4 | 0 | – | – | 95 | 34% | 27% | 39% | +0.20 | 94 |
+| 5 | 0 | – | – | 73 | 26% | 47% | 27% | -0.06 | 68 |
+| 6 | 2 | 0% | -1.00 | 49 | 37% | 31% | 33% | +0.20 | 21 |
+| 7 | 0 | – | – | 26 | 31% | 46% | 23% | +0.10 | 14 |
+| 8 | 0 | – | – | 2 | 100% | 0% | 0% | +1.59 | 1 |
+| 9 | 1 | 0% | -0.97 | 1 | 0% | 0% | 100% | +0.49 | 5 |
+| <2 or blank | 0 | – | – | 11 | 0% | 27% | 73% | -0.16 | 27 |
 
 **Scores >= 5 by setup type** (same columns):
 
 | Setup | Real n | Real % target | Real avg R | Paper trig n | % target | % stop | % neither | Paper avg R | Not trig n |
 |---|---|---|---|---|---|---|---|---|---|
-| HOD / range breakout | 0 | – | – | 11 | 18% | 64% | 18% | -0.48 | 25 |
-| ORB / reclaim | 1 | 0% | -1.01 | 3 | 0% | 67% | 33% | -0.51 | 2 |
-| gap-and-go / earnings | 2 | 0% | -0.98 | 4 | 0% | 100% | 0% | -1.00 | 7 |
-| pullback / VWAP | 0 | – | – | 3 | 33% | 33% | 33% | -0.31 | 5 |
-| other long | 0 | – | – | 2 | 0% | 100% | 0% | -1.00 | 0 |
-| put (stock-graded) | 0 | – | – | 94 | 44% | 28% | 29% | +0.45 | 13 |
+| HOD / range breakout | 0 | – | – | 11 | 18% | 64% | 18% | -0.48 | 21 |
+| ORB / reclaim | 1 | 0% | -1.01 | 24 | 4% | 71% | 25% | -0.68 | 53 |
+| gap-and-go / earnings | 2 | 0% | -0.98 | 3 | 0% | 100% | 0% | -1.00 | 5 |
+| pullback / VWAP | 0 | – | – | 3 | 33% | 33% | 33% | -0.31 | 4 |
+| other long | 0 | – | – | 2 | 0% | 100% | 0% | -1.00 | 4 |
+| put (stock-graded) | 0 | – | – | 108 | 40% | 29% | 31% | +0.36 | 22 |
 
-Total rows 500, triggered 287 (120 at score >= 5, including the 3 real trades).
+**By side (all triggered):** longs n = 119, 11% target, **-0.44R**; puts n = 238, 37% target, **+0.31R**. Score >= 7: longs n = 8, 12% target, **-0.54R**; puts n = 21, 43% target, **+0.50R**.
+**By score band and side:** 0–4: longs -0.33R (n = 76), puts +0.26R (n = 130) · 5–6: longs -0.67R (n = 35), puts +0.33R (n = 87) · 7–9: longs -0.54R (n = 8), puts +0.50R (n = 21).
+**By trigger time:** longs before 10:00 -0.39R (n = 61) · longs 10:00–10:30 -0.84R (n = 15) · longs after 10:30 -0.37R (n = 43) · puts before 10:00 +0.38R (n = 120) · puts 10:00–10:30 +0.37R (n = 25) · puts after 10:30 +0.19R (n = 93)
+**By day and side (L = longs, P = puts):** 11-12: L -0.47 (n 10) / P +0.32 (n 5) · 11-13: L -0.29 (n 2) / P +0.00 (n 0) · 11-16: L -0.38 (n 6) / P -0.19 (n 8) · 11-17: L +0.16 (n 5) / P +0.13 (n 18) · 11-18: L -0.24 (n 19) / P -0.44 (n 19) · 11-19: L -0.51 (n 36) / P +0.25 (n 61) · 11-20: L -0.58 (n 13) / P +0.82 (n 82) · 11-23: L -0.55 (n 28) / P -0.08 (n 45)
 
-**By side (all triggered):** longs n = 94, 12% target, **-0.43R**; puts n = 193, 43% target, **+0.39R**. Score >= 5: longs n = 26, 12% target, **-0.65R**; puts n = 94, 44% target, **+0.45R**. Score >= 7: longs n = 4, -0.62R; puts n = 19, 47% target, **+0.66R**.
-**By score band and side:** 0–4: longs -0.35R (n = 67), puts +0.35R (n = 99) · 5–6: longs -0.65R (n = 22), puts +0.39R (n = 75) · 7–9: longs -0.62R (n = 4), puts +0.66R (n = 19).
-**By trigger time:** longs before 10:00 -0.29R (n = 41), 10:00–10:30 -0.80R (n = 12), after 10:30 -0.41R (n = 38, 5% target). Puts before 10:00 **+0.54R (n = 99)**, 10:00–10:30 +0.49R (n = 24), after 10:30 +0.16R (n = 70).
-**Robustness (excluding 11/20, the -3.7% day):** puts +0.08R (n = 111); puts at >= 7 +0.57R (n = 7); score bands 0–4 -0.15R, 5–6 -0.12R, 7–9 +0.25R (n = 10).
-
-**Read (11/20, week-1):** within each side, avg R rises a little with score for puts (+0.35 → +0.39 → +0.66R) and not at all for longs (negative in every band). Across all rows, 0–4 is +0.07R, 5–6 +0.16R and 7–9 +0.44R: a weak positive slope, but almost all of it is the 7+ put bucket (n = 19) and one crash day (11/20, 82 put triggers at +0.82R). **The side matched to the tape, and an early trigger, predict outcomes far more than the score does.** Sample-size caveat: only 3 real trades, all before the 11/16 floors; every conclusion is paper and comes from one down-trending week.
+**Read (11/23):** avg R does not rise cleanly with score. The weak positive slope is a put effect: puts improve from 0–4 to 7–9, while longs are negative in every band. Monday was the first up day in the sample (+4.7% S&P), and tape-aligned longs still lost (-0.55R, n = 28), while counter-tape puts were roughly flat (-0.08R, n = 45). So it isn't only "side matched to the tape": in this sample the intraday long setups themselves (OR-midpoint stops on gap names) don't work. That's the basis for the new intraday-long -1. Caveat: only 3 real trades and 8 sessions, all inside one correction.
