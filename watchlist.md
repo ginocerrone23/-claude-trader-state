@@ -6,7 +6,16 @@ Levels come from Robinhood 5-min bars (11/23 regular session), daily bars (10/23
 
 **Rules in force:** max score 9; floors **stocks ≥ 7, options ≥ 8**; no forced trades; **NEW: -1 on every intraday long setup** (so an intraday long needs 8 raw points to reach 7); -1 when an intraday trigger bar closes after 10:30 CT; rel vol on regular-session volume only. Options: premium ≤ $200, sell-to-close stop ≥ 15% below entry sized to a loss ≤ $30, |Δ| 0.30–0.60, spread ≤ 10% of mid, **no option entries after 1:00pm CT**. Puts only on `opt-liquid ✓` names or after a chain check.
 
-## Market bias: **NEUTRAL, leaning fade/chop (day 2 after a +4.7% relief day).**
+## Pre-market update 2026-11-24 8:00am CT — **GAP-DOWN / FADE DAY. Read this first.**
+- **Futures at ~7:20 CT (Yahoo live, byline 11/24 7:22am CST):** S&P -1.2% (7,166.5), Nasdaq-100 -2.1%, Dow -0.6%, Russell -0.7%. VIX 29.5 (+10.8%), 10-yr 4.89%. Robinhood PM at 8:05: SPY 713.96 (-1.15%), QQQ 638.1 (-2.0%), IWM 263.65 (-0.8%).
+- **Why:** the Nvidia/Huang rally is giving back (NVDA -4.5%, MU -6.1%, AMD -5.6%, INTC -5.6%, TSM -2.6%, ORCL -3.2%). Fed-hike worries are back: ~95% priced for a 25 bp hike in December (Warsh; Yahoo live), and two more hikes are being discussed. Anthropic (ANT) IPO'd at $83 and is trading near $82: AVOID, new listing.
+- **SPY is sitting on Monday's low (713.54).** The playbook's "below 713.54 = full defensive mode" is nearly met before the open. Fade regime is now the base case: SPY < 719.5 and below VWAP → puts. Continuation (SPY > 728) is very unlikely; longs only on stocks with their own news (DKS, ANF, DLTR, A), each with the long -1.
+- **Gap rule:** nearly every put on the list has already traded through its 11/23 trigger. Use the first 15-min OR low as the trigger, inside the chase limit, and re-check score/spread at 8:45 CT. Gap-down days often bounce at the open: don't short the first 5 minutes.
+- **Dated headlines for >10% moves (playbook rule):** HPE -12.8% (Q4 beat, but FY27 Cloud & AI margin guide lower and component shortage; Reuters/MarketScreener 11/24). ADI -12.9% (Q1 EPS guide 3.82 vs ~3.89, after +10% Monday; Investing.com 11/24). DKS +13% (Q3 EPS 1.94 vs 1.41, guide raised; Investing.com 11/24). ANF +10.6% (Q3 EPS 3.42 vs 3.10; no dated article read). SMTC -9.2% (post-earnings fade from Monday; no new article read).
+- **Today's data:** Conference Board confidence (expected 92.1), Richmond Fed, FHFA, ADP weekly. The sources gave no times; Conference Board and Richmond Fed normally print at 9:00 CT, so expect a 9:00 CT volatility bump. **Tonight after the close:** DELL (PM 310.1, -7.4%), WDAY, HPQ, ADSK, NTNX, AMBA, URBN, CLSK. No holds. **Wed 7:30 CT:** PCE, GDP, claims (the last data before the December Fed meeting).
+- Already reported this morning, no trade planned: BBY (+1.4% on Robinhood quote, reports say +3–5%, comps +6.1%, guide raised), KSS (+9%, profit outlook inflated by one-offs, spread ~3%: AVOID), SJM (-2.8%, spread ~4%: AVOID), BURL (+2.4%, ADV/levels not checked), VIPS/BILI/KC/DY/CMBT (thin or under $5, no setup).
+
+## Market bias (analyst, 11/23 3:30pm; superseded by the update above): NEUTRAL, leaning fade/chop (day 2 after a +4.7% relief day).
 - **Monday:** S&P +4.73% to 7,237 (best day since April 2025, after 7 straight losses), Nasdaq +6.51%, Dow +3.0%. **Driver: Nvidia's board reinstated Jensen Huang as CEO** (NVDA +31.6%); MU +19%, CRWV +22%, DELL +21%, ORCL +12.5%, TSLA +11.6%. CrowdStrike agreed to buy Zscaler for $43.9B (ZS +17.7%, CRWD -8.9%). Gold +4%, gold miners +7%, FCX +8%.
 - **But the high-beta tape faded all day:** SPY's 9:00 HOD 727.98 never came back, and it closed mid-range at 722.42. Neoclouds, crypto miners and fintech closed at or near their lows (IREN, APLD, NBIS, SMCI, SOFI, HOOD, MSTR, WULF, MARA, CIFR, OKLO, CRCL). Strong closers: INTC (closed on its high), PLTR, TSLA, MU, GAP, BE, DELL.
 - **VIX still high (mid-30s Friday), 10-yr ~4.92%.** BTIG sees a short-term pop to 7,250–7,350 and then possibly lower; that's ~0.2–1.6% above Monday's close. BTC flat at ~$61.3k.
@@ -33,38 +42,44 @@ Levels come from Robinhood 5-min bars (11/23 regular session), daily bars (10/23
 - Monday after-hours reactions: **HPE -7.1% (44.85) despite a beat and raised guide**, **SMTC -8.6% (95.9)**, A +6.1% (187, > $100), ZM ~flat (86, beat, $0.25 dividend), SYM -1.5%, **PTON +4% (5.57, $300M buyback)**.
 
 ## AVOID
+- **Added 8:00 CT 11/24:** ANT (Anthropic, IPO day, trades below its $83 offer), KSS and SJM (wide pre-market spreads, one-off earnings noise), DELL (earnings tonight; PM -7.4%).
 - **ZS** (deal target, pinned to the $260.41 deal price) and **CRWD** (acquirer, trades on deal math). New playbook rule.
 - **DELL, WDAY, HPQ, ADSK, NTNX, AMBA, URBN, CLSK** for anything held past 3:00pm CT Tuesday (earnings after the close).
 - Tuesday pre-market reporters (ADI, MDT, BBY, DKS, BURL, ANF, DLTR, KSS, KC…) until the report is out and the 8:00 run has the headline.
 - **SNDK** (scanner split artifact), any price < $5 for stock trades, and stock entries above $200.
 - Leveraged/inverse ETFs.
 
-## Names (priority order)
-Longs: trigger = 5-min close above the level; puts: 5-min close below (levels on the underlying). Target = 2R unless resistance is nearer (then no R:R point). "Opt" = the put's options status.
+## Names (priority order) — re-anchored 8:00am CT
+Pre-market quotes at ~8:05 CT vs Mon close. **Almost every put below has already gapped through its old trigger, so per the gap rule the trigger is the first 15-min OR low (put) / OR high (long), inside trigger ± 1R.** Levels below are provisional, anchored to the pre-market price (PM); the trader must replace them with the real OR levels at 8:45 CT. Puts: 5-min close below trigger. Longs: 5-min close above. Target 2R. Names over $100 and options-only names: options or gauge, per the price band.
 
 | # | Ticker | Setup | Trigger | Stop | Target | Catalyst / note | Opt | Swing? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | HPE | put: post-earnings fade / OR-low break | 44.50 | 45.80 | 41.90 | Beat + raised FY27 guide but -7.1% AH (44.85) after +18% Monday; gap-down below Monday's 45.22 low. Re-set to the OR low if it gaps below 44.50 | verify | no |
-| 2 | INTC | long: HOD break | 59.80 | 58.00 | 63.40 | Closed on its high (59.68 vs 59.76 HOD), +16.4% on rel vol; strongest close of the AI group. Overhead: 11/19 high 59.44 already cleared | ✓ | no (holiday wk) |
-| 3 | SMTC | put: post-earnings fade | 95.00 | 97.50 | 90.00 | -8.6% AH (95.9) after reporting; $96 is inside the band; ADV 3.1M, check spread | verify | no |
-| 4 | SOFI | put: Monday-low break | 13.00 | 13.30 | 12.40 | Closed at 13.08, 3¢ off its low despite a +4.8% day; weak relative to the tape | ✓ | no |
-| 5 | IREN | put: Monday-low break | 14.40 | 14.75 | 13.70 | Opened 14.86, high 15.99, closed 14.63 near the 14.41 low. Fade regime only | ✓ | no |
-| 6 | CRWV | put: last-hour-low break | 47.10 | 48.60 | 44.10 | +22% on Huang, but closed 48.37, off its 51.90 high; Monday low 46.53 is the next support below the trigger | ✓ | no |
-| 7 | PTON | long: gap-and-go | 5.65 | 5.42 | 6.00 | $300M buyback, +4% AH (5.57). Target capped at the 20-day high 6.00 (< 2R: no R:R point). Spread check needed | n/a | no |
-| 8 | HOOD | put: Monday-low break | 66.90 | 67.85 | 65.00 | Closed 67.37 near the 66.97 low; crypto flat (BTC ~$61.3k) | ✓ | no |
-| 9 | MSTR | put: Monday-low break | 83.90 | 85.60 | 80.50 | Opened 91.15, closed 84.42 near the 83.95 low | ✓ | no |
-| 10 | APLD | put: Monday-low break | 13.50 | 13.95 | 12.60 | Closed 13.80 near the 13.54 low after a 15.49 high | verify | no |
-| 11 | SMCI | put: Monday-low break | 24.10 | 24.80 | 22.70 | Opened 26.23, closed 24.56 near the 24.15 low | ✓ | no |
-| 12 | GAP | long: Friday-high break | 22.20 | 21.60 | 23.40 | Post-earnings day 3; closed 21.73 near Monday's 21.88 high. 22.16 (Fri high) is the lid; trigger only above it | verify | no |
-| 13 | AFRM | long: HOD break | 59.55 | 58.30 | 62.05 | Closed 58.37; 60.37 (11/19 high) sits < 2R away: no R:R point | verify | no |
-| 14 | WULF | put: Monday-low break | 10.75 | 11.05 | 10.15 | Closed 10.89 near the 10.78 low | verify | no |
-| 15 | RKLB | put: last-hour-low break | 48.75 | 49.70 | 46.85 | Closed 49.61; Monday low 48.28 | verify | no |
-| 16 | CRCL | put: Monday-low break | 50.60 | 51.60 | 48.60 | Opened at the 54.84 high, closed 51.33 near the 50.65 low | verify | no |
-| 17 | OKLO | put: Monday-low break | 20.70 | 21.15 | 19.80 | Closed on its low (20.76 vs 20.74) | verify | no |
-| 18 | MARA | put: Monday-low break | 5.49 | 5.70 | 5.07 | Closed 5.58 near the 5.50 low; under $5 is a stop-trade no-go, so skip if it opens below 5.20 | verify | no |
-| 19 | CIFR | put: Monday-low break | 6.12 | 6.32 | 5.72 | Closed 6.19 near the 6.13 low | verify | no |
-| 20 | NVDA | options gauge: long > HOD / put < last-hour low | long 171.55 / put 164.00 | 168.40 / 166.90 | 177.85 / 158.20 | The day's driver. > $100: options only, floor 8; near-the-money premium is likely > $200 at this IV, so verify | ✓ | no |
-| 21 | PLTR | options: HOD break | 161.20 | 158.50 | 166.60 | Strong close (159.33 vs 161.17 HOD). Options only | ✓ | no |
-| 22 | MU | options gauge: HOD break | 720.70 | 698.00 | 766.00 | +19%; premium far above $200: gauge only | ✓ | no |
+| 1 | HPE | put: gap-down continuation, OR-low break | 41.60 | 43.20 | 38.40 | PM 41.87 (-12.8%). Q4 beat, FY27 outlook has lower Cloud & AI margins and a component shortage; Piper sees a H2 slowdown (Reuters/MarketScreener 11/24). Old 44.50 trigger and 41.90 target both already passed. A 13% gap can bounce first, so wait for the OR low | verify | no |
+| 2 | ADI | put (options only, $330): OR-low break | 328.00 | 336.00 | 312.00 | NEW. PM 330.0 (-12.9%). Q4 beat (EPS 4.06 vs 3.89) but Q1 EPS guide 3.82 vs ~3.89 consensus after a +10% run Monday (Investing.com/MarketBeat 11/24). Above the $200 stock cap: options only, floor 8 | verify | no |
+| 3 | INTC | put: fade of Monday's pop, OR-low break | 55.90 | 57.40 | 52.90 | WAS a long (HOD break 59.80). PM 56.30 (-5.6%), so the long thesis is gone. Chip group is down 5-7% (MU -6.7%, NVDA -5.4%, INTC -6.3%, Bloomberg via Bloomingbit 11/24) | ✓ | no |
+| 4 | SMTC | put: post-earnings fade | 93.00 | 95.60 | 87.80 | PM 94.56 (-9.2%), already through the old 95.00 trigger. Spread 93.01/94.65 is ~1.7%: check it, score -2 if > 0.2% | verify | no |
+| 5 | CRWV | put: break of Monday low | 45.50 | 47.10 | 42.30 | PM 45.90 (-5%), below Monday's 46.53 low. Neocloud, chip fade | ✓ | no |
+| 6 | NBIS | put: OR-low break | 93.00 | 95.60 | 87.80 | NEW. PM 93.50 (-4.4%). Neocloud closed near its low Monday, AI-trade hangover | verify | no |
+| 7 | SMCI | put: Monday-low break | 23.20 | 24.00 | 21.60 | PM 23.40 (-4.6%), through the old 24.10 trigger | ✓ | no |
+| 8 | IREN | put: OR-low break | 13.90 | 14.45 | 12.80 | PM 14.05 (-4%), through the 14.40 trigger | ✓ | no |
+| 9 | MSTR | put: OR-low break | 81.20 | 83.20 | 77.20 | PM 81.58 (-3.3%) | ✓ | no |
+| 10 | HOOD | put: OR-low break | 65.20 | 66.80 | 62.00 | PM 65.50 (-2.8%), through 66.90 | ✓ | no |
+| 11 | SOFI | put: OR-low break | 12.80 | 13.10 | 12.20 | PM 12.87 (-1.7%), through 13.00 | ✓ | no |
+| 12 | MDT | put: post-earnings OR-low break | 96.40 | 98.00 | 93.20 | NEW. PM 96.88 (-3.8%). FQ2 EPS 1.34 beat, revenue missed (11/24 reports) | verify | no |
+| 13 | MARA | put: OR-low break | 5.25 | 5.45 | 4.85 | PM 5.33 (-4.5%). Under $5 is a stop-trade no-go: skip if it trades below 5.10. Stock-only candidate is marginal | verify | no |
+| 14 | WULF | put: OR-low break | 10.45 | 10.80 | 9.75 | PM 10.55 (-3.2%) | verify | no |
+| 15 | OKLO | put: OR-low break | 20.00 | 20.70 | 18.60 | PM 20.21 (-2.7%); spread 20.02/20.21 ~1% | verify | no |
+| 16 | CRCL | put: OR-low break | 49.80 | 51.00 | 47.40 | PM 50.10 (-2.4%) | verify | no |
+| 17 | RKLB | put: OR-low break | 47.70 | 48.80 | 45.50 | PM 47.98 (-3.3%), through 48.75 | verify | no |
+| 18 | APLD | put: OR-low break | 13.10 | 13.60 | 12.10 | PM 13.24 (-4.2%); spread 13.08/13.27 ~1.4% | verify | no |
+| 19 | DKS | long: gap-and-go, OR-high break | 153.00 | 149.00 | 161.00 | NEW. PM ~151 (+13%): Q3 EPS 1.94 vs 1.41, FY EPS guide raised to 11.45–12.30, comps +1.8% (Investing.com/MarketBeat 11/24). One share fits the cap; spread 150.5/153 is ~1.7%: check it. Long -1 applies | n/a | no |
+| 20 | ANF | long: gap-and-go, OR-high break | 157.00 | 152.50 | 166.00 | NEW. PM 155.30 (+10.6%): Q3 EPS 3.42 vs 3.10 (Robinhood calendar 11/24). Headline detail thin: no dated article read, so treat the catalyst as the EPS beat only. Spread 154.75/156.60 ~1.2% | n/a | no |
+| 21 | DLTR | long: gap-and-go, OR-high break | 150.60 | 147.00 | 157.80 | NEW. PM 149.74 (+7.6%): Q3 EPS 1.16 vs 0.89, comps beat (11/24 reports; PM high ~150.60) | n/a | no |
+| 22 | A | long: gap-and-go, OR-high break | 188.50 | 184.50 | 196.50 | PM 186.90 (+6.2%) on Monday's post-earnings pop; above $100, one share fits. Spread 186/188.25 ~1.2% | n/a | no |
+| 23 | NVDA | options gauge: put < Monday low / long > OR high | put 157.00 / long 160.50 | 159.80 / 157.50 | 151.50 / 166.50 | PM 157.63 (-4.5%) after +31.6% Monday: the day's tone-setter. Monday low was 156.93 | ✓ | no |
+| 24 | PLTR | options: put OR-low break | 154.50 | 157.50 | 148.50 | PM 155.04 (-2.7%); closed strong Monday, so a fade is the setup now. Options only | ✓ | no |
+| 25 | MU | options gauge: put OR-low break | 660.00 | 678.00 | 624.00 | PM 664.4 (-6.1%). Premium far above $200: gauge only | ✓ | no |
 
-**Gauges (no trades):** SPY, QQQ, IWM, NVDA, MU, TSM (363.43, closed at its low: chip-fade tell), AMD (454), TSLA (385.86), ORCL (113.79), GLD/NEM (gold +4%), BTC (~$61.3k).
+**Dropped at 8:00 CT:** PTON (PM spread 5.42/5.94 is ~9%, trigger 5.65 above the pre-market price), GAP and AFRM (long setups in a gap-down tape, nowhere near their triggers, long -1), CIFR (spread 5.89/6.02 ~2%, wide), INTC long (replaced by the put). **Gauges (no trades):** SPY, QQQ, IWM, NVDA, MU, TSM (PM 354.3, -2.6%), AMD (PM 427.9, -5.6%), TSLA (382.4, -0.8%), ORCL (110.1, -3.2%), GLD (331.5, -0.5%), BTC.
+
+**Pre-market update 2026-11-24 8:00am CT:** futures -1.2% S&P / -2.1% Nasdaq, VIX 29.5, SPY at Monday's low; fade regime is the base case. Re-anchored every put to the pre-market price (gap rule: trigger = OR low). Dropped PTON, GAP, AFRM, CIFR and the INTC long (now a put). Added ADI (put, options only), MDT and NBIS (puts), DKS, ANF, DLTR and A (earnings/news gap-and-go longs). 25 names. No swings open.
