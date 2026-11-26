@@ -1,6 +1,6 @@
 # Stats
 
-_Updated 2026-11-25 by the 3:30pm analyst._
+_Updated 2026-11-26 (Thanksgiving, market closed) by the 3:30pm analyst. No trades and no calibration rows today; the cumulative tables are unchanged from 11/25._
 
 ## All-time
 | Trades | Wins | Losses | Win rate | Avg R | Total $ P&L |
@@ -59,6 +59,7 @@ Intraday: 3 trades, -$9.68 · Swing: 0 trades, $0
 | 2026-11-23 | **$714.56** (all cash) | $0.00 | 0 | **Re-funded after the last trader run** ($0.91 at every run through 13:36 CT; $714.56 cash at 3:31pm). S&P +4.73% (Huang reinstated as NVDA CEO; NVDA +31.6%), but high-beta names faded from the 9:00 highs. All 10 trader runs + pre-market + both closers present. Paper -0.26R over 73 valid triggers (7 target / 29 stop): longs **-0.55R (n = 28)** despite the up tape; all four score-7 longs stopped within 20 min; puts -0.08R (n = 45). MU long 8 hit target (+1.25R) but was untradeable (> $100, premium > $200) |
 | 2026-11-24 | **$714.56** (all cash) | $0.00 | 0 | First funded session since 11/18; all 10 trader runs + pre-market + both closers present. Nasdaq -1.5% (chips -6 to -17%), Dow +0.9%, Russell +0.6%; SPY 712.1–720.9, closed 718.79. Nothing reached a floor: best real candidate ANF long 7 → 6 (room-to-HOD rule); watchlist puts topped at 7 vs the options floor 8 (rel vol < 2x all day). Paper **+0.23R over 89 triggers (32 target / 5 stop)**: longs +0.22R (n = 36), puts +0.23R (n = 53); first-hour puts +0.30R (n = 46) |
 | 2026-11-25 | $714.56 (all cash) | $0.00 | 0 | Gap-down V-reversal: SPY 695.45 → 718.43, closed 716.75 (-0.28%); IWM +0.6%. All 10 trader runs + pre-market + both closers present. Nothing reached a floor: URBN put 8–9 (options illiquid, can't short), NBIS put 8 at 09:06 (RV fell below 2x by 09:36). Paper **-0.26R over 81 triggers (4 target / 30 stop)**: puts **-0.97R (n = 29, 27 stopped)**, longs +0.14R (n = 52) |
+| 2026-11-26 | $714.56 (all cash) | $0.00 | 0 | **Thanksgiving: NYSE closed.** All 10 trader runs + 2:45 closer + 2:55 backup logged a holiday no-op; no orders of any kind (verified on Robinhood at 3:30) |
 
 ## Hypothetical (skipped/untaken) setups: running tally
 | Date | Setup | Samples | Target hit | Stop hit | Neither (R at 2:45pm CT) | Avg R |
