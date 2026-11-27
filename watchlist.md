@@ -1,103 +1,69 @@
-# Watchlist for Fri 2026-11-27 (built Thu 2026-11-26 3:30pm CT)
+# Watchlist for Mon 2026-11-30 (built Fri 2026-11-27 3:30pm CT)
 
-_Refreshed on Thanksgiving from the Wed 11/25 build: same levels (no US session Thursday), plus Thursday's futures/global context, Wed after-hours prints (AH column) and a new oil/tanker theme (rows 21–23). See research/2026-11-26.md._
+> **Account ••5279: $714.56 cash / $714.56 buying power** (3:30pm CT Fri, all cash, no positions). No swings open. Trade normally inside the hard limits. Re-read buying power before the first order.
 
-> **Account ••5279: $714.56 cash / $714.56 buying power** (3:35pm CT Wed). Flat; no swings. Trade normally inside the hard limits. Re-read buying power before the first order.
+The levels come from Robinhood bars: Fri 11/27 half-day 30-min bars plus daily bars from 10/28 to 11/25. **Every level is provisional; the 8:00 run re-anchors them to pre-market.** A trigger is a completed 5-min bar closing beyond the level, after 8:45 CT. Longs: trigger = Fri high + 0.01. Stop = the larger of Fri's low and trigger − 0.5 × 10-day ATR. Target = 2R. Puts: the mirror image, graded on the underlying. **Chase limit = trigger + 1R** (puts: trigger − 1R). If a name gaps through its trigger, use the first 15-min OR high as the trigger, still inside the chase limit.
 
-**HALF DAY: the market closes 12:00 CT (1:00pm ET).** Per the playbook's early-close rule: **no new entries after 10:30 CT**; the **11:30 run flattens every intraday position and cancels open orders**. The 2:45 closer runs after the bell and can't flatten anything. Thanksgiving Thursday is closed.
+**Rules in force:** max score 9. Floors: **stocks ≥ 7, options ≥ 8**. No forced trades. **The intraday-long -1 is SUNSET as of today** (its own condition was met; see changelog 2026-11-27). The late-trigger -1 (bar closes after 10:30 CT) stays, along with the room-to-resistance and no-chase rules. Rel vol is computed on regular-session volume only. Options: premium ≤ $200, sell-to-close stop ≥ 15% below entry, sized so the loss is ≤ $30, |Δ| 0.30–0.60, spread ≤ 10% of mid. No option entries after 1:00pm CT.
 
-Levels come from Robinhood 5-min/30-min bars (Wed 11/25 regular session) and daily bars (10/27–11/24), with after-hours quotes ~3:36 CT. **Every level is provisional: the 8:00 run re-anchors to pre-market.** A trigger is a completed 5-min close beyond the level, after 8:45 CT. **Chase limit = trigger + 1R** (puts: trigger − 1R). If a name gaps through its trigger, use the first 15-min OR high (longs) / OR low (puts) as the trigger, inside the chase limit. Any watchlist name moving more than ±10% pre-market needs a dated headline. Journal numeric levels and `now/on-trigger` scores, one ticker per row, **times in CT**.
-
-**Rules in force:** max score 9. Floors: **stocks ≥ 7, options ≥ 8**. No forced trades. -1 on every intraday long. -1 when an intraday trigger bar closes after 10:30 CT (moot Friday: no entries after 10:30). Rel vol on regular-session volume only. Options: premium ≤ $200, sell-to-close stop ≥ 15% below entry sized to a loss ≤ $30, |Δ| 0.30–0.60, spread ≤ 10% of mid, no option entries after 1:00pm CT. Puts only on `opt-liquid ✓` names or after a chain check. The cash account can't short: **a put setup is an options trade or nothing.**
-
-## Market bias (re-anchored 8:00am CT): BULLISH GAP-UP into a thin half day (SPY pre-mkt +1.5%, QQQ +2.1%); the Thursday-built text below says ~+0.5%, superseded by the pre-market update; tech/chips bounce, but NVDA carries headline risk
-- **Thursday (US closed):** ES ~7,225–7,246 (+0.4% to +0.7%), NQ +0.6%. Global relief rally on softer-than-feared US tariffs (capped at deal levels, not before Feb): STOXX 600 +1.8%, DAX +2.1%, Stoxx Tech +2.5%, Nikkei +0.9%, Hang Seng +1.5%. Brent +1.2% to $96.57 on unconfirmed Hormuz tanker-mine and Ras Tanura reports. BTC back to ~$60.7k. **Wed AH: SPY 720.43, QQQ 636.62, IWM 270.31, NVDA 151.22.**
-- **SPY 720.93 (Tue high) is the first test at the open.** Holding above it and VWAP = bull regime. Back below 716.75 (Wed close / gap fill) = chop. Below 712 = fade regime. Black Friday's median range is ~0.5%: expect slow triggers and low rel vol.
-- **NVDA:** CBS report on chip sales to Chinese-owned US firms; Huang testifies to Senate Banking on 12/3. It's a gauge for chips: if it fades its gap, skip the chip longs (INTC, SMCI, SMTC).
-- **Wednesday was a V-reversal:** S&P down more than 3% early, closed -0.25%. SPY 695.45 → 718.43, close 716.75 (top 7% of range); QQQ close 633.95 (top 3%); **IWM +0.6%, closed above Tuesday's high.** This is a hammer at the 20-day lows after a hot core PCE (3.3%) and with a December hike ~98% priced.
-- **Regimes (SPY):** **Bull:** holds above 712 and the Friday VWAP: longs at normal floors (still -1 each). **Fade:** loses 712 and VWAP: puts on the AI/chip laggards (CRWV, ORCL, NVDA gauge). **Chop:** 712–718.5: expect nothing to qualify. Below 705, the reversal has failed.
-- **Volume:** half-day sessions trade light. Rel vol > 2x (the +2) will be rare, so most names will top out at 6–7 on-trigger. That's fine: **a no-trade Friday is the expected outcome, not a failure.**
-- **Paper lesson from Wed:** on a gap-down V-day every put got squeezed (29 triggered, 27 stopped, -0.97R). Don't take an OR-low put in the first hour if SPY is reclaiming VWAP.
-
-## Pre-market update Fri 2026-11-27 8:00am CT (Robinhood pre-mkt quotes ~8:05 CT vs Wed close)
-- **Tone: strong risk-on gap.** SPY 727.37 (+1.5%, above Tue high 720.93 and the 718.43 Wed high), QQQ 647.34 (+2.1%), IWM 272.26 (+1.3%), NVDA 152.50 (+2.1%), XLE 61.69 (+1.3%), USO 140.51 (+0.4%). Press reports (unverified dating) describe a global/AI rebound and ES > 7,300. **Bull regime by default; SPY below 720.93 = gap fading, below 716.75 = chop.** Historical Black Friday half-day bias is mildly positive (~+0.3% avg, ~65% up), but gaps this size can fade on thin volume.
-- **Puts are dormant.** The fade regime needs SPY < 712, ~15 points under pre-market. CRWV 44.33 (+4.2%), ORCL 107.68 (+3.7%), NVDA 152.50 are all well above Wed closes, so rows 16-20 triggers are 10%+ away. Don't hunt puts unless SPY loses VWAP and 720.93 early; rows 18-19 (TGT 172.86 +0.4%, DLTR 152.97 +0.5%) are flat retail names: no edge.
-- **Gap rule now applies to most longs.** Under the playbook rule (gap through trigger: 15-min OR high as trigger, inside chase limit = trigger + 1R), no entry before ~8:45 CT; entries stop at 10:30 CT; flatten at the 11:30 run.
-- **No fresh gap/catalyst list was available.** Web searches returned no dated 11/27 pre-market mover or earnings list, and the Robinhood calendar shows **no earnings today** (next: CHA am / RBRK pm Mon 11/30). I added no new names to avoid unverified entries; every row's level is re-anchored below.
-- **>10% rule:** **NU 13.78 (+11.5%) has no dated headline found: treat as unverified, skip unless the headline appears** (above the 13.25 20-day high, so no room measurable). All other names are within ±10%.
-
-| # | Ticker | Pre-mkt (8:05) | vs Wed close | Status vs trigger / action |
-|---|---|---|---|---|
-| 1 | LI | 12.32 (12.26/12.38) | +3.7% | Through trigger 11.95 and at the chase limit (12.35): **use the OR-high trigger; skip if OR high > 12.35** |
-| 2 | HPQ | 31.30 (31.18/31.40) | +0.6% | Below trigger 32.10, unchanged. Needs a real push; room 1.4R |
-| 3 | COGT | 36.30 (36.24/36.70) | +0.6% | Just below trigger 36.40. Spread 1.3% pre-mkt: check at the open |
-| 4 | BZ | 14.66 (14.66/14.85) | +2.2% | Through 14.40 (chase 14.95). **Pre-mkt spread 1.3% → -2 until it narrows below 0.2%** |
-| 5 | VRDN | 39.60 (37.91/38.44) | +4.7% | Through trigger and beyond chase limit (39.50): OR-high rule; stale last trade, spread wide. Low priority |
-| 6 | SMTC | 98.74 (97.71/98.60) | +6.3% | Through Tue high 96.41; 2.3R chase limit 95.40 already passed: OR-high rule only, 1R ≈ $2.30. Watch for a fade |
-| 7 | HPE | 42.16 (42.11/42.32) | +3.3% | Through trigger and chase limit (41.80); Tue high 42.49 right overhead (room ≈ 0.4R). **Deprioritized (no room)** |
-| 8 | INTC | 56.80 (56.78/56.84) | +4.3% | Through trigger/chase (55.70); Tue high 57.54 overhead. OR-high rule; tight spread, still tradable |
-| 9 | ANF | 176.61 | -0.2% | Below 178.50 trigger; 1 share |
-| 10 | BBY | 103.05 (102.60/104.00) | +0.5% | At trigger 103.00; spread 1.4% pre-mkt, check |
-| 11 | DKS | 159.05 | +0.3% | Below 162.10 trigger |
-| 12 | NU | 13.78 | **+11.5%** | **No dated headline: avoid unless one is found** |
-| 13 | IONQ | 24.67 (24.60/24.69) | +4.8% | Through 23.95 and chase (24.70) borderline; OR-high rule |
-| 14 | MSTR | 84.24 | +5.3% | Through Tue high 82.92; trigger 81.10 chase 82.80 passed. OR-high rule; room to 84.50 target gone: **re-anchor: skip unless OR high leaves 2R** |
-| 15 | SMCI | 24.12 (24.01/24.20) | +3.4% | Through 23.86 and re-anchor trigger 23.90 (chase 24.45): OR-high rule, stop 23.35 |
-| 16-20 | CRWV/ORCL/TGT/DLTR/NVDA puts | CRWV 44.33, ORCL 107.68, TGT 172.86, DLTR 152.97, NVDA 152.50 | +4.2/+3.7/+0.4/+0.5/+2.1% | **Dormant** (see above) |
-| 21 | OXY | 54.75 (54.53/54.83) | +1.5% | At trigger 54.70; oil +1.3% XLE. Needs a dated oil headline; intraday only |
-| 22 | FRO | 48.44 (48.39/48.50) | +1.7% | At trigger 48.45; tight spread. Intraday only |
-| 23 | DVN | 43.40 (43.00/43.85) | +2.2% | Through 42.95 (chase 43.50); room to 43.80 only 0.7R. **Deprioritized** |
-
-**Top 5 at the open (updated):** 1) INTC (liquid, ✓ options, OR-high rule), 2) LI (fresh catalyst, if OR high ≤ 12.35), 3) FRO / OXY (energy bid, intraday), 4) SMCI (OR-high, stop 23.35), 5) COGT/HPQ (below triggers, need a push). With SPY +1.5% gapped, expect -1 long penalty and thin rel vol: a no-trade day is still acceptable.
+## Market bias: BULLISH, low conviction. A thin-volume rally runs into a heavy event week
+- **The week:** a V-bottom on Wed (SPY 695.45 → 716.70), then Friday's half day closed near the high: **SPY 728.73 (+1.7%)**, QQQ 650.76 (+2.7%), IWM 273.75 (+1.8%). S&P 7,297 (+1.6%), Nasdaq +2.3%, SOX ~+5%, VIX 23.8 (-11%). Memory and AI led (SNDK +15%, MU +7%, WDC +7%, ANT +11%), along with gold/silver miners (gold +2.9%: HYMC +15%, AG +10%, EGO +10%).
+- **Caveat:** Friday's volume was only **~0.17x the 20-day average** for SPY, a holiday tape. Up moves on light volume often get retested. Expect Monday's opening move to set the regime.
+- **Macro:** a December 9 Fed **hike** is ~99% priced, and the 10-year sits at ~4.92% after Q3 GDP was revised up to 4.3%. Brent is ~$91–97 on attacks on Saudi refineries (Ras Tanura, Jazan) and tanker-mine claims in Hormuz. **OPEC+ meets Sun 11/29**; a Q1-2027 rollover is expected. BTC ~$59.7k (-1.7%); spot ETFs saw record November outflows.
+- **Regimes (SPY):** **Bull:** holds above 724 (Friday's midpoint) and VWAP. Longs at normal floors, with memory/AI/miners first. **Chop:** 719.6–724. **Fade:** loses 719.62 (Fri low) and VWAP: puts on Friday's weak closers (NU, DLTR, HUBS) and SPY/QQQ. Below 716.7 (Wed close), Friday's rally has failed.
+- **Paper evidence so far:** longs went from -0.55R (11/23) to +0.22R, +0.14R and +0.24R on 11/24, 11/25 and 11/27. Puts were -0.97R (11/25) and ~0R (11/27) in up tapes. Don't take an OR-low put while SPY is above VWAP.
 
 ## Key index levels
-| | Wed open | Wed high | Wed low | Wed close | Chg | Tue H / L / C | 20-day H / L |
-|---|---|---|---|---|---|---|---|
-| SPY | 703.18 | 718.43 | 695.45 | 716.75 | -0.28% | 720.93 / 712.14 / 718.78 | 775.64 / 686.75 |
-| QQQ | 617.10 | 634.89 | 607.76 | 633.95 | -0.65% | 648.00 / 631.15 / 638.10 | 726.14 / 606.23 |
-| IWM | 263.23 | 269.77 | 260.84 | 268.83 | +0.63% | 268.31 / 263.97 / 267.14 | 286.17 / 256.32 |
-| NVDA | 144.00 | 150.37 | 141.17 | 149.33 | -3.9% | 159.92 / 150.50 / 155.38 | 219.99 / 124.50 |
+| | Fri 11/27 high | Fri low | Fri close | Wed 11/25 high / low / close | 20-day high / low |
+|---|---|---|---|---|---|
+| SPY | 729.15 | 719.62 | 728.73 | 718.43 / 695.45 / 716.70 | 775.64 / 686.75 |
+| QQQ | 651.34 | 636.72 | 650.76 | 634.89 / 607.74 / 633.93 | 718.07 / 606.23 |
+| IWM | 273.92 | 270.69 | 273.75 | 269.77 / 260.84 / 268.87 | 286.17 / 256.32 |
 
 ## Events (CT)
-- **Fri 11/27: no major economic data (advance goods trade/wholesale inventories 7:30 CT, low-tier). Open 8:30, close 12:00 CT** (options on eligible products 12:15 CT). Bond market closes early.
-- Weekend: **OPEC+ meeting Sunday** (energy names are intraday only Friday, no swing). The tariff proposal comment period runs into January.
-- Next week: Tue 12/1 JOLTS; Thu 12/3 Huang at Senate Banking; Fri 12/4 November payrolls; FOMC 12/8–9 (hike ~98% priced).
-- **Next week's earnings (swing exits):** Mon 11/30 CHA (am), RBRK (pm). Tue 12/1 am: NIO, TCOM (pm), CPRT, VSTS. Tue 12/1 pm: **CRDO, MRVL**, OKTA, MDB, NTAP, GTLB, ASAN, BOX, NCNO, HQY. A swing opened Friday in any of these must be closed before its report.
+- **Sun 11/29:** OPEC+ meeting on 2027 quotas. A rollover is expected; a surprise moves FRO/OXY/DVN at the open.
+- **Mon 11/30:** Cyber Monday (Adobe forecast $15.1B). **8:45 Chicago PMI** (prior 55.3). **CHA earnings pre-market. RBRK after the close.**
+- **Tue 12/1:** 9:00 ISM manufacturing (cons. 55.2) and JOLTS. **Jensen Huang's private House interview** (NVDA headline risk). After the close: **MRVL, CRDO, OKTA, MDB, NTAP, TCOM, GTLB, BOX, ASAN**. Before the open: NIO, CPRT.
+- **Wed 12/2:** ADP. Before the open: M, SIG, BMO, BNS. After the close: **CRM, SNOW, NTSK, FIVE, AEO**.
+- **Thu 12/3:** **9:00 Huang's public Senate Banking testimony**, ISM services. Before the open: KR, DG, TD, RY. After the close: ULTA, DOCU, VEEV, IOT, PATH, S.
+- **Fri 12/4:** 7:30 November jobs report (cons. ~+90k). **Wed 12/9:** FOMC (hike priced). **Thu 12/24:** half day (early-close rule).
 
 ## AVOID
-- **Deal-pinned:** INSM (Sanofi), BILL (TPG/Corpay), ZS, CRWD (acquirer).
-- **ANT** (Anthropic IPO, below its offer); **URBN options** (25% spread on 11/25; the stock can't be shorted); **AMBA, NTNX** (thin, single-name news); **BMA** (reported Wed pm; AH book 43.5/52.5); **GDS**; any stock < $5; stock entries above $200 (gauges/options only); leveraged/inverse ETFs.
-- **Option swings into the weekend:** no (gap risk the $30 stop can't cover).
+- **CHA** (reports Mon pre-market) and **RBRK** (reports Mon after the close): no entries Monday.
+- **No swings into earnings:** NTSK (12/2 pm), MRVL/CRDO/OKTA/MDB/NTAP (12/1 pm), CRM/SNOW (12/2 pm).
+- **NVDA:** Huang's hearings on 12/1 and 12/3. No NVDA swing; use it only as the chip gauge. At ~$150 it buys 1 share, so it's not tradeable as stock anyway.
+- **Over the price band:** MU ($646), WDC ($292), SPCX ($133), DKS/ANF ($165–185, ≤ 1 share). No stock entries. VRTX (-7% on an FDA delay) is not on the list.
+- **ASTS:** downgraded to Hold by Berenberg (PT $92 → $30). Long only on a clean trigger; no swing.
 
 ## Names (priority order)
-Longs: 5-min close above the trigger. Puts: 5-min close below (options only). Target = 2R unless noted. "Room" flags overhead resistance inside 2R, where the +1 R:R point is not awarded per the room-to-resistance rule.
+Longs: a 5-min close above the trigger. Puts: a 5-min close below the trigger (options only; levels are on the underlying). Target = 2R. Room = distance to the 20-day high or low in R (the +1 R:R point needs ≥ 2R). Opt = whether the option chain has been checked liquid (puts only).
 
-| # | Ticker | Setup | Wed close | Trigger | Stop | Target | Catalyst / note | Opt | Swing? |
+| # | Ticker | Setup | Fri close | Trigger | Stop | Target | Catalyst / note | Opt | Swing? |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | LI | long: day-2 gap-and-go / HOD break | 11.88 | 11.95 | 11.55 | 12.75 | +11.0% on Q3 beat + Q4 delivery guide 110–115k; closed at HOD (11.91), vol 1.5x avg. 20-day high 12.84 is 2.2R away. R $0.40 → 16 shares ≈ $6.40 risk. AH 11.84 | verify | yes (stock; strong close on a fresh catalyst) |
-| 2 | HPQ | long: day-2 HOD break | 31.12 | 32.10 | 31.10 | 34.10 | +11.4% on Q4 beat + FY27 outlook; HOD 32.05, but faded into the close (close at 60% of range). **Room:** 20-day high 33.50 = 1.4R. R $1.00. AH 31.23 | ✓ | no (close not near HOD) |
-| 3 | COGT | long: 20-day-high breakout continuation | 36.10 | 36.40 | 35.30 | 38.60 | +9.4%, new 20-day high (36.35), vol 1.16x avg. Biotech momentum (scanner name 11/24–25). R $1.10. AH 36.11 | verify | yes (daily close above the 20-day high on above-avg volume) |
-| 4 | BZ | long: day-2 HOD break | 14.345 | 14.40 | 13.85 | 15.50 | +12.6%: Q3 revenue +11.7% and a $500M buyback; closed at HOD 14.36. **AH book 13.50/15.00: check the spread at the open (-2 if > 0.2%).** R $0.55. AH 14.30 | verify | yes (stock only if spread OK) |
-| 5 | VRDN | long: 20-day-high breakout | 37.83 | 38.30 | 37.10 | 40.70 | +6.0%, new 20-day high (38.27), but vol only 0.5x avg. R $1.20. **AH 39.00, through the trigger: use the OR-high rule** | verify | no (volume below average) |
-| 6 | SMTC | long: reversal HOD break | 92.90 | 93.10 | 90.80 | 97.70 | +7.4%, closed at HOD 92.99 after a 78.20 low. **Room:** Tue high 96.41 = 1.4R. R $2.30. **AH 94.44, through the trigger: use the OR-high rule; Tue high 96.41 caps room** | verify | no |
-| 7 | HPE | long: reversal HOD break | 40.82 | 40.90 | 40.00 | 42.70 | Closed at HOD (40.84) after a 37.04 low; day 3 after the -18% FY27 margin guide. **Room:** Tue high 42.49 = 1.8R. R $0.90. **AH 41.12, through the trigger: use the OR-high rule** | verify | no |
-| 8 | INTC | long: reversal HOD break | 54.47 | 54.60 | 53.50 | 56.80 | Closed at HOD 54.51 after a 49.16 low (20-day low 51.10 undercut and reclaimed). Tue high 57.54 OK. R $1.10. AH 54.85 | ✓ | no |
-| 9 | ANF | long: 20-day-high break | 177.02 | 178.50 | 175.00 | 185.50 | +5.3%, closed at HOD; 20-day high 178.38. Retail into Black Friday. **1 share only** (> $100); R $3.50 | verify | no |
-| 10 | BBY | long: HOD break | 102.57 | 103.00 | 101.30 | 106.40 | +3.0%, closed near HOD 102.88, above Tue high 101.79. Black Friday read-through; 20-day high 106.83. 1 share (~$103); R $1.70 | verify | no |
-| 11 | DKS | long: 20-day-high continuation | 158.72 | 162.10 | 158.60 | 169.10 | +3.6% to a new 20-day high (161.98), but faded to 61% of range. 1 share; R $3.50 | n/a | no |
-| 12 | NU | long: HOD break | 12.37 | 12.55 | 12.25 | 13.15 | +4.3%, above Tue high 12.075. 20-day high 13.25 OK. R $0.30. **AH 12.58, through the trigger: use the OR-high rule** | ✓ | no |
-| 13 | IONQ | long: HOD break | 23.535 | 23.95 | 23.20 | 25.45 | +5.1%, above Tue high 23.36 (HOD 23.89). R $0.75. **AH 24.10, through the trigger: use the OR-high rule** | ✓ | no |
-| 14 | MSTR | long: reversal HOD break | 80.11 | 81.10 | 79.40 | 84.50 | +3.3% after a 70.37 low (new 20-day low, reclaimed). **Room:** Tue high 82.92 = 1.1R. R $1.70 | ✓ | no |
-| 15 | SMCI | long: HOD break | 23.32 | 23.40 | 22.85 | 24.50 | +3.1%, closed at HOD 23.35. **Room:** Tue high 23.86 = 0.8R: wait for a close above 23.86 (re-anchor trigger 23.90, stop 23.35, target 25.00). AH 23.68 (just under the 23.86 Tue high) | ✓ | no |
-| 16 | CRWV | put (options): fade / LOD break | 42.565 | 37.35 | 39.20 | 33.65 | Neocloud leader of the AI unwind; reversed from 37.40 to the close. Only if SPY < 712 and VWAP. Gap rule: use the 15-min OR low if lower. R $1.85. AH 43.56 | ✓ | no |
-| 17 | ORCL | put (options): 20-day-low break | 103.89 | 99.30 | 101.60 | 94.70 | -5.1% (AI debt/capex worries); LOD 99.34, 20-day low 100.25; closed mid-range. **Premium for |Δ| 0.30–0.60 probably > $200: chain check first** | verify | no |
-| 18 | TGT | put (options): LOD break | 172.16 | 170.30 | 172.70 | 165.50 | -2.2%, closed in the lower third (LOD 170.36) while retail peers rallied. Black Friday headline risk both ways. Chain check | verify | no |
-| 19 | DLTR | put (options): LOD break | 152.18 | 150.90 | 153.00 | 146.70 | -1.6%, closed at 24% of range after Tuesday's earnings pop. Chain check | verify | no |
-| 20 | NVDA | put (options, gauge) | 149.33 | 141.10 | 145.10 | 133.10 | Tone-setter for the AI unwind; LOD 141.17. A 0.30–0.60Δ put is almost surely > $200: **gauge only** unless the chain proves otherwise. AH 151.22 | ✓ | no |
-| 21 | OXY | long: HOD / multi-day high break (oil catalyst) | 53.95 | 54.70 | 54.10 | 55.90 | **Brent +1.2% Thursday** (Hormuz tanker-mine and Ras Tanura claims, unconfirmed). Wed HOD 54.505, 11/19 high 54.65; 11/18 high 56.30 = 2.7R OK. Fresh-catalyst row: needs a dated oil headline at 8:00. R $0.60 | verify | **no** (OPEC+ Sunday, unconfirmed headlines) |
-| 22 | FRO | long: HOD break (tanker rates) | 47.65 | 48.45 | 47.55 | 50.25 | Tanker-mine headlines push freight risk premium up. Wed HOD 48.38 (3-week high); 11/04 high 51.02 = 2.9R OK. Thin AH book (42.50/49.72). R $0.90 → 4 shares ≈ $3.60 risk | verify | no |
-| 23 | DVN | long: HOD break (oil catalyst) | 42.45 | 42.95 | 42.40 | 44.05 | Same oil catalyst; +2.9% Wed. **Room:** 11/18 high 43.80 = 1.5R (no +1 R:R point). R $0.55 | verify | no |
+| 1 | SNDK | long: day-2 HOD break | 84.97 | 85.45 | 80.69 | 94.97 | +15.4% memory rebound; closed at 94% of range; #2 on WSB. R $4.76 → 2 sh (≈ $170). Room 14.6R | – | yes (strong close) |
+| 2 | AXTI | long: day-2 HOD break | 36.37 | 36.42 | 34.12 | 41.02 | +13.7%, closed at the HOD; AI optical/memory rebound. R $2.30 → 5 sh. Room 9.7R | – | yes |
+| 3 | HYMC | long: HOD break (miners) | 15.79 | 15.82 | 15.07 | 17.32 | +15.1%, closed at the HOD; gold +2.9%. R $0.75 → 12 sh. Room 7.8R | – | yes |
+| 4 | AG | long: HOD break (silver) | 12.34 | 12.35 | 12.00 | 13.05 | +9.9%, closed on the high. R $0.35 → 16 sh. Room 10.7R | – | yes |
+| 5 | RKLB | long: HOD break | 50.95 | 50.96 | 48.60 | 55.68 | +8.4%, closed on the high; space bid alongside SPCX. R $2.36 → 3 sh. Room 7.3R | – | yes |
+| 6 | INTC | long: HOD break (chip gauge) | 57.845 | 58.39 | 56.47 | 62.23 | +6.2%, SOX +5%. Only if NVDA is green. R $1.92 → 3 sh. Room 5.4R | ✓ | no (Huang hearings) |
+| 7 | OUST | long: HOD break | 28.27 | 28.28 | 26.82 | 31.20 | +9.7%, closed on the high. R $1.46 → 7 sh. Room 8.3R | – | yes |
+| 8 | EGO | long: HOD break (gold) | 30.45 | 30.49 | 29.74 | 31.99 | +10.1%, closed at 98% of range. R $0.75 → 6 sh. Room 9.8R | – | yes |
+| 9 | AAOI | long: HOD break | 40.86 | 40.94 | 38.60 | 45.62 | +10.4%, closed at the HOD. R $2.34 → 4 sh. Room 14.2R | – | yes |
+| 10 | CRWV | long: HOD break / put if SPY fades | 44.14 | 44.23 | 41.38 | 49.93 | +3.7%, closed at the HOD; AI-infra bellwether. R $2.85 → 4 sh. Room 6.2R. Put only below 40.87 | ✓ | yes |
+| 11 | ANT | long: HOD break | 91.74 | 93.23 | 90.16 | 99.37 | +10.8%, most active. R $3.07 → 2 sh. Room 7.1R | verify | yes |
+| 12 | PAAS | long: HOD break (silver) | 35.00 | 35.04 | 34.25 | 36.62 | +7.5%, closed on the high. R $0.79 → 5 sh | – | yes |
+| 13 | GFI | long: HOD break (gold) | 36.49 | 36.50 | 35.78 | 37.94 | +7.1%, closed on the high. R $0.72 → 5 sh | – | yes |
+| 14 | NTSK | long: 20-day-high breakout | 28.50 | 28.85 | 27.83 | 30.89 | +7.8% to a new 20-day high, vol 0.66x on a half day. **Earnings 12/2 pm** | – | **no** (earnings) |
+| 15 | HPQ | long: 20-day-high breakout | 32.14 | 32.50 | 31.97 | 33.56 | Post-earnings day-3; Fri high 32.49 = 20-day high. R $0.53 → 6 sh | ✓ | yes (daily close > 32.50) |
+| 16 | VERA | long: 20-day-high breakout | 34.29 | 35.50 | 34.65 | 37.20 | +16.2% to a new high, then faded to 59% of range. Spread was 0.5% on Fri (check, -2 if > 0.2%) | – | no |
+| 17 | XP | long: 20-day-high breakout | 16.99 | 17.35 | 17.01 | 18.03 | +18% (Brazil/LatAm bid); closed mid-range. Tight R $0.34 | – | no |
+| 18 | KNTK | long: 20-day-high breakout | 59.65 | 60.33 | 59.60 | 61.79 | +9.1% to a new high. Spread 0.37% on Fri (check) | – | no |
+| 19 | BKSY | long: HOD break | 17.395 | 17.62 | 16.64 | 19.58 | +8.9%, space. R $0.98 → 11 sh | – | yes |
+| 20 | IONQ | long: HOD break | 24.99 | 25.40 | 24.21 | 27.78 | +6.2%, quantum. R $1.19 → 7 sh | ✓ | yes |
+| 21 | LI | long: HOD break | 12.42 | 12.65 | 12.43 | 13.09 | Day 3 after the Q3 beat. **Room: 12.835 twenty-day high = 0.8R → no R:R point** | verify | no |
+| 22 | NU | **put**: low break | 12.92 | 12.86 | 13.17 | 12.24 | +11% Wed with no headline, then closed at 8% of Fri's range: a failed day-2. Room 5.3R | verify | no |
+| 23 | DLTR | **put**: low break | 148.63 | 146.47 | 148.96 | 141.49 | -2.4% on a +1.7% tape; closed at 29% of range. Room 6.3R | ✓ | no |
+| 24 | HUBS | **put**: low break | 207.02 | 205.74 | 212.95 | 191.32 | Argus downgrade (CEO change), closed at 12% of range. Room 2.4R. The premium is likely > $200: verify | verify | no |
+| 25 | SPY / QQQ | **put**: fade regime | 728.73 / 650.76 | 719.61 / 636.71 | 724.4 / 644.0 | 710.0 / 622.1 | Only if the regime flips (SPY < Fri low and VWAP) | ✓ | no |
 
-**Gauges (no trades):** XLE 60.90 (oil gauge), USO 139.88, SPY 716.75, QQQ 633.95, IWM 268.83, NVDA 149.33, MU 600.17 (-4.7%), AMD 406.10, AVGO 300.67, TSM 342.17, META 609.99 (+3.4%), AMZN 244.37 (-3.1%), GOOGL 273.03, ORCL 103.89, DE 641.69 (+4.6%, > $200), IBM 243.43, AAPL 355.57 (closed above Tue high), TSLA 380.06, PLTR 163.63, COIN 103.74, HOOD 65.78, WMT 131.91, COST 1086.46.
-
-**Top 3 for Friday:** LI long 11.95, COGT long 36.40, OXY long 54.70 (oil catalyst, intraday only). Then HPQ 32.10, INTC 54.60. Put side only if SPY fails 712: CRWV.
+**Oil (after OPEC+, Sunday):** FRO (47.73), OXY (54.15) and DVN (42.86) all closed near their Friday lows. Re-anchor at 8:00 to the OPEC outcome and the pre-market move. No levels are set until then.

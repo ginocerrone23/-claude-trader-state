@@ -1003,3 +1003,128 @@ date,ticker,first_run_time,setup,score,side,trigger,stop,target,real_or_paper,tr
 2026-11-25,XRAY,11:37,HOD break (RS long),2,long,9.99,9.58,10.79,paper,yes,neither,-0.54,trigger bar 12:45 close 9.995 (levels/score from 11:37 run); 14:40 bar close 9.77
 2026-11-25,ZM,13:05,HOD break,3,long,90.39,88.38,94.41,paper,no,not_triggered,,score = highest on-trigger (from 13:05 run; now -1)
 2026-11-25,ZTO,09:06,HOD break (RS long),2,long,19.55,19.39,19.86,paper,yes,neither,0.13,trigger bar 11:10 close 19.5587 (levels/score from 11:05 run); 14:40 bar close 19.58
+2026-11-27,AAOI,09:40,ORB / HOD break,3,long,40.7,39.63,42.84,paper,yes,neither,0.00,trigger bar 11:55 close 40.86 (levels/score from 10:36 run); 11:55 bar close 40.86 (half-day close); half day
+2026-11-27,ACMR,10:36,ORB / HOD break,3,long,44.39,43.34,46.49,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,AG,09:05,ORB / OR-high break,3,long,12.04,11.91,12.3,paper,yes,target_first,2.00,trigger bar 10:15 close 12.0401 (levels/score from 10:05 run); target hit 11:55; half day
+2026-11-27,AGLT,09:40,OR-low break (fade) (put),3,put,6.67,7.13,5.75,paper,yes,neither,-0.46,trigger bar 09:40 close 6.365 (levels/score from 09:40 run); 11:55 bar close 6.715 (half-day close); half day
+2026-11-27,AIOK,09:05,OR-low break (fade) (put),5,put,4.89,5.15,4.37,paper,yes,neither,0.83,trigger bar 09:05 close 4.805 (levels/score from 09:05 run); 11:55 bar close 4.52 (half-day close); half day
+2026-11-27,AMPX,10:36,ORB / HOD break,3,long,6.26,5.92,6.94,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,ANF,09:05,ORB / HOD break,5,long,184.38,178.65,195.84,paper,yes,neither,-0.06,trigger bar 09:05 close 184.92 (levels/score from 09:05 run); 11:55 bar close 184.54 (half-day close); half day
+2026-11-27,ANT,10:36,ORB / HOD break,3,long,90.9,86.14,100.42,paper,yes,neither,0.10,trigger bar 10:50 close 91.24 (levels/score from 10:36 run); 11:55 bar close 91.74 (half-day close); half day
+2026-11-27,APPS,10:36,ORB / HOD break,3,long,6.72,6.21,7.74,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,ASTS,09:05,OR-low break (fade) (put),5,put,24.64,25.58,22.77,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,AVEX,10:36,ORB / HOD break,2,long,14.28,13.57,15.7,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,AVTR,09:05,OR-low break (fade) (put),5,put,14.66,14.94,14.1,paper,yes,neither,-0.14,trigger bar 09:05 close 14.6376 (levels/score from 09:05 run); 11:55 bar close 14.68 (half-day close); half day
+2026-11-27,AXTI,09:40,ORB / HOD break,4,long,34.85,33.75,37.05,paper,yes,neither,0.97,trigger bar 09:45 close 35.08 (levels/score from 09:40 run); 11:55 bar close 36.37 (half-day close); half day
+2026-11-27,B,10:05,ORB / OR-high break,4,long,36.34,36.08,36.86,paper,yes,neither,0.85,trigger bar 10:50 close 36.345 (levels/score from 10:05 run); 11:55 bar close 36.57 (half-day close); half day
+2026-11-27,BABA,09:05,ORB / HOD break,4,long,90.59,90.04,91.69,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,BBY,09:05,ORB / HOD break,5,long,105.94,104.49,108.84,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,BEAM,09:05,OR-low break (fade) (put),5,put,22.75,23.81,20.62,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,BILI,09:05,ORB / HOD break,5,long,12.42,12.28,12.71,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,BKSY,09:05,ORB / HOD break,3,long,17.32,16.52,18.91,paper,yes,neither,0.03,trigger bar 09:15 close 17.37 (levels/score from 09:05 run); 11:55 bar close 17.395 (half-day close); half day
+2026-11-27,BNAI,10:05,ORB / OR-high break,3,long,8.42,7.76,9.74,paper,yes,neither,1.11,trigger bar 10:05 close 8.5248 (levels/score from 10:05 run); 11:55 bar close 9.37 (half-day close); half day
+2026-11-27,BZ,09:05,ORB / HOD break,6,long,15.67,15.18,16.65,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,CDNL,09:40,OR-low break (fade) (put),3,put,6.03,6.32,5.45,paper,yes,neither,0.47,trigger bar 09:40 close 6.0 (levels/score from 09:40 run); 11:55 bar close 5.85 (half-day close); half day
+2026-11-27,CIFR,09:05,OR-low break (fade) (put),4,put,5.32,5.62,4.73,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,CMPS,09:05,ORB / OR-high break,3,long,9.54,9.27,10.08,paper,yes,neither,-0.24,trigger bar 10:20 close 9.6265 (levels/score from 10:05 run); 11:55 bar close 9.54 (half-day close); half day
+2026-11-27,COGT,09:05,ORB / HOD break,6,long,36.42,35.98,37.3,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,COGT,10:05,OR-low break (fade) (put),5,put,35.54,35.98,34.66,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:05 run); half day
+2026-11-27,CRSP,09:05,OR-low break (fade) (put),4,put,40.81,42.19,38.06,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,CRWV,10:05,ORB / OR-high break,6,long,43.91,42.62,46.49,paper,yes,neither,0.11,trigger bar 10:45 close 43.985 (levels/score from 10:05 run); 11:55 bar close 44.14 (half-day close); half day
+2026-11-27,CRWV,09:05,OR-low break (fade) (put),7,put,41.32,42.62,38.73,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,CTRI,09:40,ORB / HOD break,3,long,22.59,22.31,23.15,paper,yes,neither,-0.45,trigger bar 09:40 close 22.7 (levels/score from 09:40 run); 11:55 bar close 22.525 (half-day close); half day
+2026-11-27,CUE,09:05,ORB / HOD break,3,long,9.5,8.62,11.25,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,DFTX,09:05,ORB / HOD break,5,long,35.66,33.83,39.32,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,DKS,09:05,ORB / HOD break,5,long,162.25,158.32,170.12,paper,yes,neither,0.28,trigger bar 09:10 close 163.23 (levels/score from 09:05 run); 11:55 bar close 164.6 (half-day close); half day
+2026-11-27,DLTR,09:05,OR-low break (fade) (put),7,put,148.41,152.11,141.02,paper,yes,neither,-0.08,trigger bar 09:10 close 148.345 (levels/score from 09:05 run); 11:55 bar close 148.63 (half-day close); half day
+2026-11-27,DVN,09:05,ORB / HOD break,5,long,43.31,43.14,43.64,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,ECHO,09:40,ORB / HOD break,4,long,88.39,87.7,89.77,paper,yes,neither,0.18,trigger bar 09:40 close 88.62 (levels/score from 09:40 run); 11:55 bar close 88.79 (half-day close); half day
+2026-11-27,EGO,09:05,ORB / HOD break,4,long,29.97,29.5,30.91,paper,yes,neither,0.83,trigger bar 10:50 close 30.02 (levels/score from 09:40 run); 11:55 bar close 30.45 (half-day close); half day
+2026-11-27,EMBJ,09:05,ORB / HOD break,4,long,19.28,19.09,19.66,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,ERO,09:05,ORB / HOD break,5,long,21.78,21.07,23.2,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,ERO,09:40,OR-low break (fade) (put),4,put,20.36,21.07,18.94,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,EXK,10:36,ORB / HOD break,3,long,6.69,6.51,7.05,paper,yes,neither,1.03,trigger bar 10:40 close 6.695 (levels/score from 10:36 run); 11:55 bar close 6.885 (half-day close); half day
+2026-11-27,FIGS,10:05,ORB / HOD break,2,long,22.62,21.36,25.14,paper,yes,neither,-0.04,trigger bar 11:50 close 22.69 (levels/score from 10:36 run); 11:55 bar close 22.6427 (half-day close); 10:05 run: first close through trigger 22.47 at 10:05 was 2.1R past (chase); half day
+2026-11-27,FLNC,09:05,ORB / HOD break,3,long,5.11,4.97,5.39,paper,yes,neither,0.31,trigger bar 09:10 close 5.145 (levels/score from 09:05 run); 11:55 bar close 5.2 (half-day close); half day
+2026-11-27,FRO,09:40,ORB / HOD break,6,long,48.68,47.9,50.24,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,FRO,09:05,OR-low break (fade) (put),7,put,47.12,47.9,45.55,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,FUTU,09:05,ORB / HOD break,5,long,93.17,92.23,95.05,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,GDS,10:05,OR-low break (fade) (put),3,put,13.19,13.82,11.93,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:05 run); half day
+2026-11-27,GFI,09:05,ORB / HOD break,3,long,35.74,35.52,36.17,paper,yes,target_first,1.41,trigger bar 09:35 close 35.79 (levels/score from 09:05 run); target hit 11:50; half day
+2026-11-27,GGAL,09:05,ORB / HOD break,5,long,29.3,28.79,30.33,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,HELP,09:05,ORB / OR-high break,3,long,8.84,8.55,9.42,paper,yes,neither,0.76,trigger bar 10:15 close 8.88 (levels/score from 10:05 run); 11:55 bar close 9.13 (half-day close); half day
+2026-11-27,HLF,10:36,ORB / HOD break,3,long,17.6,16.8,19.2,paper,yes,neither,0.17,trigger bar 10:45 close 17.605 (levels/score from 10:36 run); 11:55 bar close 17.74 (half-day close); half day
+2026-11-27,HPE,09:05,ORB / HOD break,5,long,42.69,42.19,43.7,paper,yes,stop_first,-1.00,trigger bar 09:35 close 42.81 (levels/score from 09:05 run); stop hit 11:40; half day
+2026-11-27,HPQ,09:05,ORB / HOD break,5,long,31.44,30.75,32.82,paper,yes,neither,0.72,trigger bar 09:10 close 31.56 (levels/score from 09:05 run); 11:55 bar close 32.14 (half-day close); half day
+2026-11-27,HSAI,10:36,ORB / HOD break,3,long,13.33,13.1,13.79,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,HYMC,09:05,ORB / HOD break,3,long,14.98,14.76,15.42,paper,yes,target_first,1.06,trigger bar 09:15 close 15.08 (levels/score from 09:05 run); target hit 10:50; half day
+2026-11-27,INFQ,10:36,ORB / HOD break,3,long,7.14,6.7,8.02,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,INTC,09:05,ORB / HOD break,6,long,56.57,55.86,57.99,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); 10:36 run: first close through trigger 57.845 at 11:55 was 1.5R past (chase); half day
+2026-11-27,IONQ,09:05,ORB / HOD break,5,long,24.96,24.55,25.77,paper,yes,neither,-0.14,trigger bar 09:10 close 25.06 (levels/score from 09:05 run); 11:55 bar close 24.99 (half-day close); half day
+2026-11-27,IP,09:40,ORB / HOD break,4,long,32.78,32.47,33.4,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); 09:40 run: first close through trigger 33.92 at 09:40 was 3.7R past (chase); 10:05 run: first close through trigger 34.04 at 10:05 was 4.1R past (chase); half day
+2026-11-27,ITUB,09:05,ORB / HOD break,5,long,7.88,7.81,8.02,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,IVR,09:40,OR-low break (fade) (put),3,put,5.58,5.69,5.36,paper,yes,neither,0.09,trigger bar 09:40 close 5.515 (levels/score from 09:40 run); 11:55 bar close 5.5 (half-day close); half day
+2026-11-27,JAGX,09:05,ORB / HOD break,3,long,16.67,15.27,19.46,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,JD,09:05,ORB / HOD break,4,long,27.58,27.41,27.92,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,KNTK,09:05,ORB / HOD break,3,long,60.19,59.02,62.53,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,KRMN,10:36,ORB / HOD break,3,long,31.13,30.09,33.21,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,KSS,09:40,ORB / HOD break,3,long,27.51,27.12,28.29,paper,yes,neither,0.27,trigger bar 09:40 close 27.65 (levels/score from 09:40 run); 11:55 bar close 27.795 (half-day close); half day
+2026-11-27,KT,09:40,OR-low break (fade) (put),4,put,16.69,16.92,16.23,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,LFTO,10:36,ORB / HOD break,3,long,26.44,24.67,29.98,paper,yes,neither,-0.38,trigger bar 11:15 close 26.75 (levels/score from 10:36 run); 11:55 bar close 25.97 (half-day close); half day
+2026-11-27,LI,09:05,ORB / OR-high break,7,long,12.65,12.46,13.03,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:05 run); half day
+2026-11-27,LPTH,10:36,ORB / HOD break,3,long,6.21,5.81,7.01,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,LUNR,09:40,ORB / HOD break,3,long,9.84,9.61,10.3,paper,yes,neither,0.00,trigger bar 09:40 close 9.995 (levels/score from 09:40 run); 11:55 bar close 9.995 (half-day close); half day
+2026-11-27,METC,09:05,ORB / HOD break,3,long,6.29,6.1,6.67,paper,yes,neither,-0.07,trigger bar 11:50 close 6.315 (levels/score from 10:36 run); 11:55 bar close 6.3 (half-day close); half day
+2026-11-27,MSTR,09:05,ORB / HOD break,6,long,84.68,81.76,90.52,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,NEOG,09:05,OR-low break (fade) (put),4,put,10.34,10.68,9.65,paper,yes,neither,-0.22,trigger bar 09:05 close 10.31 (levels/score from 09:05 run); 11:55 bar close 10.39 (half-day close); half day
+2026-11-27,NNE,10:05,ORB / OR-high break,3,long,9.61,9.34,10.15,paper,yes,neither,-0.30,trigger bar 10:30 close 9.655 (levels/score from 10:05 run); 11:55 bar close 9.56 (half-day close); half day
+2026-11-27,NTNX,10:05,OR-low break (fade) (put),3,put,44.84,46.2,42.12,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:05 run); half day
+2026-11-27,NTSK,10:05,ORB / HOD break,3,long,28.25,26.71,31.33,paper,yes,neither,0.14,trigger bar 10:45 close 28.28 (levels/score from 10:36 run); 11:55 bar close 28.5 (half-day close); 10:05 run: first close through trigger 27.95 at 10:05 was 2.5R past (chase); half day
+2026-11-27,NU,09:05,ORB / HOD break,6,long,13.53,13.31,13.97,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,NVDA,09:05,OR-low break (fade) (put),7,put,145.38,149.31,137.53,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,OCUL,09:40,OR-low break (fade) (put),4,put,6.08,6.19,5.86,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); 09:40 run: first close through trigger 5.885 at 09:40 was 1.8R past (chase); half day
+2026-11-27,ORCL,09:05,ORB / OR-high break,6,long,107.2,105.96,109.68,paper,yes,neither,0.06,trigger bar 10:30 close 107.3 (levels/score from 10:05 run); 11:55 bar close 107.38 (half-day close); half day
+2026-11-27,ORCL,09:40,OR-low break (fade) (put),5,put,104.72,105.96,102.24,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,OUST,09:40,ORB / HOD break,3,long,27.51,26.94,28.65,paper,yes,neither,0.40,trigger bar 09:40 close 27.89 (levels/score from 09:40 run); 11:55 bar close 28.27 (half-day close); half day
+2026-11-27,OXY,09:05,ORB / HOD break,5,long,54.63,54.45,54.99,paper,yes,stop_first,-1.00,trigger bar 09:30 close 54.635 (levels/score from 09:05 run); stop hit 09:45; half day
+2026-11-27,PAAS,09:40,ORB / OR-high break,3,long,34.34,34.06,34.9,paper,yes,target_first,1.71,trigger bar 10:25 close 34.37 (levels/score from 10:05 run); target hit 11:55; half day
+2026-11-27,PAGS,09:05,ORB / HOD break,3,long,8.39,8.25,8.66,paper,yes,stop_first,-1.00,trigger bar 09:25 close 8.415 (levels/score from 09:05 run); stop hit 10:15; half day
+2026-11-27,PAX,09:40,ORB / HOD break,3,long,10.08,9.99,10.26,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,PBR,09:05,ORB / HOD break,4,long,17.71,17.29,18.55,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,PBR.A,09:05,ORB / HOD break,5,long,15.74,15.38,16.45,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,PDD,09:05,ORB / HOD break,3,long,91.4,90.2,93.79,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,PICS,09:05,ORB / HOD break,3,long,6.3,6.0,6.91,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,PPTA,09:40,ORB / OR-high break,3,long,16.46,16.3,16.78,paper,yes,target_first,1.18,trigger bar 11:05 close 16.52 (levels/score from 10:05 run); target hit 11:55; half day
+2026-11-27,QBTS,10:36,ORB / HOD break,3,long,7.69,7.3,8.47,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,QMCO,10:36,ORB / HOD break,3,long,13.31,12.68,14.57,paper,yes,neither,0.05,trigger bar 11:50 close 13.32 (levels/score from 10:36 run); 11:55 bar close 13.35 (half-day close); half day
+2026-11-27,QNT,09:40,ORB / OR-high break,3,long,34.35,33.46,36.13,paper,yes,stop_first,-1.00,trigger bar 10:05 close 34.915 (levels/score from 10:05 run); stop hit 11:40; 09:40 run: first close through trigger 35.47 at 09:40 was 1.3R past (chase); half day
+2026-11-27,RBLX,09:05,ORB / HOD break,3,long,57.91,57.3,59.14,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); 09:05 run: first close through trigger 58.535 at 09:15 was 1.0R past (chase); 09:40 run: first close through trigger 58.765 at 09:40 was 1.4R past (chase); 10:05 run: first close through trigger 58.62 at 10:05 was 1.2R past (chase); half day
+2026-11-27,RCUS,09:40,OR-low break (fade) (put),3,put,17.65,17.95,17.05,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); 09:40 run: first close through trigger 17.305 at 09:40 was 1.1R past (chase); half day
+2026-11-27,RDW,10:36,ORB / HOD break,3,long,6.45,6.11,7.13,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,RGTI,10:36,ORB / HOD break,3,long,8.58,8.12,9.5,paper,yes,neither,-0.11,trigger bar 10:40 close 8.59 (levels/score from 10:36 run); 11:55 bar close 8.54 (half-day close); half day
+2026-11-27,RHI,09:40,OR-low break (fade) (put),3,put,38.33,38.74,37.51,paper,yes,target_first,0.66,trigger bar 09:40 close 38.0 (levels/score from 09:40 run); target hit 10:55; half day
+2026-11-27,RKLB,09:40,ORB / HOD break,3,long,49.52,48.49,51.58,paper,yes,neither,0.65,trigger bar 09:40 close 49.98 (levels/score from 09:40 run); 11:55 bar close 50.95 (half-day close); half day
+2026-11-27,SA,10:36,ORB / HOD break,3,long,21.26,20.18,23.42,paper,yes,neither,0.22,trigger bar 10:40 close 21.3384 (levels/score from 10:36 run); 11:55 bar close 21.59 (half-day close); half day
+2026-11-27,SBS,09:05,ORB / HOD break,5,long,5.55,5.5,5.65,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,SECZ,09:40,OR-low break (fade) (put),3,put,6.8,6.99,6.42,paper,yes,neither,-0.28,trigger bar 09:40 close 6.713 (levels/score from 09:40 run); 11:55 bar close 6.79 (half-day close); half day
+2026-11-27,SEDG,09:40,ORB / HOD break,3,long,21.11,20.67,21.99,paper,yes,neither,-0.39,trigger bar 09:40 close 21.26 (levels/score from 09:40 run); 11:55 bar close 21.03 (half-day close); half day
+2026-11-27,SLQT,10:36,ORB / HOD break,3,long,7.71,6.61,9.91,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,SMCI,09:40,ORB / HOD break,6,long,24.2,23.73,25.14,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,SMCI,09:05,OR-low break (fade) (put),7,put,23.03,23.73,21.63,paper,yes,stop_first,-1.00,trigger bar 09:05 close 22.935 (levels/score from 09:05 run); stop hit 10:00; half day
+2026-11-27,SMTC,09:05,ORB / HOD break,6,long,98.59,95.65,104.47,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,SNDK,09:05,ORB / HOD break,3,long,79.93,78.51,82.77,paper,yes,target_first,0.58,trigger bar 09:10 close 81.205 (levels/score from 09:05 run); target hit 09:35; half day
+2026-11-27,SSMR,10:36,ORB / HOD break,3,long,12.13,11.71,12.97,paper,yes,neither,0.20,trigger bar 11:05 close 12.15 (levels/score from 10:36 run); 11:55 bar close 12.24 (half-day close); half day
+2026-11-27,STNE,09:05,ORB / HOD break,5,long,8.58,8.32,9.1,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,TGT,10:05,ORB / OR-high break,5,long,174.18,172.85,176.84,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:05 run); half day
+2026-11-27,TGT,09:05,OR-low break (fade) (put),7,put,171.53,172.85,168.89,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,TGTX,09:05,OR-low break (fade) (put),5,put,64.2,66.16,60.27,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,TME,09:05,ORB / HOD break,3,long,10.07,9.94,10.34,paper,yes,neither,0.06,trigger bar 09:05 close 10.105 (levels/score from 09:05 run); 11:55 bar close 10.1147 (half-day close); half day
+2026-11-27,TRLV,09:40,OR-low break (fade) (put),3,put,8.41,8.62,7.99,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,UGP,09:05,ORB / HOD break,5,long,5.92,5.85,6.05,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:05 run); half day
+2026-11-27,VALE,09:05,ORB / HOD break,4,long,10.58,10.43,10.88,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,VERA,09:05,ORB / HOD break,5,long,35.5,34.3,37.9,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 10:36 run); half day
+2026-11-27,VIV,09:05,ORB / HOD break,4,long,13.14,13.02,13.38,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,VRDN,09:05,ORB / HOD break,5,long,38.77,38.33,39.66,paper,yes,neither,-0.18,trigger bar 09:05 close 38.94 (levels/score from 09:05 run); 11:55 bar close 38.83 (half-day close); half day
+2026-11-27,XP,09:05,ORB / HOD break,6,long,17.34,16.99,18.04,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,YPF,09:05,ORB / HOD break,4,long,34.01,33.3,35.43,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
+2026-11-27,ZTO,09:05,ORB / HOD break,4,long,20.62,20.45,20.96,paper,no,not_triggered,,not triggered by 12:00 CT close (levels from 09:40 run); half day
