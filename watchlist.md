@@ -10,7 +10,7 @@ Levels come from Robinhood 5-min/30-min bars (Wed 11/25 regular session) and dai
 
 **Rules in force:** max score 9. Floors: **stocks ≥ 7, options ≥ 8**. No forced trades. -1 on every intraday long. -1 when an intraday trigger bar closes after 10:30 CT (moot Friday: no entries after 10:30). Rel vol on regular-session volume only. Options: premium ≤ $200, sell-to-close stop ≥ 15% below entry sized to a loss ≤ $30, |Δ| 0.30–0.60, spread ≤ 10% of mid, no option entries after 1:00pm CT. Puts only on `opt-liquid ✓` names or after a chain check. The cash account can't short: **a put setup is an options trade or nothing.**
 
-## Market bias: MILDLY BULLISH into a thin half day (gap up ~0.5% indicated); tech/chips bounce, but NVDA carries headline risk
+## Market bias (re-anchored 8:00am CT): BULLISH GAP-UP into a thin half day (SPY pre-mkt +1.5%, QQQ +2.1%); the Thursday-built text below says ~+0.5%, superseded by the pre-market update; tech/chips bounce, but NVDA carries headline risk
 - **Thursday (US closed):** ES ~7,225–7,246 (+0.4% to +0.7%), NQ +0.6%. Global relief rally on softer-than-feared US tariffs (capped at deal levels, not before Feb): STOXX 600 +1.8%, DAX +2.1%, Stoxx Tech +2.5%, Nikkei +0.9%, Hang Seng +1.5%. Brent +1.2% to $96.57 on unconfirmed Hormuz tanker-mine and Ras Tanura reports. BTC back to ~$60.7k. **Wed AH: SPY 720.43, QQQ 636.62, IWM 270.31, NVDA 151.22.**
 - **SPY 720.93 (Tue high) is the first test at the open.** Holding above it and VWAP = bull regime. Back below 716.75 (Wed close / gap fill) = chop. Below 712 = fade regime. Black Friday's median range is ~0.5%: expect slow triggers and low rel vol.
 - **NVDA:** CBS report on chip sales to Chinese-owned US firms; Huang testifies to Senate Banking on 12/3. It's a gauge for chips: if it fades its gap, skip the chip longs (INTC, SMCI, SMTC).
@@ -18,6 +18,37 @@ Levels come from Robinhood 5-min/30-min bars (Wed 11/25 regular session) and dai
 - **Regimes (SPY):** **Bull:** holds above 712 and the Friday VWAP: longs at normal floors (still -1 each). **Fade:** loses 712 and VWAP: puts on the AI/chip laggards (CRWV, ORCL, NVDA gauge). **Chop:** 712–718.5: expect nothing to qualify. Below 705, the reversal has failed.
 - **Volume:** half-day sessions trade light. Rel vol > 2x (the +2) will be rare, so most names will top out at 6–7 on-trigger. That's fine: **a no-trade Friday is the expected outcome, not a failure.**
 - **Paper lesson from Wed:** on a gap-down V-day every put got squeezed (29 triggered, 27 stopped, -0.97R). Don't take an OR-low put in the first hour if SPY is reclaiming VWAP.
+
+## Pre-market update Fri 2026-11-27 8:00am CT (Robinhood pre-mkt quotes ~8:05 CT vs Wed close)
+- **Tone: strong risk-on gap.** SPY 727.37 (+1.5%, above Tue high 720.93 and the 718.43 Wed high), QQQ 647.34 (+2.1%), IWM 272.26 (+1.3%), NVDA 152.50 (+2.1%), XLE 61.69 (+1.3%), USO 140.51 (+0.4%). Press reports (unverified dating) describe a global/AI rebound and ES > 7,300. **Bull regime by default; SPY below 720.93 = gap fading, below 716.75 = chop.** Historical Black Friday half-day bias is mildly positive (~+0.3% avg, ~65% up), but gaps this size can fade on thin volume.
+- **Puts are dormant.** The fade regime needs SPY < 712, ~15 points under pre-market. CRWV 44.33 (+4.2%), ORCL 107.68 (+3.7%), NVDA 152.50 are all well above Wed closes, so rows 16-20 triggers are 10%+ away. Don't hunt puts unless SPY loses VWAP and 720.93 early; rows 18-19 (TGT 172.86 +0.4%, DLTR 152.97 +0.5%) are flat retail names: no edge.
+- **Gap rule now applies to most longs.** Under the playbook rule (gap through trigger: 15-min OR high as trigger, inside chase limit = trigger + 1R), no entry before ~8:45 CT; entries stop at 10:30 CT; flatten at the 11:30 run.
+- **No fresh gap/catalyst list was available.** Web searches returned no dated 11/27 pre-market mover or earnings list, and the Robinhood calendar shows **no earnings today** (next: CHA am / RBRK pm Mon 11/30). I added no new names to avoid unverified entries; every row's level is re-anchored below.
+- **>10% rule:** **NU 13.78 (+11.5%) has no dated headline found: treat as unverified, skip unless the headline appears** (above the 13.25 20-day high, so no room measurable). All other names are within ±10%.
+
+| # | Ticker | Pre-mkt (8:05) | vs Wed close | Status vs trigger / action |
+|---|---|---|---|---|
+| 1 | LI | 12.32 (12.26/12.38) | +3.7% | Through trigger 11.95 and at the chase limit (12.35): **use the OR-high trigger; skip if OR high > 12.35** |
+| 2 | HPQ | 31.30 (31.18/31.40) | +0.6% | Below trigger 32.10, unchanged. Needs a real push; room 1.4R |
+| 3 | COGT | 36.30 (36.24/36.70) | +0.6% | Just below trigger 36.40. Spread 1.3% pre-mkt: check at the open |
+| 4 | BZ | 14.66 (14.66/14.85) | +2.2% | Through 14.40 (chase 14.95). **Pre-mkt spread 1.3% → -2 until it narrows below 0.2%** |
+| 5 | VRDN | 39.60 (37.91/38.44) | +4.7% | Through trigger and beyond chase limit (39.50): OR-high rule; stale last trade, spread wide. Low priority |
+| 6 | SMTC | 98.74 (97.71/98.60) | +6.3% | Through Tue high 96.41; 2.3R chase limit 95.40 already passed: OR-high rule only, 1R ≈ $2.30. Watch for a fade |
+| 7 | HPE | 42.16 (42.11/42.32) | +3.3% | Through trigger and chase limit (41.80); Tue high 42.49 right overhead (room ≈ 0.4R). **Deprioritized (no room)** |
+| 8 | INTC | 56.80 (56.78/56.84) | +4.3% | Through trigger/chase (55.70); Tue high 57.54 overhead. OR-high rule; tight spread, still tradable |
+| 9 | ANF | 176.61 | -0.2% | Below 178.50 trigger; 1 share |
+| 10 | BBY | 103.05 (102.60/104.00) | +0.5% | At trigger 103.00; spread 1.4% pre-mkt, check |
+| 11 | DKS | 159.05 | +0.3% | Below 162.10 trigger |
+| 12 | NU | 13.78 | **+11.5%** | **No dated headline: avoid unless one is found** |
+| 13 | IONQ | 24.67 (24.60/24.69) | +4.8% | Through 23.95 and chase (24.70) borderline; OR-high rule |
+| 14 | MSTR | 84.24 | +5.3% | Through Tue high 82.92; trigger 81.10 chase 82.80 passed. OR-high rule; room to 84.50 target gone: **re-anchor: skip unless OR high leaves 2R** |
+| 15 | SMCI | 24.12 (24.01/24.20) | +3.4% | Through 23.86 and re-anchor trigger 23.90 (chase 24.45): OR-high rule, stop 23.35 |
+| 16-20 | CRWV/ORCL/TGT/DLTR/NVDA puts | CRWV 44.33, ORCL 107.68, TGT 172.86, DLTR 152.97, NVDA 152.50 | +4.2/+3.7/+0.4/+0.5/+2.1% | **Dormant** (see above) |
+| 21 | OXY | 54.75 (54.53/54.83) | +1.5% | At trigger 54.70; oil +1.3% XLE. Needs a dated oil headline; intraday only |
+| 22 | FRO | 48.44 (48.39/48.50) | +1.7% | At trigger 48.45; tight spread. Intraday only |
+| 23 | DVN | 43.40 (43.00/43.85) | +2.2% | Through 42.95 (chase 43.50); room to 43.80 only 0.7R. **Deprioritized** |
+
+**Top 5 at the open (updated):** 1) INTC (liquid, ✓ options, OR-high rule), 2) LI (fresh catalyst, if OR high ≤ 12.35), 3) FRO / OXY (energy bid, intraday), 4) SMCI (OR-high, stop 23.35), 5) COGT/HPQ (below triggers, need a push). With SPY +1.5% gapped, expect -1 long penalty and thin rel vol: a no-trade day is still acceptable.
 
 ## Key index levels
 | | Wed open | Wed high | Wed low | Wed close | Chg | Tue H / L / C | 20-day H / L |
